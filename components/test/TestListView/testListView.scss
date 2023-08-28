@@ -1,0 +1,26 @@
+@import "../../practice/PracticeListView/practiceListView.scss";
+
+.testlist-getpro-dialog-warning {
+  &-main {
+    max-width: 400px !important;
+    padding: 0 45px;
+  }
+  .getpro-title {
+    background: linear-gradient(180deg, #ffb84d 0%, #ffd465 51.56%, #ffa620 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 8px;
+  }
+  .getpro-msg {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #333333;
+  }
+}

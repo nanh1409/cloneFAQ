@@ -1,0 +1,73 @@
+@mixin studyPlanHeader {
+  &-header {
+    margin-top: 16px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      row-gap: 10px;
+    }
+    &-title {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      color: #333333;
+      margin-left: 18px;
+    }
+
+    &-search {
+      border: 1px solid #575757;
+      border-radius: 10px;
+      flex: 0.5;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+      .input-search-state {
+        width: 100%;
+        padding: 8px 16px;
+        font-size: 14px;
+        height: 40px;
+        width: 400px;
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+        ::-webkit-input-placeholder,
+        :-ms-input-placeholder,
+        ::placeholder {
+          color: #575757;
+        }
+      }
+    }
+  }
+}
+
+.study-plan-select-state {
+  @include studyPlanHeader();
+  &-list-state {
+    margin-top: 12px;
+    .study-plan-state-item {
+      border-radius: 10px;
+      font-weight: 500;
+      font-size: 14px;
+      height: 36px;
+      line-height: 21px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      border: 1px solid #eaeef4;
+      color: #575757;
+      margin-bottom: 10px;
+      cursor: pointer;
+      &.selected {
+        background-color: #00c9e4;
+        color: #fff;
+        border: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+#web-function-grid {
+  .grid-web-function-item {
+    .web-function-item {
+      transition: transform 0.4s ease-in-out;
+    }
+    &:hover {
+      .web-function-item {
+        transform: translateY(-10px);
+      }
+    }
+  }
+}

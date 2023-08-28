@@ -1,0 +1,66 @@
+@import "../../../styles/mixins.scss";
+
+.practice-topics-section.cdl {
+  .practice-introduction {
+    position: relative;
+    padding-top: 250px;
+    width: 100%;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    padding-left: 30px;
+    border-radius: 15px;
+    &.mobile {
+      padding-top: 200px;
+      background-color: #346594;
+      .practice-introduction-image {
+        display: none !important;
+      }
+    }
+  }
+  .practice-introduction-content {
+    position: absolute;
+    left: 56px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    text-shadow: 1px 1px 10px #000;
+    .cta {
+      font-size: 35px;
+      font-weight: bold;
+    }
+    .cta-content {
+      font-size: 24px;
+      font-weight: 500;
+    }
+    .cta-app-name {
+      color: #00c9e4;
+      font-size: 35px;
+      font-weight: 600;
+    }
+
+    &.mobile {
+      left: auto;
+      .cta {
+        font-size: 28px;
+      }
+      .cta-content {
+        font-size: 18px;
+      }
+      .cta-app-name {
+        font-size: 28px;
+      }
+    }
+  }
+
+  .cdl-topic {
+    cursor: pointer;
+  }
+  .cdl-topic-short-desc {
+    font-size: 14px;
+    text-align: justify;
+    line-height: 21px;
+    color: #505050;
+    height: 168px;
+    @include ellipsis-text(8);
+  }
+}

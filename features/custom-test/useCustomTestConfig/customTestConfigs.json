@@ -1,0 +1,51 @@
+{
+  "cscs": {
+    "duration": 45,
+    "questionsNum": 50,
+    "pass": 9,
+    "courseIndex": 0,
+    "sampleSlugs": [
+      "practice-test-1",
+      "practice-test-2",
+      "practice-test-3",
+      "practice-test-4",
+      "practice-test-5",
+      "practice-test-6",
+      "practice-test-7",
+      "practice-test-8",
+      "practice-test-9",
+      "practice-test-10"
+    ]
+  },
+  "asvab": {
+    "duration": 154,
+    "questionsNum": 145,
+    "pass": 5,
+    "courseIndex": 0,
+    "sampleSlugs": [
+      "arithmetic-reasoning",
+      "assembling-objects",
+      "auto-and-shop-information",
+      "electronics-information",
+      "general-science",
+      "mathematics-knowledge",
+      "mechanical-comprehension",
+      "word-knowledge",
+      "paragraph-comprehension"
+    ]
+  },
+  "alevel": {
+    "duration": 120,
+    "questionsNum": 100,
+    "pass": 3.33,
+    "courseIndex": 0,
+    "sampleSlugs": [
+      "1-algebra-and-functions",
+      "2-coordinate-geometry",
+      "3-trigonometry",
+      "4-sequences-and-series",
+      "5-differentiation",
+      "6-integration"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+.game-audio-recorder-module {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  &-mic-wrap {
+    display: flex;
+    align-items: center;
+  }
+  &-visualizer {
+    max-width: 320px;
+    @media (max-width: 576px) {
+      max-width: 70%;
+    }
+    height: 40px;
+    border-radius: 10px;
+  }
+
+  &-button {
+    display: flex;
+    cursor: pointer;
+    padding: 8px;
+    &.start-record {
+      background-color: #007aff;
+      color: #fff;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      margin-left: 8px;
+      padding: 4px 8px;
+      border-radius: 20px;
+    }
+  }
+
+  .game-audio-recorded-status {
+    margin-left: 8px;
+  }
+}

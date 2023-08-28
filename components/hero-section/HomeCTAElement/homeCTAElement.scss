@@ -1,0 +1,62 @@
+@mixin flex-center-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-home {
+  &.cscs {
+    @include flex-center-center();
+    margin-top: 60px;
+  }
+
+  &.cdl {
+    @include flex-center-center();
+  }
+
+  &.rating {
+    @include flex-center-center();
+    margin-top: 36px;
+    margin-bottom: 22px;
+    
+    .rating-container {
+      @include flex-center-center();
+      flex-direction: column;
+      position: relative;
+    }
+
+    .rating-divider {
+      position: absolute;
+      width: 70px;
+      height: 4px;
+      background: #fff;
+      border-radius: 50px;
+      top: -28px
+    }
+
+    .rating-background {
+      @include flex-center-center();
+      background: #fff;
+      padding: 16px 56px;
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+      border-radius: 50px;
+      @media (max-width: 576px) {
+        padding: 8px 28px;
+      }
+    }
+
+    .rating-msg {
+      position: absolute;
+      bottom: -48px;
+      font-size: 20px;
+      font-weight: bold;
+      width: max-content;
+      left: 50%;
+      transform: translateX(-50%);
+      @media (max-width: 576px) {
+        font-size: 12px;
+        bottom: -24px;
+      }
+    }
+  }
+}

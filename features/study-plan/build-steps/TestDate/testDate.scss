@@ -1,0 +1,128 @@
+.study-plan-test-date {
+  &-header-title {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  &-body {
+    margin-top: 20px;
+    &-info {
+      display: flex;
+      justify-content: space-between;
+
+      .study-plan-info-label {
+        font-size: 14px;
+        color: #575757;
+      }
+      .study-plan-info-value {
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+
+    &-date-input {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      @media (max-width: 576px) {
+        flex-direction: column;
+        row-gap: 10px;
+      }
+      .date-input-item {
+        display: flex;
+        align-items: center;
+        background: #ffffff;
+        box-shadow: 0px 4px 10px rgba(192, 210, 235, 0.25);
+        border-radius: 10px;
+        padding: 10px;
+        .date-input-label {
+          display: flex;
+          align-items: center;
+          border-right: 1px solid #dde5f5;
+          padding-right: 10px;
+          margin-right: 10px;
+          @media (max-width: 576px) {
+            width: 110px;
+          }
+        }
+
+        .date-input-main {
+          padding: 0;
+          width: 120px;
+          overflow: auto;
+          @media (max-width: 576px) {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    &-calendar {
+      background-color: #fff;
+      box-shadow: 0px 4px 10px rgba(192, 210, 235, 0.25);
+      border-radius: 10px;
+      margin-top: 16px;
+      padding: 20px 65px;
+      @media (max-width: 576px) {
+        padding: 20px;
+      }
+
+      .study-plan-calendar-header {
+        display: flex;
+        align-items: center;
+        .label-current-month {
+          flex: 1;
+          text-align: center;
+          font-size: 18px;
+          font-weight: bold;
+        }
+      }
+
+      .calendar-nav-button {
+        color: #000 !important;
+      }
+
+      .study-plan-calendar {
+        .react-calendar__month-view__weekdays {
+          margin: 10px 0;
+          &__weekday {
+            display: flex;
+            justify-content: center;
+            abbr {
+              text-decoration: none;
+              font-weight: 600;
+            }
+          }
+        }
+        &-item {
+          background-color: transparent !important;
+          border: none !important;
+          padding: 12px 0;
+          margin-bottom: 4px;
+          cursor: pointer;
+          &.item-disabled {
+            color: #838383;
+            cursor: default;
+          }
+          &.item-current {
+            background-color: var(--btnTestBackground) !important;
+            color: #fff;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+          }
+          &.item-in-range {
+            background-color: var(--btnTestBackground) !important;
+            color: #fff;
+            opacity: 0.65;
+          }
+          &.item-end-range {
+            background-color: var(--btnTestBackground) !important;
+            color: #fff;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+}

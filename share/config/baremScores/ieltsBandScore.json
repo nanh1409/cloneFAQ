@@ -1,0 +1,335 @@
+{
+  "academic": {
+    "0": {
+      "listening": 1,
+      "reading": 1
+    },
+    "1": {
+      "listening": 1,
+      "reading": 1
+    },
+    "2": {
+      "listening": 1,
+      "reading": 1
+    },
+    "3": {
+      "listening": 1,
+      "reading": 1
+    },
+    "4": {
+      "listening": 2.5,
+      "reading": 2.5
+    },
+    "5": {
+      "listening": 2.5,
+      "reading": 2.5
+    },
+    "6": {
+      "listening": 3,
+      "reading": 3
+    },
+    "7": {
+      "listening": 3,
+      "reading": 3
+    },
+    "8": {
+      "listening": 3.5,
+      "reading": 3.5
+    },
+    "9": {
+      "listening": 3.5,
+      "reading": 3.5
+    },
+    "10": {
+      "listening": 4,
+      "reading": 4
+    },
+    "11": {
+      "listening": 4,
+      "reading": 4
+    },
+    "12": {
+      "listening": 4,
+      "reading": 4
+    },
+    "13": {
+      "listening": 4.5,
+      "reading": 4.5
+    },
+    "14": {
+      "listening": 4.5,
+      "reading": 4.5
+    },
+    "15": {
+      "listening": 5,
+      "reading": 5
+    },
+    "16": {
+      "listening": 5,
+      "reading": 5
+    },
+    "17": {
+      "listening": 5,
+      "reading": 5
+    },
+    "18": {
+      "listening": 5,
+      "reading": 5
+    },
+    "19": {
+      "listening": 5.5,
+      "reading": 5.5
+    },
+    "20": {
+      "listening": 5.5,
+      "reading": 5.5
+    },
+    "21": {
+      "listening": 5.5,
+      "reading": 5.5
+    },
+    "22": {
+      "listening": 5.5,
+      "reading": 5.5
+    },
+    "23": {
+      "listening": 6,
+      "reading": 6
+    },
+    "24": {
+      "listening": 6,
+      "reading": 6
+    },
+    "25": {
+      "listening": 6,
+      "reading": 6
+    },
+    "26": {
+      "listening": 6,
+      "reading": 6
+    },
+    "27": {
+      "listening": 6.5,
+      "reading": 6.5
+    },
+    "28": {
+      "listening": 6.5,
+      "reading": 6.5
+    },
+    "29": {
+      "listening": 6.5,
+      "reading": 6.5
+    },
+    "30": {
+      "listening": 7,
+      "reading": 7
+    },
+    "31": {
+      "listening": 7,
+      "reading": 7
+    },
+    "32": {
+      "listening": 7,
+      "reading": 7
+    },
+    "33": {
+      "listening": 7.5,
+      "reading": 7.5
+    },
+    "34": {
+      "listening": 7.5,
+      "reading": 7.5
+    },
+    "35": {
+      "listening": 8,
+      "reading": 8
+    },
+    "36": {
+      "listening": 8,
+      "reading": 8
+    },
+    "37": {
+      "listening": 8.5,
+      "reading": 8.5
+    },
+    "38": {
+      "listening": 8.5,
+      "reading": 8.5
+    },
+    "39": {
+      "listening": 9,
+      "reading": 9
+    },
+    "40": {
+      "listening": 9,
+      "reading": 9
+    }
+  },
+
+  "general": {
+    "0": {
+      "listening": 1,
+      "reading": 1
+    },
+    "1": {
+      "listening": 1,
+      "reading": 1
+    },
+    "2": {
+      "listening": 1,
+      "reading": 1
+    },
+    "3": {
+      "listening": 1,
+      "reading": 1
+    },
+    "4": {
+      "listening": 2.5,
+      "reading": 1
+    },
+    "5": {
+      "listening": 2.5,
+      "reading": 1
+    },
+    "6": {
+      "listening": 3,
+      "reading": 2.5
+    },
+    "7": {
+      "listening": 3,
+      "reading": 2.5
+    },
+    "8": {
+      "listening": 3.5,
+      "reading": 2.5
+    },
+    "9": {
+      "listening": 3.5,
+      "reading": 3
+    },
+    "10": {
+      "listening": 4,
+      "reading": 3
+    },
+    "11": {
+      "listening": 4,
+      "reading": 3
+    },
+    "12": {
+      "listening": 4,
+      "reading": 3.5
+    },
+    "13": {
+      "listening": 4.5,
+      "reading": 3.5
+    },
+    "14": {
+      "listening": 4.5,
+      "reading": 3.5
+    },
+    "15": {
+      "listening": 5,
+      "reading": 4
+    },
+    "16": {
+      "listening": 5,
+      "reading": 4
+    },
+    "17": {
+      "listening": 5,
+      "reading": 4
+    },
+    "18": {
+      "listening": 5,
+      "reading": 4
+    },
+    "19": {
+      "listening": 5.5,
+      "reading": 4.5
+    },
+    "20": {
+      "listening": 5.5,
+      "reading": 4.5
+    },
+    "21": {
+      "listening": 5.5,
+      "reading": 4.5
+    },
+    "22": {
+      "listening": 5.5,
+      "reading": 4.5
+    },
+    "23": {
+      "listening": 6,
+      "reading": 5
+    },
+    "24": {
+      "listening": 6,
+      "reading": 5
+    },
+    "25": {
+      "listening": 6,
+      "reading": 5
+    },
+    "26": {
+      "listening": 6,
+      "reading": 5
+    },
+    "27": {
+      "listening": 6.5,
+      "reading": 5.5
+    },
+    "28": {
+      "listening": 6.5,
+      "reading": 5.5
+    },
+    "29": {
+      "listening": 6.5,
+      "reading": 5.5
+    },
+    "30": {
+      "listening": 7,
+      "reading": 6
+    },
+    "31": {
+      "listening": 7,
+      "reading": 6
+    },
+    "32": {
+      "listening": 7,
+      "reading": 6.5
+    },
+    "33": {
+      "listening": 7.5,
+      "reading": 6.5
+    },
+    "34": {
+      "listening": 7.5,
+      "reading": 7
+    },
+    "35": {
+      "listening": 8,
+      "reading": 7
+    },
+    "36": {
+      "listening": 8,
+      "reading": 7.5
+    },
+    "37": {
+      "listening": 8.5,
+      "reading": 8
+    },
+    "38": {
+      "listening": 8.5,
+      "reading": 8
+    },
+    "39": {
+      "listening": 9,
+      "reading": 8.5
+    },
+    "40": {
+      "listening": 9,
+      "reading": 9
+    }
+  }
+}

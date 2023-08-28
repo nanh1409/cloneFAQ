@@ -1,0 +1,78 @@
+@import "./wp.scss";
+@import "../../styles/mixins.scss";
+
+#wp-category-view {
+  padding-bottom: 20px;
+}
+
+#category-main {
+  .post-item {
+    overflow: hidden;
+    .post-thumb {
+      transition: transform 0.2s linear;
+    }
+    &:hover {
+      .post-thumb {
+        transform: scale(1.1);
+      }
+    }
+
+    .post-meta {
+      display: flex;
+      align-items: center;
+    }
+
+    .post-title {
+      color: var(--titleColor);
+      @include ellipsis-text(2);
+    }
+
+    .post-publish-date {
+      color: var(--titleColor);
+    }
+
+    .post-publish-watched {
+      color: var(--titleColor);
+      margin-left: 16px;
+    }
+
+    .post-excerpt {
+      & > p {
+        height: 148px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 6;
+        text-align: justify;
+      }
+      .read-more {
+        display: none;
+      }
+    }
+  }
+  .cat-pagination {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+#category-secondary {
+  .side-child-categories {
+    margin-top: calc(2em + 111px) !important;
+    &.tablet {
+      margin-top: auto !important;
+    }
+    .side-child-category-item {
+      display: block;
+      padding: 16px;
+      background: #f6f7fb;
+      border-radius: 16px;
+      margin-bottom: 10px;
+      transition: font-weight 0.4ms ease;
+      &:hover {
+        font-weight: 600;
+      }
+    }
+  }
+}

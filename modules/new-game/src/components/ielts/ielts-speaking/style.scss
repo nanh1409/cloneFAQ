@@ -1,0 +1,17 @@
+.game-ielts-speaking-overview {
+  .game-ielts-speaking-overview-qtext {
+    * {
+      font-family: inherit !important;
+    }
+  }
+  .game-ielts-speaking-overview-nextpart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .game-ielts-speaking-lockview {
+    font-size: 13px;
+    font-style: italic;
+  }
+}

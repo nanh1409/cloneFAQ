@@ -1,0 +1,141 @@
+@mixin inputStyle($isOtpInput) {
+  input {
+    background: inherit;
+    height: 100%;
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+
+    @if $isOtpInput {
+      min-width: 100%;
+      font-size: 28px;
+      border-bottom: 2px solid black;
+      border-radius: 2px;
+      line-height: 22px;
+    }
+
+    @else {
+      width: 100%;
+      font-size: 16px;
+      border-radius: inherit;
+    }
+
+    &:focus-visible {
+      outline: none;
+    }
+
+    &.input-correct-answer {
+      color: #4caf50;
+
+      @if $isOtpInput {
+        border-color: #4caf50;
+      }
+    }
+
+    &.input-incorrect-answer {
+      color: #ff5252;
+
+      @if $isOtpInput {
+        border-color: #ff5252;
+      }
+    }
+  }
+
+  .answer-box-button {
+    @if $isOtpInput {
+      margin-top: 5px;
+    }
+
+    @else {
+      margin-right: 16px;
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+.game-object-spelling {
+  .question-index-wrap {
+    display: flex;
+  }
+
+  .quiz-game-object-question {
+    flex: 1;
+  }
+
+  .game-object-view-question-index {
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4px;
+    position: relative;
+
+    span {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+
+  .game-object-spelling-answer-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    margin-bottom: 36px;
+
+    .answer-box-wrap {
+      background: #fff;
+      display: flex;
+      align-items: center;
+      width: 100%;
+
+      &.normal {
+        // @extend .answer-box-wrap;
+        height: 65px;
+        max-width: 400px;
+        border-radius: 10px;
+        border: 1px solid #007aff;
+        @include inputStyle(false);
+      }
+    }
+
+    .otp-input {
+      // @extend .answer-box-wrap;
+      flex-direction: column;
+      justify-content: center;
+
+      &-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 30px;
+      }
+
+      .answer-container {
+        justify-content: center;
+
+        div {
+          width: 65px;
+          height: 65px;
+          margin: 3px;
+        }
+      }
+
+      @include inputStyle(true);
+
+      .space-container {
+        width: 45px;
+        height: 65px;
+        margin: 3px;
+      }
+    }
+  }
+}

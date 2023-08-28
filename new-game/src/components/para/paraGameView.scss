@@ -1,0 +1,139 @@
+//@import "../../../../styles/mixins.scss";
+@import "../../styles/mixins.scss";
+
+.game-object-question-sound-para {
+  margin: 5px 0;
+}
+
+.game-object-para {
+  display: flex;
+
+  &.non-root {
+    display: block;
+
+    .game-object-para-children {
+      width: 100%;
+    }
+  }
+
+  &.has-sound {
+    height: calc(100% - 40px) !important;
+  }
+
+  &.tablet {
+    flex-direction: column;
+  }
+
+  &.normal-layout {
+    display: block;
+
+    .game-object-para-children {
+      width: 100%;
+    }
+
+    &.has-sound {
+      .game-object-para-children {
+        height: calc(100% - 50px) !important;
+      }
+    }
+  }
+
+  .game-object-para-children {
+    height: 100%;
+    overflow: auto;
+    @include custom-scroll();
+    padding: 10px;
+    padding-top: 0;
+    flex: 0.55;
+
+    &.no-parent-content {
+      flex: 1;
+    }
+
+    &.tablet {
+      width: 100%;
+      flex: auto;
+    }
+
+    .game-object-child-wrap {
+      margin-top: 0;
+
+      .game-object-view {
+        .question-index-container {
+          display: flex;
+          justify-content: space-between;
+          padding-top: 10px;
+
+          .question-index-wrap {
+            .game-object-question {
+              width: 100%;
+            }
+          }
+
+          .child-game-object-view-menu {
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+  }
+
+  .game-object-child-wrap {
+    margin-top: 16px;
+    border-top: 1px solid #ccc;
+    padding-bottom: 16px;
+
+    &:first-child {
+      border-top: 0;
+    }
+  }
+}
+
+// .box-game-para {
+//   height: auto !important;
+//   background-color: #fff;
+//   border-radius: 10px;
+//   padding: 10px;
+//   margin-bottom: 15px;
+//   position: relative;
+
+//   .game-object-para {
+//     display: block;
+
+//     .game-object-para-children {
+//       width: 100% !important;
+//     }
+
+//     .game-object-question.para-root {
+//       width: 100% !important;
+//       margin-bottom: 15px;
+
+//       .content-game-para-custom {
+//         height: auto !important;
+//       }
+//     }
+//   }
+
+// }
+
+.game-object-question-explanation-para {
+  background: #fff;
+  padding: 10px;
+  margin-top: 32px;
+  width: calc(100% + 20px);
+  transform: translateX(-10px) translateY(10px);
+  border-radius: 15px;
+  z-index: 1;
+
+  &.showNext {
+    padding-bottom: 50px;
+    transform: translateX(-10px) translateY(50px);
+  }
+
+  .locked-explanation {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin: 10px 0;
+  }
+}

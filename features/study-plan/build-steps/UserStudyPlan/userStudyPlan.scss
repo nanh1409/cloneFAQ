@@ -1,0 +1,201 @@
+.user-study-plan {
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  &-current-date-info-wrap {
+    background-color: #f7f7f7;
+    border-radius: 20px 20px 35px 35px;
+    padding-bottom: 20px;
+  }
+  &-current-date-info {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 16px 60px;
+    margin-top: 50px;
+    @media (max-width: 576px) {
+      margin-top: 10px;
+      padding: 16px 10px;
+    }
+    .study-plan-cta-label {
+      font-weight: 400;
+      font-size: 22px;
+      text-align: center;
+    }
+
+    .study-plan-current-date-info {
+      background: #eff3f8;
+      border-radius: 7px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      column-gap: 30px;
+      margin-top: 16px;
+      .study-plan-goal-icon {
+        width: 64px;
+        height: 64px;
+        padding: 10px;
+        border: 2px solid #ffffff;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+      }
+
+      .study-plan-today-progress {
+        width: 100%;
+        &-top {
+          font-size: 14px;
+          .study-plan-today-progress-title {
+            font-weight: 600;
+            margin-right: 4px;
+          }
+          margin-bottom: 20px;
+        }
+
+        &-bot {
+          color: #33cd99;
+        }
+      }
+    }
+    .study-plan-day-left-info {
+      text-align: center;
+      margin-top: 14px;
+    }
+    .study-plan-overall {
+      border: 2px solid #eff3f8;
+      border-radius: 7px;
+      padding: 10px 20px;
+      padding-left: 30px;
+      display: flex;
+      column-gap: 30px;
+      margin-top: 14px;
+      &-left {
+        flex: 1;
+        .study-plan-overall-label {
+          text-align: center;
+        }
+        .study-plan-overall-progress {
+          color: #33cd99;
+          position: relative;
+          &-label {
+            font-weight: bold;
+            position: absolute;
+            transform: translateX(-50%);
+            top: -30px;
+          }
+          .sp-main-progress {
+            margin-top: 30px;
+          }
+        }
+      }
+      &-right {
+        width: 64px;
+        height: 64px;
+        background: #eff3f8;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .study-plan-overall-test-month {
+          font-size: 16px;
+          font-weight: 300;
+        }
+        .study-plan-overall-test-date {
+          font-size: 16px;
+          font-weight: 500;
+        }
+      }
+    }
+
+    .cta-study-plan {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      .cta-study-plan-title {
+        font-weight: 700;
+      }
+      &.archieved-today-goal {
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      &-archieved {
+        font-weight: 600;
+        color: #33CD99;
+      }
+    }
+  }
+
+  &-chart {
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.03);
+    border-radius: 15px;
+    padding: 10px 20px;
+
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .sp-chart-label {
+        color: #414142;
+        font-weight: 600;
+        font-size: 14px;
+      }
+      .sp-adjust-btn {
+        padding: 0;
+        &-wrap {
+          display: flex;
+          align-items: center;
+        }
+        &-label {
+          background-color: #fff !important;
+          box-shadow: 0px 3px 10px rgba(228, 230, 233, 0.7);
+          padding: 5px 10px;
+          font-size: 10px;
+          border-radius: 10px 0px 0px 10px;
+          transform: translateX(10px);
+          padding-right: 15px;
+          color: #777777;
+        }
+        &-icon {
+          display: flex;
+          background-color: #fff !important;
+          box-shadow: 0px 3px 10px rgba(228, 230, 233, 0.7);
+          backdrop-filter: 2px;
+          border-radius: 100%;
+          padding: 5px;
+          z-index: 1;
+        }
+      }
+    }
+
+    &-footer {
+      display: flex;
+      align-items: center;
+      column-gap: 32px;
+      margin-top: 12px;
+      .sp-msg {
+        flex: 1;
+        background: #fcfdff;
+        border: 1px solid #f2f5f8;
+        border-radius: 10px;
+        padding: 8px;
+        font-size: 12px;
+        span {
+          margin-left: 4px;
+        }
+      }
+      .sp-chart-legend {
+        &-item {
+          display: flex;
+          align-items: center;
+          font-size: 10px;
+          span {
+            margin-left: 4px;
+          }
+        }
+      }
+    }
+  }
+}

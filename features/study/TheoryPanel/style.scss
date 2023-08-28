@@ -1,0 +1,45 @@
+.sub-topic-theory-control {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 4px;
+  width: 100%;
+  // position: absolute;
+  // top: -34px;
+  &-button {
+    background: #fff !important;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+#sub-topic-theory {
+  position: relative;
+  background: #fff;
+  border-radius: 15px;
+  height: 300px;
+  padding: 10px;
+  margin-bottom: 16px;
+  .zoom-theory {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+
+    img {
+      width: 20px;
+      height: 20px;
+      margin: 5px;
+      cursor: pointer;
+    }
+  }
+  * {
+    font-family: inherit !important;
+  }
+  .sub-topic-theory-main {
+    padding: 16px;
+    * {
+      font-size: inherit !important;
+    }
+  }
+}

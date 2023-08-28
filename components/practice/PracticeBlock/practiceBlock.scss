@@ -1,0 +1,90 @@
+@import "../../../styles/mixins.scss";
+
+.practice-block-component {
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  height: 200px;
+  .topic-meta {
+    width: 430px;
+    background: #e8f1ff;
+    padding: 30px 48px 48px 30px;
+    .topic-name-text {
+      @include ellipsis-text(2);
+      font-size: 30px;
+      font-weight: 600;
+      height: 90px;
+    }
+
+    .topic-meta-content {
+      display: flex;
+      justify-content: space-between;
+      .topic-meta-item {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      .topic-meta-value,
+      .topic-meta-name {
+        color: #505050;
+        font-size: 20px;
+        line-height: 30px;
+      }
+      .topic-meta-value {
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+    }
+  }
+  .topic-avatar-container {
+    flex: 1;
+    position: relative;
+    .topic-avatar {
+      object-fit: cover;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+      transition: transform 0.4s ease-in-out;
+    }
+  }
+
+  &:hover {
+    .topic-avatar-container {
+      .topic-avatar {
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+    height: auto;
+    .topic-meta {
+      width: 100%;
+      padding: 8px 16px 18px 16px;
+      .topic-name-text {
+        font-size: 16px;
+        line-height: 24px;
+        height: 48px;
+      }
+      .topic-meta-content {
+        .topic-meta-item {
+          flex-direction: column;
+        }
+        .topic-meta-value,
+        .topic-meta-name {
+          font-size: 14px;
+        }
+      }
+    }
+    .topic-avatar-container {
+      display: block;
+      overflow: hidden;
+      position: relative;
+      padding-top: 56.25%;
+      .topic-avatar {
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 0;
+        width: 100%;
+      }
+    }
+  }
+}

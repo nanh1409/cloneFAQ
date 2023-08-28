@@ -1,0 +1,30 @@
+#other-practices-list {
+  .title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .list {
+    margin-top: 12px;
+    .list-item {
+      background: #fff;
+      border-radius: 15px;
+      min-height: 55px;
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      margin-bottom: 10px;
+      &-name {
+        color: #535353;
+      }
+      &-icon {
+        color: #535353;
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+node_modules
+.next
+.swc
+.env.example
+.env.development.local
+.gitignore
+.gitmodules
+.git

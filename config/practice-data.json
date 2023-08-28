@@ -1,0 +1,1813 @@
+{
+  "cscs": {
+    "seoContent": {
+      "title": "Start Our FREE CSCS Test Questions & Exams %year%",
+      "content": "The world needs more registered workers. Practice for your %year% CSCS test using the same kind of questions you’ll be answering on the actual written examination."
+    },
+    "practiceCourseIndex": 0,
+    "testCourseIndex": 1,
+    "mapTagName": {
+      "practice-topics": "Practice CSCS Test by Topics",
+      "practice-test": "Practice Test"
+    },
+    "mapSlugData": {
+      "accident-reporting-and-recording": {
+        "name": "Accident Reporting and Recording",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 45
+          },
+          {
+            "name": "Levels",
+            "value": 4
+          }
+        ],
+        "tag": "practice-topics"
+      },
+      "safety-signs-and-signals": {
+        "name": "Safety Signs and Signals",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 62
+          },
+          {
+            "name": "Levels",
+            "value": 4
+          }
+        ],
+        "tag": "practice-topics"
+      },
+      "general-responsibilites": {
+        "name": "General responsibilites",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 49
+          },
+          {
+            "name": "Levels",
+            "value": 4
+          }
+        ],
+        "tag": "practice-topics"
+      },
+      "working-at-height": {
+        "name": "Working at Height",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 96
+          },
+          {
+            "name": "Levels",
+            "value": 5
+          }
+        ],
+        "tag": "practice-topics"
+      },
+      "fire-prevention-and-control": {
+        "name": "Fire Prevention and Control",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 132
+          },
+          {
+            "name": "Levels",
+            "value": 5
+          }
+        ],
+        "tag": "practice-topics"
+      },
+      "practice-test-1": {
+        "name": "Practice Test 1",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 100
+          },
+          {
+            "name": "Levels",
+            "value": 4
+          }
+        ],
+        "tag": "practice-test"
+      },
+      "practice-test-2": {
+        "name": "Practice Test 2",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 100
+          },
+          {
+            "name": "Levels",
+            "value": 4
+          }
+        ],
+        "tag": "practice-test"
+      },
+      "practice-test-3": {
+        "name": "Practice Test 3",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 100
+          },
+          {
+            "name": "Levels",
+            "value": 4
+          }
+        ],
+        "tag": "practice-test"
+      },
+      "practice-test-4": {
+        "name": "Practice Test 4",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 100
+          },
+          {
+            "name": "Levels",
+            "value": 4
+          }
+        ],
+        "tag": "practice-test"
+      },
+      "practice-test-5": {
+        "name": "Practice Test 5",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 100
+          },
+          {
+            "name": "Levels",
+            "value": 4
+          }
+        ],
+        "tag": "practice-test"
+      },
+      "practice-test-6": {
+        "name": "Practice Test 6",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 100
+          },
+          {
+            "name": "Levels",
+            "value": 4
+          }
+        ],
+        "tag": "practice-test"
+      },
+      "practice-test-7": {
+        "name": "Practice Test 7",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 100
+          },
+          {
+            "name": "Levels",
+            "value": 4
+          }
+        ],
+        "tag": "practice-test"
+      },
+      "practice-test-8": {
+        "name": "Practice Test 8",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 100
+          },
+          {
+            "name": "Levels",
+            "value": 4
+          }
+        ],
+        "tag": "practice-test"
+      },
+      "practice-test-9": {
+        "name": "Practice Test 9",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 100
+          },
+          {
+            "name": "Levels",
+            "value": 4
+          }
+        ],
+        "tag": "practice-test"
+      },
+      "practice-test-10": {
+        "name": "Practice Test 10",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 100
+          },
+          {
+            "name": "Levels",
+            "value": 4
+          }
+        ],
+        "tag": "practice-test"
+      }
+    }
+  },
+  "asvab": {
+    "seoContent": {
+      "title": "Start your Free ASVAB Practice Test %year%",
+      "content": "Do you feel the ASVAB exam is hard to pass? Take free practice questions and tests on our website now to get 100% ready for your upcoming ASVAB exam!"
+    },
+    "practiceCourseIndex": 0,
+    "testCourseIndex": 1,
+    "mapSlugData": {
+      "arithmetic-reasoning": {
+        "name": "Arithmetic Reasoning",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 185
+          },
+          {
+            "name": "Levels",
+            "value": 12
+          }
+        ]
+      },
+      "general-science": {
+        "name": "General Science",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 180
+          },
+          {
+            "name": "Levels",
+            "value": 10
+          }
+        ]
+      },
+      "word-knowledge": {
+        "name": "Word Knowledge",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 190
+          },
+          {
+            "name": "Levels",
+            "value": 10
+          }
+        ]
+      },
+      "mathematics-knowledge": {
+        "name": "Mathematics Knowledge",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 240
+          },
+          {
+            "name": "Levels",
+            "value": 13
+          }
+        ]
+      },
+      "mechanical-comprehension": {
+        "name": "Mechanical Comprehension",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 175
+          },
+          {
+            "name": "Levels",
+            "value": 9
+          }
+        ]
+      },
+      "paragraph-comprehension": {
+        "name": "Paragraph Comprehension",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 172
+          },
+          {
+            "name": "Levels",
+            "value": 12
+          }
+        ]
+      },
+      "electronics-information": {
+        "name": "Electronics Information",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 190
+          },
+          {
+            "name": "Levels",
+            "value": 11
+          }
+        ]
+      },
+      "auto-and-shop-information": {
+        "name": "Auto & Shop Information",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 170
+          },
+          {
+            "name": "Levels",
+            "value": 11
+          }
+        ]
+      },
+      "assembling-objects": {
+        "name": "Assembling Objects",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 90
+          },
+          {
+            "name": "Levels",
+            "value": 8
+          }
+        ]
+      }
+    }
+  },
+  "toeic": {
+    "seoContent": {
+      "en": {
+        "title": "Start Your FREE TOEIC Practice Test %year%",
+        "content": "Do you want to obtain your TOEIC target score? Take FREE practice questions and tests on our website to get 100% ready for your upcoming TOEIC exam!"
+      },
+      "vi": {
+        "title": "Luyện tập TOEIC miễn phí %year%",
+        "content": "Bạn muốn đạt số điểm TOEIC mơ ước? Hãy làm các bài luyện tập trên website của chúng tôi để chuẩn bị 100% cho kỳ thi TOEIC sắp tới!"
+      }
+    },
+    "practiceCourseIndex": 0,
+    "testCourseIndex": 1,
+    "mapTagName": {
+      "listening": {
+        "en": "Listening",
+        "vi": "Nghe"
+      },
+      "reading": {
+        "en": "Reading",
+        "vi": "Đọc"
+      },
+      "speaking": {
+        "en": "Speaking",
+        "vi": "Nói"
+      },
+      "writing": {
+        "en": "Writing",
+        "vi": "Viết"
+      }
+    },
+    "mapSlugData": {
+      "part-1-photos": {
+        "name": {
+          "en": "Part 1",
+          "vi": "Phần 1"
+        },
+        "fullName": {
+          "en": "Photos",
+          "vi": "Mô tả tranh"
+        },
+        "avatar": "/images/app/toeic/part-1.png",
+        "shortDescription": {
+          "en": "Four short statements regarding a photograph will be spoken only one time. Of these four statements, select the one. that best describes the photograph.",
+          "vi": "Thí sinh sẽ nghe 1 lần duy nhất 4 câu mô tả về một bức tranh. Sau đó chọn 1 đáp án mô tả đúng nhất bức tranh đó."
+        },
+        "tag": "listening"
+      },
+      "part-2-question-response": {
+        "name": {
+          "en": "Part 2",
+          "vi": "Phần 2"
+        },
+        "fullName": {
+          "en": "Question - Response",
+          "vi": "Hỏi - Đáp"
+        },
+        "avatar": "/images/app/toeic/part-2.png",
+        "shortDescription": {
+          "en": "Three responses to one question or statement will be spoken only one time. Select the best response for the question.",
+          "vi": "Thí sinh sẽ nghe 1 lần duy nhất 3 câu hồi đáp cho 1 câu hỏi hoặc 1 câu nói. Sau đó chọn câu hồi đáp phù hợp nhất."
+        },
+        "tag": "listening"
+      },
+      "part-3-conversations": {
+        "name": {
+          "en": "Part 3",
+          "vi": "Phần 3"
+        },
+        "fullName": {
+          "en": "Short Conversations",
+          "vi": "Đoạn hội thoại"
+        },
+        "avatar": "/images/app/toeic/part-3.png",
+        "shortDescription": {
+          "en": "Conversations between two or three people will be spoken only one time. Listen to each conversation and select the best response for the question. There are three questions for each conversation.",
+          "vi": "Thí sinh sẽ nghe 1 lần duy nhất các đoạn hội thoại giữa 2 hoặc 3 người. Mỗi đoạn hội thoại sẽ có 3 câu hỏi, mỗi câu hỏi có 4 lựa chọn. Thí sinh đọc câu hỏi sau đó chọn câu trả lời phù hợp nhất. "
+        },
+        "tag": "listening"
+      },
+      "part-4-short-talks": {
+        "name": {
+          "en": "Part 4",
+          "vi": "Phần 4"
+        },
+        "fullName": {
+          "en": "Short Talks",
+          "vi": "Bài nói ngắn"
+        },
+        "avatar": "/images/app/toeic/part-4.png",
+        "shortDescription": {
+          "en": "Short talks such as announcements or narrations will be spoken only one time. Listen to each talk and select the best response for the question There are three questions for each talk.",
+          "vi": "Thí sinh sẽ nghe 1 lần duy nhất các bài nói ngắn. Mỗi bài sẽ có 3 câu hỏi, mỗi câu hỏi có 4 lựa chọn. Thí sinh đọc câu hỏi sau đó chọn câu trả lời phù hợp nhất."
+        },
+        "tag": "listening"
+      },
+      "part-5-incomplete-sentences": {
+        "name": {
+          "en": "Part 5",
+          "vi": "Phần 5"
+        },
+        "fullName": {
+          "en": "Incomplete Sentences",
+          "vi": "Hoàn thành câu"
+        },
+        "avatar": "/images/app/toeic/part-5.png",
+        "shortDescription": {
+          "en": "Select the best answer of the four choices to complete the sentence.",
+          "vi": "Chọn đáp án đúng nhất trong 4 đáp án để hoàn thành câu."
+        },
+        "tag": "reading"
+      },
+      "part-6-text-completion": {
+        "name": {
+          "en": "Part 6",
+          "vi": "Phần 6"
+        },
+        "fullName": {
+          "en": "Text Completion",
+          "vi": "Hoàn thành đoạn văn"
+        },
+        "avatar": "/images/app/toeic/part-6.png",
+        "shortDescription": {
+          "en": "Select the best answer of the four choices (words, phrases, or a sentence) to complete the text. There are four questions for each text.",
+          "vi": "Chọn đáp án đúng nhất trong 4 đáp án (từ, cụm từ hoặc câu) để hoàn thành đoạn văn. Mỗi đoạn văn sẽ có 4 câu hỏi."
+        },
+        "tag": "reading"
+      },
+      "part-7": {
+        "name": {
+          "en": "Part 7",
+          "vi": "Phần 7"
+        },
+        "fullName": {
+          "en": "Reading Comprehension",
+          "vi": "Đọc hiểu"
+        },
+        "tag": "reading",
+        "avatar": "/images/app/toeic/part-7.png",
+        "shortDescription": {
+          "en": "Read a range of different texts and select the best answer of the four choices. There are multiple questions for each text.",
+          "vi": "Thí sinh sẽ đọc các bài đọc hiểu sau đó chọn đáp án đúng nhất cho các câu hỏi. Mỗi bài đọc sẽ bao gồm 2 - 5 câu hỏi."
+        },
+        "children": {
+          "part-7-single-passages": {
+            "name": {
+              "en": "Single Passages",
+              "vi": "Đoạn đơn"
+            }
+          },
+          "part-7-double-passages": {
+            "name": {
+              "en": "Double Passages",
+              "vi": "Đoạn kép"
+            }
+          },
+          "part-7-triple-passages": {
+            "name": {
+              "en": "Triple Passages",
+              "vi": "Đoạn ba"
+            }
+          }
+        }
+      },
+      "grammar": {
+        "name": {
+          "en": "Grammar",
+          "vi": "Ngữ pháp"
+        }
+      },
+      "vocabulary": {
+        "name": {
+          "en": "Vocabulary",
+          "vi": "Từ vựng"
+        }
+      },
+      "speaking-q1-2-read-a-text-aloud": {
+        "name": {
+          "en": "Questions 1-2",
+          "vi": "Câu hỏi 1-2"
+        },
+        "fullName": {
+          "en": "Read a text aloud",
+          "vi": "Đọc thành tiếng một đoạn văn"
+        },
+        "avatar": "/images/app/toeic/speaking-1.png",
+        "shortDescription": {
+          "en": "In this part of the test, you will read aloud the text on the screen. You will have 45 seconds to prepare. Then you will have 45 seconds to read the text aloud.",
+          "vi": "Ở phần thi này, thí sinh sẽ đọc thành tiếng một đoạn văn trên màn hình. Thí sinh có 45s để chuẩn bị và 45s để đọc thành tiếng đoạn văn."
+        },
+        "tag": "speaking"
+      }, 
+      "speaking-q3-4-describe-a-picture": {
+        "name": {
+          "en": "Questions 3-4",
+          "vi": "Câu hỏi 3-4"
+        },
+        "fullName": {
+          "en": "Describe a picture",
+          "vi": "Miêu tả một bức tranh"
+        },
+        "avatar": "/images/app/toeic/speaking-2.png",
+        "shortDescription": {
+          "en": "In this part, you will describe the picture on your screen in as much detail as you can. You will have 45 seconds to prepare your response and 30 seconds to speak about the picture.",
+          "vi": "Trong phần thi này, thí sinh sẽ miêu tả một bức tranh càng chi tiết càng tốt. Thí sinh có 45s để chuẩn bị và 30s để miêu tả bức tranh."
+        },
+        "tag": "speaking"
+      },
+      "speaking-q5-7-respond-to-questions": {
+        "name": {
+          "en": "Questions 5-7",
+          "vi": "Câu hỏi 5-7"
+        },
+        "fullName": {
+          "en": "Respond to questions",
+          "vi": "Trả lời câu hỏi"
+        },
+        "avatar": "/images/app/toeic/speaking-3.png",
+        "shortDescription": {
+          "en": "In this part, you will answer three questions. You will have three seconds to prepare after you hear each question, 15 seconds to respond to Q5 and 6, and 30 seconds to respond to Q7.",
+          "vi": "Ở phần thi này, thí sinh sẽ trả lời ba câu hỏi. Thí sinh có 3s để chuẩn bị sau khi nghe mỗi câu hỏi. Thí sinh có 15s để trả lời câu 5 và 6 và 30s để trả lời câu 7."
+        },
+        "tag": "speaking"
+      },
+      "speaking-q8-10-respond-to-questions-using-information-provided": {
+        "name": {
+          "en": "Questions 8–10",
+          "vi": "Câu hỏi 8-10"
+        },
+        "fullName": {
+          "en": "Respond to questions using information provided",
+          "vi": "Trả lời câu hỏi sử dụng thông tin cho sẵn"
+        },
+        "avatar": "/images/app/toeic/speaking-4.png",
+        "shortDescription": {
+          "en": "In this part, you will answer three questions based on information provided. You will have 45s to read information before questions begin. You will have 3s to prepare and 15s to respond to Q8 and 9. You will hear Q10 two times and have 3s to prepare and 30s to respond to Q10.",
+          "vi": "Trong phần này, thí sinh sẽ trả lời ba câu hỏi dựa trên thông tin cho sẵn. Thí sinh có 45s để đọc thông tin trước khi trả lời câu hỏi. Thí sinh có 3s để chuẩn bị và 15s để trả lời câu 8 và 9. Câu 10 thí sinh được nghe hai lần, có 3s để chuẩn bị và 30s để nói."
+        },
+        "tag": "speaking"
+      },
+      "speaking-q11-express-an-opinion": {
+        "name": {
+          "en": "Question 11",
+          "vi": "Câu hỏi 11"
+        },
+        "fullName": {
+          "en": "Express an opinion",
+          "vi": "Trình bày quan điểm"
+        },
+        "avatar": "/images/app/toeic/speaking-5.png",
+        "shortDescription": {
+          "en": "In this part of the test, you will give your opinion about a specific topic. Be sure to say as much as you can in the time allowed. You will have 45 seconds to prepare. Then you will have 60 seconds to speak.",
+          "vi": "Trong phần thi này, thí sinh sẽ đưa ra ý kiến của mình về một chủ đề cụ thể. Thí sinh có 45s để chuẩn bị và và 60s để nói."
+        },
+        "tag": "speaking"
+      },
+      "writing-q1-5-write-a-sentence-based-on-a-picture": {
+        "name": {
+          "en": "Questions 1-5",
+          "vi": "Câu hỏi 1-5"
+        },
+        "fullName": {
+          "en": "Write a sentence based on a picture",
+          "vi": "Viết câu theo 1 bức tranh cho sẵn"
+        },
+        "avatar": "/images/app/toeic/writing-1.png",
+        "shortDescription": {
+          "en": "In this part, you will write ONE sentence that is based on a picture. With each picture, you will be given TWO words or phrases that you must use in your sentence. You can change the forms of words and use the words in any order.",
+          "vi": "Ở phần thi này, thí sinh sẽ viết câu dựa theo bức tranh cho sẵn. Với mỗi bức tranh, thí sinh sẽ được cung cấp hai từ hoặc cụm từ và phải sử dụng chúng trong câu. Thí sinh có thể thay đổi dạng từ hoặc sử dụng từ theo bất kì trật từ nào."
+        },
+        "tag": "writing"
+      },
+      "writing-q6-7-respond-to-a-written-request": {
+        "name": {
+          "en": "Questions 6-7",
+          "vi": "Câu hỏi 6-7"
+        },
+        "fullName": {
+          "en": "Respond to a written request",
+          "vi": "Trả lời một yêu cầu bằng văn bản"
+        },
+        "avatar": "/images/app/toeic/writing-2.png",
+        "shortDescription": {
+          "en": "In this part of the test, you will show how well you can write a response to an e-mail. ",
+          "vi": "Ở phần thi này, thí sinh sẽ viết một đoạn văn ngắn phản hồi lại một bức thư."
+        },
+        "tag": "writing"
+      },
+      "writing-q8-write-an-opinion-essay": {
+        "name": {
+          "en": "Question 8",
+          "vi": "Câu hỏi 8"
+        },
+        "fullName": {
+          "en": "Write an opinion essay",
+          "vi": "Viết bài luận trình bày quan điểm"
+        },
+        "avatar": "/images/app/toeic/writing-3.png",
+        "shortDescription": {
+          "en": "In this part of the test, you will write an essay in response to a question that asks you to state, explain, and support your opinion on an issue. Typically, an effective essay will contain a minimum of 300 words.",
+          "vi": "Thí sinh sẽ viết một bài luận (khoảng 300 chữ) trả lời cho câu hỏi yêu cầu trình bày, giải thích và bày tỏ quan điểm về một vấn đề."
+        },
+        "tag": "writing"
+      }
+    },
+    "learningStatData": [
+      {
+        "tag": "Practice Test",
+        "type": "practice",
+        "data": [
+          {
+            "name": "Part 1: Photos",
+            "slug": "part-1-photos"
+          },
+          {
+            "name": "Part 2: Question - Response",
+            "slug": "part-2-question-response"
+          },
+          {
+            "name": "Part 3: Conversations",
+            "slug": "part-3-conversations"
+          },
+          {
+            "name": "Part 4: Short Talks",
+            "slug": "part-4-short-talks"
+          },
+          {
+            "name": "Part 5: Incomplete Sentences",
+            "slug": "part-5-incomplete-sentences"
+          },
+          {
+            "name": "Part 6: Text Completion",
+            "slug": "part-6-text-completion"
+          },
+          {
+            "name": "Part 7: Single Passages",
+            "slug": "part-7-single-passages"
+          },
+          {
+            "name": "Part 7: Double Passages",
+            "slug": "part-7-double-passages"
+          },
+          {
+            "name": "Part 7: Triple Passages",
+            "slug": "part-7-triple-passages"
+          }
+        ]
+      },
+      {
+        "tag": "Test",
+        "type": "test",
+        "data": [
+          {
+            "name": "Mini Test",
+            "slug": "minitest"
+          },
+          {
+            "name": "Full Test",
+            "slug": "full-test"
+          }
+        ]
+      },
+      {
+        "tag": "Skill",
+        "type": "practice",
+        "data": [
+          {
+            "name": "Vocabulary",
+            "slug": "vocabulary",
+            "flashCard": true,
+            "subjectType": true,
+            "expandSubject": true
+          },
+          {
+            "name": "Grammar",
+            "slug": "grammar",
+            "subjectType": true
+          }
+        ]
+      }
+    ]
+  },
+  "ged": {
+    "seoContent": {
+      "title": "Take Free GED Practice Tests",
+      "content": "Head over to our GED Practice Test right away to challenge yourself with the best practice questions."
+    },
+    "practiceCourseIndex": 0,
+    "testCourseIndex": 0,
+    "mapSlugData": {
+      "ged-language-arts-practice-test": {
+        "name": "GED Language Arts",
+        "avatar": "/images/app/ged/ged-language-arts-practice-test.png",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 116
+          },
+          {
+            "name": "Levels",
+            "value": 17
+          }
+        ]
+      },
+      "ged-math-practice-test": {
+        "name": "GED Math",
+        "avatar": "/images/app/ged/ged-math-practice-test.png",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 726
+          },
+          {
+            "name": "Levels",
+            "value": 35
+          }
+        ]
+      },
+      "ged-science-practice-test": {
+        "name": "GED Science",
+        "avatar": "/images/app/ged/ged-science-practice-test.png",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 384
+          },
+          {
+            "name": "Levels",
+            "value": 22
+          }
+        ]
+      },
+      "ged-social-studies-practice-test": {
+        "name": "GED Social Studies",
+        "avatar": "/images/app/ged/ged-social-studies-practice-test.png",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 301
+          },
+          {
+            "name": "Levels",
+            "value": 16
+          }
+        ]
+      }
+    }
+  },
+  "hvac": {
+    "seoContent": {
+      "title": "Start Your FREE %year% HVAC Practice Test",
+      "content": "The world needs more registered technicians. Practice for your %year% HVAC test using the same kind of questions you’ll be answering on the actual written examination."
+    },
+    "practiceCourseIndex": 0,
+    "practiceParentSlug": "practice-test",
+    "testCourseIndex": 0,
+    "testParentSlug": "full-test",
+    "flashCardCourseIndex": 0,
+    "flashCardParentSlug": "flashcard",
+    "mapSlugData": {
+      "practice-test-1": {
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 100
+          },
+          {
+            "name": "Levels",
+            "value": 4
+          }
+        ]
+      },
+      "practice-test-2": {
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 100
+          },
+          {
+            "name": "Levels",
+            "value": 4
+          }
+        ]
+      },
+      "practice-test-3": {
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 100
+          },
+          {
+            "name": "Levels",
+            "value": 4
+          }
+        ]
+      },
+      "practice-test-4": {
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 100
+          },
+          {
+            "name": "Levels",
+            "value": 4
+          }
+        ]
+      },
+      "practice-test-5": {
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 100
+          },
+          {
+            "name": "Levels",
+            "value": 4
+          }
+        ]
+      },
+      "practice-test-6": {
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 100
+          },
+          {
+            "name": "Levels",
+            "value": 4
+          }
+        ]
+      },
+      "hvac-basics": {
+        "tag": "flash-card",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": "500+"
+          },
+          {
+            "name": "Levels",
+            "value": 15
+          }
+        ]
+      },
+      "hvac-electrical-basics": {
+        "tag": "flash-card",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": "500+"
+          },
+          {
+            "name": "Levels",
+            "value": 10
+          }
+        ]
+      },
+      "hvac-oil-and-gas-heating": {
+        "tag": "flash-card",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": "500+"
+          },
+          {
+            "name": "Levels",
+            "value": 5
+          }
+        ]
+      },
+      "hvac-controls": {
+        "tag": "flash-card",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": "500+"
+          },
+          {
+            "name": "Levels",
+            "value": 5
+          }
+        ]
+      },
+      "hvac-journeyman-imc-code": {
+        "tag": "flash-card",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": "500+"
+          },
+          {
+            "name": "Levels",
+            "value": 4
+          }
+        ]
+      }
+    }
+  },
+  "alevel": {
+    "practiceCourseIndex": 0,
+    "seoContent": {
+      "title": "Take Free Practice Test Now",
+      "content": ""
+    },
+    "mapSlugData": {
+      "algebra-and-functions": {
+        "name": "ALGEBRA & FUNCTIONS",
+        "avatar": "/images/app/alevel/alevel-algebra-and-functions-practice-test.png",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 400
+          },
+          {
+            "name": "Levels",
+            "value": 15
+          }
+        ]
+      },
+      "coordinate-geometry": {
+        "name": "COORDINATE GEOMETRY",
+        "avatar": "/images/app/alevel/alevel-coordinate-geometry-practice-test.png",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 400
+          },
+          {
+            "name": "Levels",
+            "value": 15
+          }
+        ]
+      },
+      "trigonometry": {
+        "name": "TRIGONOMETRY",
+        "avatar": "/images/app/alevel/alevel-trigonometry-practice-test.png",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 400
+          },
+          {
+            "name": "Levels",
+            "value": 15
+          }
+        ]
+      },
+      "sequences-and-series": {
+        "name": "SEQUENCES & SERIES",
+        "avatar": "/images/app/alevel/alevel-sequences-and-series-practice-test.png",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 400
+          },
+          {
+            "name": "Levels",
+            "value": 15
+          }
+        ]
+      },
+      "differentiation": {
+        "name": "DIFFERENTIATION",
+        "avatar": "/images/app/alevel/alevel-differentiation-practice-test.png",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 400
+          },
+          {
+            "name": "Levels",
+            "value": 15
+          }
+        ]
+      },
+      "integration": {
+        "name": "INTEGRATION",
+        "avatar": "/images/app/alevel/alevel-integration-practice-test.png",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": 400
+          },
+          {
+            "name": "Levels",
+            "value": 15
+          }
+        ]
+      }
+    }
+  },
+  "nclex": {
+    "seoContent": {
+      "title": "Start Our FREE NCLEX Practice Test %year%",
+      "content": "Do you desire to become a registered or practical nurse? Take our free NCLEX-RN and NCLEX-PN practice tests with the same format as the actual tests."
+    },
+    "practiceCourseIndex": 0,
+    "testCourseIndex": 0,
+    "flashCardCourseIndex": 0,
+    "mapSlugData": {
+      "nclex-rn": {
+        "name": "NCLEX-RN",
+        "children": {
+          "nclex-rn-basic-care-and-comfort": {
+            "name": "Basic Care & Comfort Health",
+            "avatar": "/images/app/nclex/nclex-rn-basic-care-and-comfort.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 84
+              },
+              {
+                "name": "Levels",
+                "value": 6
+              }
+            ]
+          },
+          "nclex-rn-health-promotion-and-maintenance": {
+            "name": "Promotion and Maintenance",
+            "avatar": "/images/app/nclex/nclex-rn-health-promotion-and-maintenance.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 107
+              },
+              {
+                "name": "Levels",
+                "value": 7
+              }
+            ]
+          },
+          "nclex-rn-management-of-care": {
+            "name": "Management of Care",
+            "avatar": "/images/app/nclex/nclex-rn-management-of-care.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 774
+              },
+              {
+                "name": "Levels",
+                "value": 30
+              }
+            ]
+          },
+          "nclex-rn-pharmacological-and-parental-therapies": {
+            "name": "Pharmacological & Parental Therapies",
+            "avatar": "/images/app/nclex/nclex-rn-pharmacological-and-parental-therapies.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 332
+              },
+              {
+                "name": "Levels",
+                "value": 17
+              }
+            ]
+          },
+          "nclex-rn-physiological-adaptation": {
+            "name": "Physiological Adaptation",
+            "avatar": "/images/app/nclex/nclex-rn-physiological-adaptation.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 283
+              },
+              {
+                "name": "Levels",
+                "value": 15
+              }
+            ]
+          },
+          "nclex-rn-psychosocial-integrity": {
+            "name": "Psychosocial Integrity",
+            "avatar": "/images/app/nclex/nclex-rn-psychosocial-integrity.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 283
+              },
+              {
+                "name": "Levels",
+                "value": 15
+              }
+            ]
+          },
+          "nclex-rn-reduction-of-risk-potential": {
+            "name": "Reduction of Risk Potential",
+            "avatar": "/images/app/nclex/nclex-rn-reduction-of-risk-potential.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 143
+              },
+              {
+                "name": "Levels",
+                "value": 8
+              }
+            ]
+          },
+          "nclex-rn-safety-and-infection-control": {
+            "name": "Safety & Infection Control",
+            "avatar": "/images/app/nclex/nclex-rn-safety-and-infection-control.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 124
+              },
+              {
+                "name": "Levels",
+                "value": 4
+              }
+            ]
+          }
+        }
+      },
+      "nclex-pn": {
+        "name": "NCLEX-PN",
+        "children": {
+          "nclex-pn-basic-care-and-comfort": {
+            "name": "Basic Care & Comfort",
+            "avatar": "/images/app/nclex/nclex-pn-basic-care-and-comfort.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 51
+              },
+              {
+                "name": "Levels",
+                "value": 4
+              }
+            ]
+          },
+          "nclex-pn-coordinated-care": {
+            "name": "Coordinated Care",
+            "avatar": "/images/app/nclex/nclex-pn-coordinated-care.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 106
+              },
+              {
+                "name": "Levels",
+                "value": 6
+              }
+            ]
+          },
+          "nclex-pn-health-promotion-and-maintenance": {
+            "name": "Health Promotion and Maintenance",
+            "avatar": "/images/app/nclex/nclex-pn-health-promotion-and-maintenance.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 738
+              },
+              {
+                "name": "Levels",
+                "value": 28
+              }
+            ]
+          },
+          "nclex-pn-pharmacological-therapies": {
+            "name": "Pharmacological Therapies",
+            "avatar": "/images/app/nclex/nclex-pn-pharmacological-therapies.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 202
+              },
+              {
+                "name": "Levels",
+                "value": 8
+              }
+            ]
+          },
+          "nclex-pn-physiological-adaptation": {
+            "name": "Physiological Adaptation",
+            "avatar": "/images/app/nclex/nclex-pn-physiological-adaptation.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 262
+              },
+              {
+                "name": "Levels",
+                "value": 9
+              }
+            ]
+          },
+          "nclex-pn-psychosocial-integrity": {
+            "name": "Psychosocial Integrity",
+            "avatar": "/images/app/nclex/nclex-pn-psychosocial-integrity.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 204
+              },
+              {
+                "name": "Levels",
+                "value": 8
+              }
+            ]
+          },
+          "nclex-pn-reduction-of-risk-potential": {
+            "name": "Reduction of Risk Potential",
+            "avatar": "/images/app/nclex/nclex-pn-reduction-of-risk-potential.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 118
+              },
+              {
+                "name": "Levels",
+                "value": 6
+              }
+            ]
+          },
+          "nclex-pn-safe-and-effective-care": {
+            "name": "Safe and Effective Care",
+            "avatar": "/images/app/nclex/nclex-pn-safe-and-effective-care.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 100
+              },
+              {
+                "name": "Levels",
+                "value": 4
+              }
+            ]
+          }
+        }
+      },
+      "nclex-rn-vocabulary": {
+        "tag": "flash-card",
+        "name": "NCLEX-RN",
+        "children": {
+          "part-1": {
+            "name": "Part 1",
+            "avatar": "/images/app/nclex/nclex-rn-flash-card-part-1.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 20
+              }
+            ]
+          },
+          "part-2": {
+            "name": "Part 2",
+            "avatar": "/images/app/nclex/nclex-rn-flash-card-part-2.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 20
+              }
+            ]
+          },
+          "part-3": {
+            "name": "Part 3",
+            "avatar": "/images/app/nclex/nclex-rn-flash-card-part-3.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 20
+              }
+            ]
+          },
+          "part-4": {
+            "name": "Part 4",
+            "avatar": "/images/app/nclex/nclex-rn-flash-card-part-4.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 20
+              }
+            ]
+          },
+          "part-5": {
+            "name": "Part 5",
+            "avatar": "/images/app/nclex/nclex-rn-flash-card-part-5.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 25
+              }
+            ]
+          },
+          "part-6": {
+            "name": "Part 6",
+            "avatar": "/images/app/nclex/nclex-rn-flash-card-part-6.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 25
+              }
+            ]
+          }
+        }
+      },
+      "nclex-pn-vocabulary": {
+        "tag": "flash-card",
+        "name": "NCLEX-PN",
+        "children": {
+          "part-1": {
+            "name": "Part 1",
+            "avatar": "/images/app/nclex/nclex-pn-flash-card-part-1.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 20
+              }
+            ]
+          },
+          "part-2": {
+            "name": "Part 2",
+            "avatar": "/images/app/nclex/nclex-pn-flash-card-part-2.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 20
+              }
+            ]
+          },
+          "part-3": {
+            "name": "Part 3",
+            "avatar": "/images/app/nclex/nclex-pn-flash-card-part-3.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 20
+              }
+            ]
+          },
+          "part-4": {
+            "name": "Part 4",
+            "avatar": "/images/app/nclex/nclex-pn-flash-card-part-4.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 20
+              }
+            ]
+          },
+          "part-5": {
+            "name": "Part 5",
+            "avatar": "/images/app/nclex/nclex-pn-flash-card-part-5.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 20
+              }
+            ]
+          },
+          "part-6": {
+            "name": "Part 6",
+            "avatar": "/images/app/nclex/nclex-pn-flash-card-part-6.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 20
+              }
+            ]
+          },
+          "part-7": {
+            "name": "Part 7",
+            "avatar": "/images/app/nclex/nclex-pn-flash-card-part-7.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 20
+              }
+            ]
+          },
+          "part-8": {
+            "name": "Part 8",
+            "avatar": "/images/app/nclex/nclex-pn-flash-card-part-8.png",
+            "meta": [
+              {
+                "name": "Questions",
+                "value": 28
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "cdl": {
+    "practiceCourseIndex": 0,
+    "seoContent": {
+      "title": "Begin your CDL practice test journey now!",
+      "content": "Our website will furnish you with opportunities to get to know the CDL test and practice with the same format and questions as in the actual written examination."
+    },
+    "testCourseIndex": 0,
+    "groupSlugs": [
+      {
+        "name": "Combination",
+        "slugs": [
+          "general-knowledge",
+          "hazmat",
+          "air-brake",
+          "combination-vehicles",
+          "doubles-triples-trailers",
+          "tanker-vehicles",
+          "pre-trip"
+        ]
+      },
+      {
+        "name": "Straight Truck",
+        "slugs": [
+          "general-knowledge",
+          "hazmat",
+          "air-brake",
+          "tanker-vehicles",
+          "pre-trip"
+        ]
+      },
+      {
+        "name": "Heavy Equipment",
+        "slugs": [
+          "general-knowledge",
+          "air-brake",
+          "combination-vehicles",
+          "pre-trip"
+        ]
+      },
+      {
+        "name": "School Bus",
+        "slugs": [
+          "general-knowledge",
+          "school-bus",
+          "passenger-vehicles",
+          "air-brake",
+          "pre-trip"
+        ]
+      },
+      {
+        "name": " Coach/Transit Bus ",
+        "slugs": [
+          "general-knowledge",
+          "passenger-vehicles",
+          "air-brake",
+          "pre-trip"
+        ]
+      },
+      {
+        "name": "Service Truck",
+        "slugs": [
+          "general-knowledge",
+          "air-brake",
+          "pre-trip"
+        ]
+      },
+      {
+        "name": "Concrete Mixer",
+        "slugs": [
+          "general-knowledge",
+          "air-brake",
+          "combination-vehicles",
+          "pre-trip"
+        ]
+      },
+      {
+        "name": "Dump Truck",
+        "slugs": [
+          "general-knowledge",
+          "air-brake",
+          "combination-vehicles",
+          "doubles-triples-trailers",
+          "tanker-vehicles",
+          "pre-trip"
+        ]
+      }
+    ],
+    "mapSlugData": {
+      "general-knowledge": {
+        "name": "General Knowledge",
+        "avatar": "/images/app/cdl/cdl-general-knowledge.png",
+        "icon": "/images/app/cdl/icon-general-knowledge.png",
+        "shortDescription": "This section is taken by all applicants, about CDL rules & requirements, safe driving, safe transportation of cargo, pre-trip vehicle inspections.",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": "250+"
+          },
+          {
+            "name": "Levels",
+            "value": 14
+          }
+        ]
+      },
+      "air-brake": {
+        "name": "Air Brakes",
+        "avatar": "/images/app/cdl/cdl-air-brake.png",
+        "icon": "/images/app/cdl/icon-air-brake.png",
+        "shortDescription": "This section is required for those driving a truck or bus with air brakes, about parts of an air brake system, dual air brakes, inspecting air brake systems, using air brakes.",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": "250+"
+          },
+          {
+            "name": "Levels",
+            "value": 14
+          }
+        ]
+      },
+      "tanker-vehicles": {
+        "name": "Tanker Vehicles",
+        "fullName": "Tanker Endorsement",
+        "avatar": "/images/app/cdl/cdl-tanker-vehicles.png",
+        "icon": "/images/app/cdl/icon-tanker-vehicles.png",
+        "shortDescription": "This section is required for those driving a more-than-26,000-pound CMW for liquid/gaseous materials transport. It is used for Class A or B vehicle with certain gallons.",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": "250+"
+          },
+          {
+            "name": "Levels",
+            "value": 14
+          }
+        ]
+      },
+      "doubles-triples-trailers": {
+        "name": "Double/Triples Trailers",
+        "fullName": "Double And Triple - Trailer Endorsement",
+        "avatar": "/images/app/cdl/cdl-doubles-triples-trailers.png",
+        "icon": "/images/app/cdl/icon-doubles-triples-trailers.png",
+        "shortDescription": "This section is required for those driving double or triple trailers, about how to couple and uncouple trailers, pulling double/triple trailers, doubles/triples air brake checks, inspections.",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": "250+"
+          },
+          {
+            "name": "Levels",
+            "value": 14
+          }
+        ]
+      },
+      "hazmat": {
+        "name": "Hazmat",
+        "fullName": "Hazardous Materials Endorsement (HazMat)",
+        "avatar": "/images/app/cdl/cdl-hazmat.png",
+        "icon": "/images/app/cdl/icon-hazmat.png",
+        "shortDescription": "This section is required for those driving a vehicle with a HAZMAT placard, about the intent of the regulations, communication rules, loading and unloading, bulk packaging marking, driving and parking rules, emergencies.",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": "250+"
+          },
+          {
+            "name": "Levels",
+            "value": 14
+          }
+        ]
+      },
+      "school-bus": {
+        "name": "School Bus",
+        "fullName": "School Bus Endorsement",
+        "avatar": "/images/app/cdl/cdl-school-bus.png",
+        "icon": "/images/app/cdl/icon-school-bus.png",
+        "shortDescription": "This section is required for those driving a 16-or-more-passenger vehicle to transport students, about danger zones, use of mirrors, loading and unloading, emergency exit and evacuation, railroad-highway crossings, student management, antilock braking systems, special safety considerations.",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": "250+"
+          },
+          {
+            "name": "Levels",
+            "value": 14
+          }
+        ]
+      },
+      "passenger-vehicles": {
+        "name": "Passenger Vehicles",
+        "fullName": "Passenger Endorsement",
+        "avatar": "/images/app/cdl/cdl-passenger-vehicles.png",
+        "icon": "/images/app/cdl/icon-passenger-vehicles.png",
+        "shortDescription": "This section is required for those driving a 16-or-more-passenger vehicle, about vehicle inspection, loading and trip start, on the road, after-trip vehicle inspection, prohibited practices, use of brake-door interlocks.",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": "250+"
+          },
+          {
+            "name": "Levels",
+            "value": 14
+          }
+        ]
+      },
+      "pre-trip": {
+        "name": "Pre - Trip",
+        "fullName": "Pre-trip Inspection",
+        "avatar": "/images/app/cdl/cdl-pre-trip.png",
+        "icon": "/images/app/cdl/icon-pre-trip.png",
+        "shortDescription": "This section is required for every single time you drive a truck, about the engine compartment, trailer, drivers door fuel door, or the entire vehicle.",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": "250+"
+          },
+          {
+            "name": "Levels",
+            "value": 14
+          }
+        ]
+      },
+      "combination-vehicles": {
+        "name": "Combination Vehicles",
+        "avatar": "/images/app/cdl/cdl-combination-vehicles.png",
+        "icon": "/images/app/cdl/icon-combination-vehicles.png",
+        "shortDescription": "This section is required for those driving combination vehicles, about driving combination vehicles safely, combination vehicle air brakes, antilock brake systems, coupling & uncoupling, inspecting a combination vehicle.",
+        "meta": [
+          {
+            "name": "Questions",
+            "value": "250+"
+          },
+          {
+            "name": "Levels",
+            "value": 14
+          }
+        ]
+      }
+    }
+  },
+  "dmv": {
+    "seoContent": {
+      "title": "Let’s nail your DMV practice test now!",
+      "content": "Our website provides you with a number of questions and practices to assure you can familiarize yourself with the actual written test."
+    },
+    "mapSubjectCourseIndex": [
+      "dmv-motorcycle",
+      "dmv-permit",
+      "dmv-cdl-permit"
+    ]
+  },
+  "ielts": {
+    "seoContent": {
+      "en": {
+        "title": "Start Your FREE IELTS Practice Test %year%",
+        "content": "Taking practice tests is one of the best ways to ace the actual exam. Prepare for your IELTS test with our FREE practice tests and detailed explanation."
+      },
+      "vi": {
+        "title": "Luyện tập IELTS miễn phí %year%",
+        "content": "Chuẩn bị cho kỳ thi IELTS sắp tới với các bài luyện tập MIỄN PHÍ trên website của chúng tôi"
+      }
+    },
+    "practiceCourseIndex": 0,
+    "testCourseIndex": 1,
+    "testParentSlug": "full-test",
+    "mapSlugData": {
+      "reading": {
+        "name": {
+          "en": "READING",
+          "vi": "READING"
+        },
+        "avatar": "/images/app/ielts/practice-reading.png",
+        "shortDescription": {
+          "en": "Take recent actual IELTS Test. Real IELTS Reading tests based on actual IELTS tests and following the Cambridge IELTS book format.",
+          "vi": "Luyện thi IELTS Reading dựa trên các bài thi IELTS thực tế với chuẩn định dạng theo sách Cambridge IELTS"
+        },
+        "meta": [
+          {
+            "name": "Practice tests",
+            "value": "300+"
+          }
+        ]
+      },
+      "listening": {
+        "name": {
+          "en": "LISTENING",
+          "vi": "LISTENING"
+        },
+        "avatar": "/images/app/ielts/practice-listening.png",
+        "shortDescription": {
+          "en": "After taking our IELTS online test with real audio, you can check your Listening band score and view your answer sheets.",
+          "vi": "Luyện thi IELTS Listening với audio online và kiểm tra kết quả"
+        },
+        "meta": [
+          {
+            "name": "Practice tests",
+            "value": "300+"
+          }
+        ]
+      },
+      "writing": {
+        "name": {
+          "en": "WRITING",
+          "vi": "WRITING"
+        },
+        "avatar": "/images/app/ielts/practice-writing.png",
+        "shortDescription": {
+          "en": "Model answers, lessons, tips, band scores and advice for each task of the writing IELTS test. Develop your writing skills by learning IELTS in the right way.",
+          "vi": "Các câu trả lời mẫu, bài học, mẹo, thang điểm và lời khuyên cho mỗi task của bài thi IELTS Writing. Phát triển kỹ năng viết bằng cách học IELTS đúng cách"
+        },
+        "meta": [
+          {
+            "name": "Sample",
+            "value": "100+"
+          }
+        ],
+        "locale": "en"
+      },
+      "speaking": {
+        "name": {
+          "en": "SPEAKING",
+          "vi": "SPEAKING"
+        },
+        "avatar": "/images/app/ielts/practice-speaking.png",
+        "shortDescription": {
+          "en": "Model answer test with bands are updated regularly to help you prepare for your test. If you have a question about IELTS, we will do our best to help you.",
+          "vi": "Bài thi với đáp án mẫu theo thang điểm được cập nhật thường xuyên giúp bạn chuẩn bị cho bài thi của mình. Nếu có những thắc mắc về IELTS, chúng tôi sẽ giúp bạn."
+        },
+        "meta": [
+          {
+            "name": "Topics",
+            "value": "50+"
+          }
+        ]
+      },
+      "vocabulary": {
+        "name": {
+          "en": "Vocabulary",
+          "vi": "Từ vựng"
+        },
+        "avatar": "/images/app/ielts/practice-vocabulary.png",
+        "shortDescription": {
+          "en": "After taking our IELTS Vocabulary tests, you can be informed of your current lexical level and have strategies to boost your vocabulary.",
+          "vi": "Luyện thi từ vựng IELTS, theo dõi tiến độ và đưa ra chiến lược nâng cao vốn từ vựng của bạn."
+        },
+        "meta": [
+          {
+            "name": "Words",
+            "value": "3000+"
+          }
+        ]
+      },
+      "grammar": {
+        "name": {
+          "en": "Grammar",
+          "vi": "Ngữ pháp"
+        },
+        "avatar": "/images/app/ielts/practice-grammar.png",
+        "shortDescription": {
+          "en": "After taking our IELTS Grammar tests, you can be informed of your current grammatical level and have strategies to study better.",
+          "vi": "Luyện thi ngữ pháp IELTS, theo dõi tiến độ và đưa ra chiến lược học tập tốt hơn."
+        },
+        "meta": [
+          {
+            "name": "Questions",
+            "value": "2500+"
+          }
+        ]
+      }
+    }
+  }
+}

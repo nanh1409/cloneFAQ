@@ -1,0 +1,142 @@
+#download-app {
+    background: #E5E5E5;
+    .img-download {
+        width: 100%;
+        margin-bottom: -10px;
+    }
+    .content-direction {
+        text-align: left;
+        color: var(--titleColor);
+        padding-bottom: 50px;
+        .title {
+            font-size: 42px;
+            font-weight: bold;
+            margin: 0;
+            @media (max-width: 768px) {
+                font-size: 32px;
+            }
+            @media (max-width: 576px) {
+                font-size: 24px;
+            }
+        }
+        .description {
+            font-size: 30px;
+            font-weight: 400;
+            padding-bottom: 30px;
+            @media (max-width: 768px) {
+                font-size: 26px;
+            }
+            @media (max-width: 576px) {
+                font-size: 20px;
+            }
+        }
+        .btn-link {
+            display: flex;
+            gap: 40px;
+            .btn-test {
+                font-size: 18px;
+                font-weight: 700;
+                padding: 16px 22px;
+                border-radius: 10px;
+                width: fit-content;
+                transition: transform 0.2s linear;
+                background: var(--btnDownloadAppBgr);
+                color: var(--btnDownloadAppTitleColor);
+                &:hover {
+                    transform: translateY(-10px);
+                }
+            }
+            @media (max-width: 768px) {
+                display: flex;
+                align-items: flex-start;
+                gap: 10px;
+            }
+        }
+    }
+    .cta-download-app-container {
+        display: flex;
+        gap: 20px;
+        .cta-download-app-qr-container {
+            display: inline-flex;
+            padding: 8px;
+            background-color: #fff;
+            border-radius: 10px;
+            width: 144px;
+            height: 144px;
+        }
+        .cta-download-app-right {
+            flex: 1;
+            .cta-download-app-button-group {
+                display: flex;
+                gap: 10px;
+                margin-bottom: 20px;
+                justify-content: center;
+                @media (max-width: 992px) {
+                    flex-direction: column;
+                }
+            }
+            .btn-link {
+                display: flex;
+                justify-content: center;
+            }
+        }
+        @media (max-width: 576px) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+#downloadAppVerTwo {
+    .download-app-container { 
+        background: var(--navBackground);
+        border-radius: 40px;
+
+        .download-app-box { 
+            margin-bottom: 30px;
+            h3{
+                font-weight: 700;
+                font-size: 45px;
+                line-height: 68px;
+                letter-spacing: 0.04em;
+                text-transform: capitalize;
+                color: var(--navBackground);
+                -webkit-text-stroke-width: 2px;
+                -webkit-text-stroke-color: #fff;
+                margin: 0;
+            }
+
+            h5{
+                font-weight: 400;
+                font-size: 26px;
+                line-height: 39px;
+                color: #FFFFFF;
+                margin: 0;
+                margin-top: 10px;
+            }
+
+            .download-app-button { 
+                margin-top: 25px;
+                width: 60%;
+
+                .btn-test { 
+                    font-size: 18px;
+                    font-weight: 700;
+                    padding: 16px 22px;
+                    border-radius: 10px;
+                    transition: transform 0.2s linear;
+                    background: var(--menuBackground);
+                    color: var(--btnDownloadAppTitleColor);
+                    width: 100%;
+                    text-align: center;
+                    &:hover {
+                        transform: translateY(-10px);
+                    }
+                    &.right {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+    }
+}

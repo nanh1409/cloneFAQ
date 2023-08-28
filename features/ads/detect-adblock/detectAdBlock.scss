@@ -1,0 +1,37 @@
+#adblock-detected-dialog {
+  .adblock-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    padding-top: 70px;
+  }
+
+  .adblock-content {
+    padding: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 24px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    color: #505050;
+    font-size: 18px;
+  }
+
+  .adblock-actions {
+    justify-content: center !important;
+    margin-top: 37px;
+    margin-bottom: 62px;
+    &-btn {
+      color: #fff !important;
+      background-color: #494747 !important;
+      width: 100%;
+      max-width: 500px;
+      font-size: 16px;
+      font-weight: 700;
+      padding: 16px 0;
+    }
+  }
+}

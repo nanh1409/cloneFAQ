@@ -1,0 +1,60 @@
+.game-object-ielts-speaking-view {
+  position: relative;
+  .game-object-view-menu {
+    position: absolute;
+    right: 0;
+  }
+  .game-object-ielts-speaking-question {
+    padding-bottom: 50px;
+    * {
+      font-family: inherit !important;
+    }
+  }
+
+  .game-object-ietls-speaking-playzone {
+    display: flex;
+    justify-content: center;
+  }
+
+  .game-object-ielts-speaking-time-prepare {
+    align-items: center;
+    column-gap: 10px;
+    background-color: #007aff;
+    display: inline-flex;
+    color: #fff !important;
+    * {
+      color: #fff !important;
+      font-size: 12px !important;
+    }
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .game-object-ielts-speaking-nav {
+    position: relative;
+    &-btn {
+      position: absolute;
+      bottom: -20px;
+      &.btn-prev {
+        left: 0;
+      }
+      &.btn-next {
+        right: 0;
+      }
+    }
+    &.tablet {
+      position: fixed;
+      width: 100%;
+      left: 0;
+      bottom: 100px;
+      .btn-prev {
+        left: 10px;
+      }
+      .btn-next {
+        right: 10px;
+      }
+    }
+  }
+}

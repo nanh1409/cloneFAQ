@@ -1,0 +1,94 @@
+
+@import "../../../../styles/mixins.scss";
+
+.part-item-data {
+  box-shadow: 0px 6px 15px rgba(218, 220, 237, 0.5);
+  border-radius: 20px;
+  height: 380px;
+  overflow: hidden;
+  position: relative;
+  @media (max-width: 576px) {
+    height: auto;
+  }
+  &-avatar-wrap {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    padding-top: 56.25%;
+  }
+  &-avatar {
+    width: 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+  &-content {
+    padding: 16px;
+    padding-top: 8px;
+  }
+  &-short-name {
+    font-size: 16px;
+    font-weight: 600;
+    @include ellipsis-text(1);
+  }
+  &-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    @include ellipsis-text(2);
+  }
+  &-desc {
+    color: #505050;
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: justify;
+    @include ellipsis-text(6);
+  }
+  &:hover {
+    .part-item-data-avatar {
+      transform: scale(1.2);
+    }
+  }
+
+  .part-item-data-childs {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: rgba(21, 22, 54, 0.7);
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+    &-item {
+      width: 100%;
+      width: 200px;
+      height: 100%;
+      height: 45px;
+      padding: 8px 24px;
+      background: #fff;
+      color: #34447C;
+      font-weight: 600;
+      font-size: 16px;
+      border-radius: 15px;
+      text-align: center;
+      &:not(&.last) {
+        margin-bottom: 10px;
+      }
+      &:hover {
+        background: #3A8AD3;
+        color: #fff;
+      }
+    }
+  }
+
+  &:hover {
+    .part-item-data-childs {
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+#search-blog {
+    margin-bottom: 20px;
+    .search-title {
+        color: var(--titleColor);
+    }
+    .search-post-title {
+        color: var(--titleColor);
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .search-post-item {
+        overflow: hidden;
+        &:hover {
+            .search-post-thumb {
+                scale: 1.1;
+            }
+        }
+
+        .search-post-thumb {
+            transition: scale 0.2s linear;
+        }
+
+        .search-post-meta {
+            display: flex;
+
+            .search-post-publish-watched {
+                color: var(--titleColor);
+                margin-left: 16px;
+            }
+        }
+    }
+
+    .screen-reader-text {
+        display: none;
+    }
+
+    .search-heading-recent-posts {
+        font-size: 1.7rem;
+        margin-bottom: 20px;
+    }
+
+    .search-pagination {
+        display: flex;
+        justify-content: center;
+    }
+    .search-post-publish-date {
+        color: var(--titleColor);
+    }
+
+    .read-more {
+        display: none;
+    }
+}

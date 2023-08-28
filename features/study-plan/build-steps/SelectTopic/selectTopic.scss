@@ -1,0 +1,56 @@
+.study-plan-select-topic {
+  &-header-title {
+    text-align: center;
+    margin-top: 10px;
+  }
+  &-list-topic {
+    .study-plan-select-all-topics {
+      display: flex;
+      justify-content: flex-end;
+      .sp-select-all-topic-label {
+        color: var(--titleColor);
+        font-weight: 600;
+        font-size: 12px;
+      }
+    }
+    // .study-plan-list-topic-main {
+    //   margin: 0 16px;
+    // }
+
+    .study-plan-topic-item {
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #ffffff;
+      border: 1px solid #cbdde6;
+      border-radius: 10px;
+      overflow: hidden;
+      gap: 16px;
+      cursor: pointer;
+
+      .topic-icon {
+        display: flex;
+        background-color: #cbdde6;
+        width: 45px;
+        height: 45px;
+        align-items: center;
+        justify-content: center;
+      }
+      .topic-name {
+        flex: 1;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        color: #133a5c;
+      }
+
+      &.selected {
+        border: 1px solid #00c9e4;
+        .topic-name {
+          color: #00c9e4;
+        }
+      }
+    }
+  }
+}

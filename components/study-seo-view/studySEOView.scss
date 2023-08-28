@@ -1,0 +1,51 @@
+#study-page-view {
+  .seo-content-primary {
+    h1 {
+      color: var(--titleColor);
+      text-align: center;
+      font-weight: 600;
+      font-size: 28px;
+    }
+    p {
+      margin: 0 auto;
+      margin-top: 12px;
+      color: var(--contentColor);
+      font-size: 16px;
+      text-align: justify;
+      max-width: 992px;
+    }
+    .cta-practice {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      &-title {
+        font-size: 30px;
+        margin-right: 16px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .subjects-list {
+    background-color: #f6f6f6;
+    padding-bottom: 30px;
+    &-title {
+      text-align: center;
+      color: var(--titleColor);
+      font-size: 28px;
+      padding: 20px 0;
+      font-weight: 600;
+    }
+
+    &-item {
+      background-color: #fff;
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      text-align: center;
+      padding: 0 10px;
+    }
+  }
+}

@@ -1,0 +1,181 @@
+#functions {
+  padding-top: 85px;
+  background: linear-gradient(
+    180deg,
+    rgba(230, 238, 240, 0.5) 0%,
+    rgba(255, 255, 255, 0.5) 13.02%,
+    rgba(254, 254, 255, 0.5) 76.04%,
+    rgba(230, 238, 240, 0.5) 100%
+  );
+  .title-function {
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    margin: 0;
+    text-align: left;
+    color: var(--titleColor);
+  }
+  #web-function {
+    .cta-go-test-web {
+      display: flex;
+      justify-content: center;
+      margin-top: 45px;
+    }
+    .cta-go-test-web-button {
+      padding: 20px;
+    }
+    .cta-go-test-web-button-title {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 35px;
+      letter-spacing: 0.02em;
+      color: #fff !important;
+      margin-right: 16px;
+      @media (max-width: 576px) {
+        font-size: 16px;
+      }
+    }
+  }
+  #app-function {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 140px;
+  }
+  #app-function-ver2 {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    text-align: center;
+    padding-bottom: 40px;
+    background: radial-gradient(50% 50% at 50% 50%, #e2ccff 0%, #dcecff 59.9%, #e2eeff 97.4%);
+    border-radius: 50px;
+    &.app-function-ver2-tablet {
+      background: #e2eeff;
+      min-height: auto;
+      padding-bottom: 0;
+    }
+    .title {
+      padding-top: 40px;
+      text-align: center;
+      font-size: 35px;
+      font-weight: 700;
+      margin: 0;
+      color: var(--titleColor);
+    }
+    .sub-title {
+      text-align: center;
+      font-weight: 400;
+      color: var(--titleColor);
+      margin: 0;
+      padding-top: 8px;
+      font-size: 22px;
+    }
+
+    .box-app-function {
+      padding: 50px 45px;
+
+      .app-function-item {
+        min-height: 202px;
+        &.tablet {
+          text-align: left;
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          min-height: auto;
+          margin-left: 12px;
+
+          .app-function-item__name {
+            margin-top: 0;
+          }
+        }
+        &__icon {
+          background: #cad9ff;
+          border-radius: 25px;
+          min-width: 80px;
+          height: 80px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: inherit;
+          cursor: pointer;
+          img {
+            height: 40px;
+            transition: all 0.2s ease;
+          }
+          &:hover {
+            background-color: #fff;
+            img {
+              height: 35px;
+            }
+          }
+        }
+        &__name {
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 25px;
+          text-align: inherit;
+          color: #333333;
+          margin-top: 17px;
+        }
+        &__des {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          text-align: inherit;
+          color: #67748e;
+          margin-top: 5px;
+        }
+      }
+
+      .app-function-center {
+        position: absolute;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        &-tablet {
+          margin: 0;
+          position: relative !important;
+          padding: 25px 0;
+
+          &__bg {
+            img {
+              width: 50% !important;
+            }
+          }
+
+          &__phone { 
+            img {
+              width: 80% !important;
+            }
+          }
+        }
+        &:hover {
+          .app-function-center__bg {
+            img {
+              transform: rotate(45deg);
+            }
+          }
+          .app-function-center__phone {
+            transform: translate(-50%, -50%) scale(1.1);
+          }
+        }
+        &__bg {
+          img {
+            transition: all 0.3s ease;
+            width: 70%;
+          }
+        }
+        &__phone {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          transition: all 0.3s ease;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

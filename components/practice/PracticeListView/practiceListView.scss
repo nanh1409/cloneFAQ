@@ -1,0 +1,146 @@
+.practice-detail-view {
+  .practice-list-view-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    color: #1d1d1d;
+    padding: 30px 0;
+  }
+
+  .practice-list-view-main {
+    .practice-name {
+      color: #333333;
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    .practice-list {
+      margin-top: 12px;
+      &-item {
+        background: #fff;
+        padding: 16px;
+        border-bottom: 1px solid #f2f3f7;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        &:hover {
+          transform: translateZ(1px);
+          box-shadow: 0px 4px 6px #e8eaf1;
+          .practice-item-name {
+            color: #636cf5;
+          }
+        }
+      }
+      .practice-item-name {
+        color: #535353;
+        font-weight: 500;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+      }
+
+      .practice-item-progress {
+        &.lesson {
+          visibility: hidden;
+        }
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        column-gap: 4px;
+        .item-locked {
+          color: var(--titleColor);
+        }
+        .progress-box {
+          width: 100px;
+          height: 34px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 5px;
+          font-size: 16px;
+          font-weight: 700;
+        }
+      }
+
+      .practice-item-progress-lesson {
+        &.hidden {
+          display: none;
+        }
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        .check-icon {
+          width: 100px;
+        }
+      }
+
+      .practice-list-box {
+        background: #ffffff;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+        cursor: pointer;
+        position: relative;
+        .practice-pro {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 36px;
+          height: 25px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #fff;
+          box-shadow: 0px 4px 10px rgba(192, 210, 235, 0.4);
+          border-radius: 0 15px 0 15px;
+        }
+        .practice-list-box-item {
+          &--progress {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 26px;
+            color: #91a3c8;
+            border-bottom: 1px dashed #c7cfe0;
+            padding: 20px 0px 12px 0px;
+            width: 100%;
+            text-align: center;
+            &.progress-none {
+              font-weight: 700;
+              font-size: 32px;
+              line-height: 26px;
+              color: #c6ccd2;
+            }
+          }
+
+          &--content {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            color: #333333;
+            margin-top: 12px;
+            margin-bottom: 8px;
+          }
+
+          &--participants {
+            font-size: 12px;
+            line-height: 18px;
+            color: #7E7E7E;
+            margin-bottom: 25px;
+            display: flex;
+
+            .line { 
+              margin: 0px 5px;
+              border-right: 0.5px solid #7E7E7E;
+              height: 13px;
+              margin-top: 1px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

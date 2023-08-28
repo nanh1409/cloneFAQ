@@ -1,0 +1,21 @@
+@import "../SelectState/selectState.scss";
+
+.study-plan-build-end {
+  @include studyPlanHeader();
+
+  .study-plan-build-progress {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    &-label {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+}

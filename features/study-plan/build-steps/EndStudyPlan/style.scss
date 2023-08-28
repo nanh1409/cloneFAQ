@@ -1,0 +1,56 @@
+.end-study-plan-view {
+  margin-top: 70px;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 35px;
+  background-color: #f7f7f7;
+  &-wrap {
+    background-color: #fff;
+    padding: 30px 0;
+    border-radius: 20px;
+    transform: translateY(-20px);
+  }
+
+  .end-study-plan-main {
+    max-width: 355px;
+    margin: 0 auto;
+    &-label {
+      text-align: center;
+      color: #5b5b5b;
+      font-size: 18px;
+    }
+
+    &-img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 16px;
+      img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+      }
+    }
+    &-cta {
+      margin-top: 8px;
+      font-size: 14px;
+      font-weight: 500;
+      text-align: center;
+      max-width: 320px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    &-cta-btn-wrap {
+      margin-top: 27px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .end-study-plan-cta-btn-title {
+        font-size: 14px;
+        font-weight: 700;
+      }
+    }
+  }
+}

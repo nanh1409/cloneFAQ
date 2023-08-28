@@ -1,0 +1,23 @@
+#introduction {
+    background: inherit;
+    padding: 50px 0;
+    font-family: inherit !important;
+    .list-intro {
+        text-align: left;
+        margin: 0;
+        &.read-more {
+            > :not(:nth-child(-n + 4)) {
+                display: none;
+            }
+        }
+    }
+    .btn-show-content {
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: 600;
+        &:hover {
+            text-decoration: underline;
+        }
+        color: var(--titleColor);
+    }
+}

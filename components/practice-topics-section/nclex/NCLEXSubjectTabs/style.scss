@@ -1,0 +1,26 @@
+.nclex-subjects-tabs {
+  .subject-tab-root {
+    max-width: 695px;
+    margin: 0 auto;
+    background: #c8d3e8;
+    border-radius: 50px;
+  }
+
+  .subject-tab-indicator {
+    display: none;
+  }
+  .subject-tab-button {
+    border-radius: 50px;
+    color: #1d1d1d;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 5px;
+    @media (max-width: 576px) {
+      font-size: 18px;
+    }
+    &.selected {
+      background: #fff !important;
+      color: #007aff !important;
+    }
+  }
+}

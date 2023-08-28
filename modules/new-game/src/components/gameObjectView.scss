@@ -1,0 +1,10 @@
+.game-object-view-container {
+  position: relative;
+
+  .game-object-view-menu {
+    position: absolute;
+    z-index: 2;
+    right: 10px;
+    top: 10px;
+  }
+}

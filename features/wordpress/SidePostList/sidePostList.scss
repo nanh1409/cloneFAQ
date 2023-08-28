@@ -1,0 +1,30 @@
+.side-post-list {
+  .side-post-list-item {
+    margin-bottom: 16px;
+    overflow: hidden;
+    .post-thumb {
+      overflow: hidden;
+      > .wp-post-thumb {
+        transition: transform 0.2s linear;
+      }
+    }
+
+    &:hover {
+      .post-thumb {
+        > .wp-post-thumb {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
+
+.post-publish {
+  padding-top: 8px;
+  display: flex;
+  font-size: 14px;
+
+  .post-publish-watched {
+    margin-left: 8px;
+  }
+}

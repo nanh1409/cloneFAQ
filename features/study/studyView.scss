@@ -1,0 +1,427 @@
+@import "../../styles/mixins.scss";
+
+#main-study-view {
+  display: flex;
+  padding-bottom: 30px;
+
+  .main-study-view {
+    &-container {
+      margin-right: 0;
+    }
+
+    &-side {
+      width: calc(50% - 768px);
+      height: 100vh;
+      position: sticky;
+      position: -webkit-sticky;
+      top: 20px;
+      z-index: 1;
+      margin-top: 20px;
+
+      .study-side-ads {
+        max-width: 160px;
+        width: 100%;
+        height: 600px;
+      }
+    }
+  }
+
+  &.main-study-view.tablet {
+    padding-bottom: 76px; // Auto ADS. TODO: manual Config Ads
+  }
+
+  .root-topic-name {
+    flex: 1;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #1d1d1d;
+    padding: 0 10px 45px 10px;
+    margin-left: 10px;
+  }
+
+  .main-study-layout {
+    display: flex;
+    margin-top: 20px;
+
+    &.tablet {
+      margin-top: 60px;
+      display: block;
+    }
+
+    .study-layout-left {
+      width: 335px;
+
+      &.small-desktop {
+        width: 250px;
+      }
+
+      &.tablet {
+        display: none;
+      }
+
+      .sub-list-container {
+        margin-top: 40px;
+      }
+
+      &-wrap {
+        width: inherit;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+
+        &.expand {
+          max-height: 100vh;
+          overflow: auto;
+          @include custom-scroll();
+
+          & > * {
+            margin-right: 8px;
+          }
+
+          #question-palette-panel {
+            width: calc(100% - 8px);
+          }
+        }
+      }
+    }
+
+    .study-layout-mid {
+      flex: 1;
+      margin-left: 10px;
+      margin-right: 10px;
+      position: relative;
+
+      &.tablet {
+        margin: 0;
+      }
+
+      &.small-desktop {
+        margin-left: 24px;
+      }
+
+      .tablet-question-stats {
+        margin: 0 15px;
+        margin-bottom: 10px;
+      }
+
+      .tablet-question-progress {
+        margin: 0 15px;
+        margin-bottom: 16px;
+      }
+
+      .toeic-lr-simulator-check {
+        background-color: #fff;
+        display: inline-block;
+        padding: 8px;
+        margin-bottom: 4px;
+        border-radius: 10px;
+        position: absolute;
+        z-index: 1;
+      }
+    }
+  }
+
+  .main-study-tablet-nav {
+    display: none;
+
+    &.tablet {
+      display: block;
+    }
+  }
+
+  .review-banner-ads {
+    margin-top: 10px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 10px;
+  }
+
+  // .game-toeic-rl-skills-nav {
+    // display: none !important;
+  // }
+  // #main-game-view .test-clock-panel {
+  //   margin-bottom: 0 !important;
+  // }
+}
+
+.show-zoom-in-out-theory {
+  display: flex;
+  padding: 8px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px rgba(95, 73, 118, 0.15);
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+
+  .MuiPopover-paper {
+    border-radius: 10px;
+  }
+}
+
+.custom-popover-theory {
+  padding: 7px;
+
+  span {
+    font-size: 12px;
+    padding-left: 8px;
+  }
+
+  button {
+    padding: 0 8px;
+    border: 0;
+    background-color: transparent;
+    font-size: 13px;
+    cursor: pointer;
+  }
+}
+
+.dialog-theory-modal {
+  max-height: calc(100% - 200px);
+  max-width: 1125px;
+  border-radius: 20px;
+
+  .dialog-theory-modal-content {
+    scrollbar-width: thin;
+    scrollbar-color: #d0d0d0 #f9f9f9;
+
+    &::-webkit-scrollbar {
+      width: 7px;
+      height: 7px;
+    }
+
+    &::-webkit-scrollbar-track {
+      border-radius: 7px;
+      background: #f9f9f9;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 7px;
+      background: #d0d0d0;
+
+      &:hover {
+        background: #8a8a8a;
+      }
+    }
+  }
+}
+
+#tablet-study-view-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1201;
+
+  &.tablet-nav-open {
+    z-index: 1200;
+  }
+
+  .tablet-study-main-nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    &.study-test-view {
+      grid-template-columns: repeat(3, 1fr) !important;
+    }
+
+    &.hide-practices {
+      grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    padding: 8px 0;
+    background: #fff;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  .study-nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &-label {
+      font-size: 10px;
+      color: #bbc9d9;
+
+      &.active {
+        color: #007aff;
+      }
+    }
+
+    &:hover {
+      .study-nav-item-label {
+        color: #007aff;
+      }
+    }
+  }
+
+  .study-nav-item-button {
+    background-color: #007aff !important;
+    color: #fff !important;
+    border-radius: 20px;
+    height: 25px;
+    font-size: 9px;
+    width: 80%;
+    &.pause-item {
+      background-color: #f2f3f7 !important;
+      color: #1d1d1d !important;
+    }
+    &.restart-item {
+      background-color: #fff !important;
+      color: #007aff !important;
+      border: 1px solid #007aff;
+    }
+  }
+}
+
+#tablet-study-menu-item-content {
+  padding-bottom: 46px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+#game-view-container {
+  position: relative;
+  .game-view-study-game-menu {
+    position: absolute;
+    z-index: 2;
+    right: 10px;
+    top: 10px;
+  }
+
+  .game-object-question-explanation-para {
+    @media (max-width: 992px) {
+      padding-bottom: 76px;
+    }
+  }
+  &.game-view-container-main.toeic-sw {
+    .normal-root-container {
+      background: transparent !important;
+    }
+    #main-game-review-section {
+      background: transparent !important;
+    }
+    .main-game-toeic-writing-2023-mar {
+      background-color: transparent !important;
+      .main-game-toeic-writing-body {
+        background-color: #fff;
+        border-radius: 10px;
+      }
+    }
+  }
+  #test-overview {
+    .game-buttons {
+      max-width: 576px !important;
+      &.mobile {
+        flex-direction: column;
+      }
+    } 
+  }
+}
+
+.question-palette-root {
+  margin-bottom: 46px;
+  .question-palette-game-title {
+    @media (max-width: 992px) {
+      background-color: transparent !important;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  .question-palette-main {
+    @media (max-width: 992px) {
+      background-color: transparent !important;
+    }
+  }
+  .question-palette-header {
+    .question-palette-title {
+      @media (max-width: 992px) {
+        display: none;
+      }
+    }
+    .question-palette-nav {
+      &-button {
+        @media (max-width: 992px) {
+          &.button-left {
+            position: absolute;
+            top: -25%;
+            transform: translateY(75%);
+            left: 30px;
+          }
+
+          &.button-right {
+            position: absolute;
+            top: -25%;
+            transform: translateY(75%);
+            right: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  .question-palette-body {
+    .questions-list {
+      &.questions-list-custom {
+        &.expand {
+          max-height: calc(100vh - 600px);
+          min-height: 111px;
+          &.pro {
+            max-height: calc(100vh - 350px);
+          }
+          overflow: auto;
+          @include custom-scroll();
+        }
+      }
+    }
+    .question-palette-item-custom {
+      @media (max-width: 992px) {
+        background-color: #fff !important;
+      }
+      &.tablet {
+        max-width: 40px;
+      }
+      &.mobile {
+        max-width: 32px;
+      }
+    }
+    .question-stat-progress {
+      margin-top: 28px;
+      &.hidden {
+        display: none;
+      }
+    }
+  }
+
+  .question-palette-footer {
+    .question-palette-function-buttons {
+      @media (max-width: 1170px) {
+        flex-direction: column;
+      }
+    }
+    .button-restart-game,
+    .button-pause-game,
+    .button-submit-game {
+      @media (max-width: 1170px) {
+        font-size: 12px;
+      }
+    }
+  }
+  .question-palette-footer-custom {
+    &.hidden {
+      display: none;
+    }
+  }
+
+  .flash-card-question-stat {
+    @media (max-width: 1168px) and (min-width: 992px) {
+      .stat-title {
+        width: 106px;
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+.practice-subject-tabs {
+  &.ged {
+    margin-bottom: 50px;
+    .subject-tab-root {
+      max-width: 500px;
+      margin: 0 auto;
+      background: #d6dbe6;
+      border-radius: 50px;
+    }
+    .subject-tab-indicator {
+      display: none;
+    }
+    .subject-tab-button {
+      border-radius: 50px;
+      color: #3f330f;
+      font-size: 30px;
+      font-weight: 700;
+      margin: 5px;
+      @media (max-width: 576px) {
+        font-size: 18px;
+      }
+      &.selected {
+        background: #fff !important;
+        color: #ffbf01 !important;
+      }
+    }
+  }
+}
+
+.practice-top-section {
+  .ged-social-studies {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-top: 197px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    .cta-bg-image {
+      border-radius: 15px;
+    }
+    .cta-section {
+      position: absolute;
+      z-index: 1;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 50px;
+      &.mobile {
+        left: 20px;
+      }
+      .title,
+      .desc {
+        max-width: 376px;
+      }
+      .title {
+        font-size: 30px;
+        font-weight: 700;
+        color: #fff;
+      }
+      .desc {
+        color: #d4deff;
+      }
+      .cta-button {
+        background: #fff;
+        color: #ffbf01 !important;
+        border-radius: 50px;
+        font-size: 18px;
+        font-weight: 600;
+        width: 170px;
+        margin-top: 12px;
+        &:hover {
+          background: #fff;
+        }
+      }
+    }
+  }
+
+  &.mobile {
+    .ged-social-studies {
+      background-color: #6b82f4;
+    }
+  }
+}

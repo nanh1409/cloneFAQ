@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Giới thiệu",
+    "slug": "/about-us",
+    "locale": "vi"
+  },
+  {
+    "name": "Liên hệ",
+    "slug": "/contact",
+    "locale": "vi"
+  },
+  {
+    "name": "Điều khoản",
+    "slug": "/terms",
+    "locale": "vi"
+  },
+  {
+    "name": "Quyền riêng tư",
+    "slug": "/privacy",
+    "locale": "vi"
+  },
+  {
+    "name": "About Us",
+    "slug": "/about-us",
+    "locale": "en"
+  },
+  {
+    "name": "Contact",
+    "slug": "/contact",
+    "locale": "en"
+  },
+  {
+    "name": "Terms",
+    "slug": "/terms",
+    "locale": "en"
+  },
+  {
+    "name": "Privacy",
+    "slug": "/privacy",
+    "locale": "en"
+  }
+]

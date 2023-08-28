@@ -1,0 +1,47 @@
+.app-function-item-1 {
+    background-color: var(--appFcBackground);
+    height: 255px;
+    padding: 24px;
+
+    @media screen and (min-width: 992px) and (max-width: 1150px) {
+        height: 290px;
+    }
+
+    p{
+        margin: 0;
+    }
+
+    .icon {
+        margin-bottom: 15px;
+    }
+
+    .title { 
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: var(--textAppFcColor);
+        margin-bottom: 15px;
+    }
+
+    .description {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: justify;
+        color: var(--descAppFcColor);
+    }
+
+    &:hover { 
+        background-color: var(--appHoverFcBackground);
+
+        .title { 
+            color: var(--appHoverColor);
+        }
+
+        .description { 
+            color: var(--descHoverAppFcColor);
+        }
+
+    }
+}

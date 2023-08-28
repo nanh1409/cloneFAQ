@@ -1,0 +1,32 @@
+.faq-main-item {
+  margin: auto !important;
+  background-color: #fff;
+  &-summary {
+    min-height: auto;
+    &.expand {
+      margin: auto !important;
+      min-height: auto !important;
+    }
+    &-content {
+      margin: auto !important;
+      color: #333333;
+      font-weight: 600;
+      font-size: 14px;
+      strong,
+      b {
+        font-weight: 600 !important;
+      }
+      &.expand {
+        margin: auto !important;
+        min-height: auto !important;
+      }
+    }
+  }
+
+  &-details {
+    color: #606060;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}

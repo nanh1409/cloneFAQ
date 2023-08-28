@@ -1,0 +1,1751 @@
+{
+  "toeic": {
+    "title": "TOEIC TEST PRO",
+    "content": {
+      "en": {
+        "h2Audience": "Who should take the TOEIC exam?",
+        "h2IntroFeature": "<h2 class=\"title-content\">we already have <span>everything you need</span></h2>",
+        "h2ChooseUs": "Why Choose Us",
+        "h2Review": "<h2 class=\"title-content\" style={{ \"marginBottom\": 0 }}>What Our <span>Users</span> Are Saying</h2>",
+        "subTitleReview": "Over 70K users have already experienced TOEIC Test Pro and what they are talking about our platform",
+        "h2Plan": "Let us help you break your TOEIC Test anxiety",
+        "subTitlePlan": "More than 1000 users have already taken “GET PRO” to possess all of the outstanding features with the fixed price.",
+        "contentFree": "free",
+        "contentPremium": "premium"
+      },
+      "vi": {
+        "h2Audience": "TOEIC phù hợp với ai?",
+        "h2IntroFeature": "<h2 class=\"title-content\">Tất cả những gì bạn cần <span>chúng tôi đều có</span></h2>",
+        "h2ChooseUs": "Vì Sao Nên Chọn Chúng Tôi",
+        "h2Review": "<h2 class=\"title-content\" style={{ \"marginBottom\": 0 }}>Người dùng cảm nhận về TOEIC TEST PRO</h2>",
+        "subTitleReview": "Trên 70 nghìn người đã sử dụng TOEIC TEST PRO và những gì họ đang nói về nền tảng của chúng tôi",
+        "h2Plan": "Hãy để chúng tôi giúp bạn vượt qua nỗi sợ làm bài thi TOEIC",
+        "subTitlePlan": "Gần 1000 người đã nâng cấp Get Pro để sử dụng những tính năng tuyệt vời chỉ với một giá duy nhất.",
+        "contentFree": "Miễn phí",
+        "contentPremium": "Nâng cao"
+      },
+      "fr": {
+        "h2Audience": "Le TOEIC convient à quel type de public?",
+        "h2IntroFeature": "<h2 class=\"title-content\">Nous avons tout ce dont vous avez besoin</h2>",
+        "h2ChooseUs": "Pourquoi nous choisir?",
+        "h2Review": "<h2 class=\"title-content\" style={{ \"marginBottom\": 0 }}>Qu'est-ce que les utilisateurs disent à propos de TOEIC TEST PRO</h2>",
+        "subTitleReview": "Plus de 70 000 utilisateurs ont déjà expérimenté TOEIC Test Pro et voici ce qu'ils disent de notre plateforme",
+        "h2Plan": "Laissez-nous vous aider à surmonter la peur de passer l'examen TOEIC!",
+        "subTitlePlan": "!Près de 1000 utilisateurs ont déjà effectué la mise à niveau vers \"Get Pro\" pour profiter des fonctionnalités exceptionnelles à un prix unique.",
+        "contentFree": "GRATUIT",
+        "contentPremium": "PRIME"
+      },
+      "jp": {
+        "h2Audience": "TOEICはどのような対象者に適していますか？",
+        "h2IntroFeature": "<h2 class=\"title-content\">べてを取り揃えています</h2>",
+        "h2ChooseUs": "なぜ私たちを選ぶべきか？",
+        "h2Review": "<h2 class=\"title-content\" style={{ \"marginBottom\": 0 }}>TOEIC TEST PROに対するユーザーの感想。</h2>",
+        "subTitleReview": "70,000人以上がTOEIC TEST PROを使用しており、彼らが当社プラットフォームについて言及している内容は次のとおりです。",
+        "h2Plan": "TOEIC試験の不安を克服するのを手伝わせてください。",
+        "subTitlePlan": "約1000人が「Get Pro」をアップグレードして、単一の価格で素晴らしい機能を利用しています。",
+        "contentFree": "無料",
+        "contentPremium": "プレミアム"
+      },
+      "es": {
+        "h2Audience": "¿Para quién es apropiado el TOEIC?",
+        "h2IntroFeature": "<h2 class=\"title-content\"><span>Tenemos todo</span> lo que necesitas</h2>",
+        "h2ChooseUs": "Por qué elegirnos",
+        "h2Review": "<h2 class=\"title-content\" style={{ \"marginBottom\": 0 }}>Opiniones de los <span>usuarios</span> sobre TOEIC TEST PRO</h2>",
+        "subTitleReview": "Más de 70,000 personas han utilizado TOEIC TEST PRO y esto es lo que dicen sobre nuestra plataforma",
+        "h2Plan": "Permítenos ayudarte a superar el miedo de realizar el examen TOEIC",
+        "subTitlePlan": "Casi 1000 personas han actualizado a Get Pro para aprovechar las increíbles características por un único precio",
+        "contentFree": "GRATIS",
+        "contentPremium": "PREMIUM"
+      }
+    },
+    "features": {
+      "en": [
+        "Practice 7 parts TOEIC",
+        "30+ grammar topics",
+        "50+ topics including 600+ common TOEIC vocabulary",
+        "Sync between app and web",
+        "Access to all full tests and mini tests",
+        "Detailed explanations for each question",
+        "Free - Ads "
+      ],
+      "vi": [
+        "Luyện tập 7 phần TOEIC",
+        "30+ chủ đề ngữ pháp Tiếng Anh",
+        "50+ chủ đề với tổng cộng hơn 600 từ vựng TOEIC hay gặp trong đề thi TOEIC",
+        "Đồng bộ tài khoản web/app",
+        "Sử dụng toàn bộ đề full test và mini test",
+        "Giải thích chi tiết từng câu hỏi",
+        "Không quảng cáo"
+      ],
+      "fr": [
+        "Entraînez-vous dans les 7 sections du TOEIC.",
+        "Plus de 30 sujets de grammaire en anglais.",
+        "Plus de 50 sujets avec plus de 600 mots de vocabulaire TOEIC couramment rencontrés dans les examens TOEIC.",
+        "Synchronisation du compte entre le site web et l'application.",
+        "Accès à l'ensemble des examens complets et des mini-tests.",
+        "Explication détaillée de chaque question",
+        "Aucune publicité"
+      ],
+      "jp": [
+        "TOEICの7つのセクションの練習",
+        "30以上の英文法トピックス",
+        "50以上のトピックス、TOEICの試験でよく出る600語以上の語彙",
+        "ウェブサイトとアプリのアカウントの同期",
+        "全てのフルテストとミニテストの使用",
+        "各問題の詳細な解説",
+        "広告なし"
+      ],
+      "es": [
+        "Practicar las 7 secciones del TOEIC",
+        "Más de 30 temas de gramática en inglés",
+        "Más de 50 temas con un total de más de 600 vocabularios TOEIC comunes en los exámenes TOEIC",
+        "Sincronización de cuenta web/aplicación",
+        "Utilizar todos los exámenes completos y mini exámenes",
+        "Explicación detallada de cada pregunta",
+        "Sin publicidad"
+      ]
+    },
+    "primaryPlanIndex": 1,
+    "plan": {
+      "0": {
+        "name": "FREE",
+        "localeNames": {
+          "en": "FREE",
+          "vi": "MIỄN PHÍ",
+          "fr": "GRATUIT",
+          "jp": "無料"
+        },
+        "subTitle": {
+          "en": "Experience the basic features with a FREE plan",
+          "vi": "Trải nghiệm các tính năng cơ bản với gói MIỄN PHÍ",
+          "fr": "Profitez des fonctionnalités de base avec le forfait GRATUIT",
+          "jp": "基本的な機能を無料のパッケージで体験してください。"
+        },
+        "features": {
+          "en": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "vi": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "fr": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "jp": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "es": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      "2000": {
+        "name": "PREMIUM",
+        "localeNames": {
+          "en": "PREMIUM",
+          "vi": "PREMIUM",
+          "fr": "PRIME",
+          "jp": "プレミアム"
+        },
+        "subTitle": {
+          "en": "Register once to enjoy yearly full-package features",
+          "vi": "Đăng ký một lần để tận hưởng các tính năng trọn gói hàng năm",
+          "fr": "Inscrivez-vous une fois pour profiter des fonctionnalités complètes pendant toute l'année.",
+          "jp": "1年間のフル機能を利用するために、一度登録してください。"
+        },
+        "features": {
+          "en": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "vi": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "fr": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "jp": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "es": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        "totalPrice": {
+          "1-year": {
+            "price": "40$",
+            "primary": true
+          }
+        }
+      }
+    },
+    "vnpay": false,
+    "contentHeroSection": {
+      "title": {
+        "en": "Defeat your <span class=\"title-toeic\">TOEIC<sup>®</sup></span> test anxiety right now with",
+        "vi": "Đập tan nỗi lo <span class=\"title-toeic\">TOEIC<sup>®</sup></span> ngay hôm nay với",
+        "fr": "Surmontez dès maintenant votre anxiété liée au test <span class=\"title-toeic\">Toeic<sup>®</sup></span> avec",
+        "jp": "と共に、今日からTOEIC<sup>®</sup>の不安を払拭しましょう",
+        "es": "Supera la ansiedad del <span class=\"title-toeic\">TOEIC<sup>®</sup></span> hoy mismo con"
+      },
+      "name": "<span class=\"title-toeic\">TOEIC<sup>®</sup></span> TEST PRO",
+      "summary": {
+        "en": "You don’t have much time for learning, do you? $nameGetpro makes your practicing easier by studying online with <span class=\"title-toeic\">TOEIC<sup>®</sup></span> mock test questions anytime and anywhere. Our platform works smoothly on all your devices and needn’t be downloaded.",
+        "vi": "Bạn không có nhiều thời gian? $nameGetpro sẽ giúp bạn luyện tập dễ dàng. Nội dung sát đề thi, không cần download, học mọi lúc mọi nơi. Hoạt động trên tất cả các thiết bị của bạn!",
+        "fr": "Vous n'avez pas beaucoup de temps pour apprendre, n'est-ce pas ? $nameGetpro rend votre pratique plus facile en étudiant en ligne avec des questions de test Toeic simulées à tout moment et n'importe où. Notre plateforme fonctionne parfaitement sur tous vos appareils et n'a pas besoin d'être téléchargée.",
+        "jp": "時間があまりないですか？$nameGetproが効果的な学習をサポートします。試験に即したコンテンツで、ダウンロード不要、いつでもどこでも学習が可能です。あなたのすべてのデバイスでスムーズに動作します！",
+        "es": "¿No tienes mucho tiempo? $nameGetpro te ayudará a practicar fácilmente. Contenido similar al del examen, sin necesidad de descargas, estudia en cualquier momento y lugar. ¡Funciona en todos tus dispositivos!"
+      }
+    },
+    "audiences": [
+      {
+        "locale": "en",
+        "title": "Students",
+        "des": "Students who aspire to either reinforce their knowledge according to complexity and difficulty or meet the graduation requirements in regards to submitting an International English certificate on time.",
+        "icon": "/images/get-pro/icon-getpro-audiences-student.svg",
+        "alt": "Students icon"
+      },
+      {
+        "locale": "en",
+        "title": "Overseas students",
+        "des": "Individuals who are planning to study abroad or attend any International Schools to communicate fluently and confidently with foreigners.",
+        "icon": "/images/get-pro/icon-getpro-audiences-overseas.svg",
+        "alt": "Overseas students icon"
+      },
+      {
+        "locale": "en",
+        "title": "Office Workers",
+        "des": "Office staff who need to meet the recruiter’s requirements by showing off TOEIC Certificate of Achievement scoring 400-700.",
+        "icon": "/images/get-pro/icon-getpro-audiences-workers.svg",
+        "alt": "Overseas students icon"
+      },
+      {
+        "locale": "en",
+        "title": "Self-Challenge",
+        "des": "Those who want to challenge themselves with TOEIC maximum score - 990.",
+        "icon": "/images/get-pro/icon-getpro-audiences-self-challenge.svg",
+        "alt": "Self-Challenge icon"
+      },
+      {
+        "locale": "vi",
+        "title": "Học Sinh",
+        "des": "Học sinh, sinh viên cần củng cố kiến thức từ cơ bản đến nâng cao. Với sinh viên đạt mục tiêu điểm để có thể ra trường đúng thời hạn.",
+        "icon": "/images/get-pro/icon-getpro-audiences-student.svg",
+        "alt": "Học Sinh icon"
+      },
+      {
+        "locale": "vi",
+        "title": "Du Học",
+        "des": "Những bạn cần chứng chỉ TOEIC để học tại các trường quốc tế, đồng thời tự tin giao tiếp với người bản ngữ.",
+        "icon": "/images/get-pro/icon-getpro-audiences-overseas.svg",
+        "alt": "Du Học icon"
+      },
+      {
+        "locale": "vi",
+        "title": "Người Đi Làm",
+        "des": "Cần đạt điểm TOEIC từ 400 - 700 để đáp ứng yêu cầu của các nhà tuyển dụng trong nước và quốc tế",
+        "icon": "/images/get-pro/icon-getpro-audiences-workers.svg",
+        "alt": "Người Đi Làm icon"
+      },
+      {
+        "locale": "vi",
+        "title": "Thử thách bản thân",
+        "des": "Đơn giản là mục tiêu Max điểm TOEIC 990",
+        "icon": "/images/get-pro/icon-getpro-audiences-self-challenge.svg",
+        "alt": "Thử thách bản thân icon"
+      },
+      {
+        "locale": "fr",
+        "title": "Les étudiants et les élèves",
+        "des": "Les étudiants et les élèves ont besoin de consolider leurs connaissances, de la base au niveau avancé. Les étudiants visent à obtenir un score pour pouvoir terminer leurs études dans les délais prévus",
+        "icon": "/images/get-pro/icon-getpro-audiences-student.svg",
+        "alt": "étudiants"
+      },
+      {
+        "locale": "fr",
+        "title": "Les élèves qui souhaitent étudier à l'étranger",
+        "des": "Ceux qui ont l'intention d'étudier dans des établissements d'enseignement internationaux et qui veulent également avoir confiance en leur capacité à communiquer avec des locuteurs natifs ont besoin d'une certification TOEIC",
+        "icon": "/images/get-pro/icon-getpro-audiences-overseas.svg",
+        "alt": "élèves"
+      },
+      {
+        "locale": "fr",
+        "title": "Les employés de bureau",
+        "des": "Il est nécessaire d'obtenir un score TOEIC compris entre 400 et 700 pour répondre aux exigences des employeurs nationaux et internationaux",
+        "icon": "/images/get-pro/icon-getpro-audiences-workers.svg",
+        "alt": "employés"
+      },
+      {
+        "locale": "fr",
+        "title": "Le défi personnel",
+        "des": "C'est l'objectif ultime d'obtenir un score TOEIC de 990",
+        "icon": "/images/get-pro/icon-getpro-audiences-self-challenge.svg",
+        "alt": "Le défi personnel"
+      },
+      {
+        "locale": "jp",
+        "title": "学生や生徒",
+        "des": "学生や生徒は、基礎から上級までの知識を固める必要があります。学生は、予定通りに学業を終えるためにスコアを目指しています",
+        "icon": "/images/get-pro/icon-getpro-audiences-student.svg",
+        "alt": "学生や生徒"
+      },
+      {
+        "locale": "jp",
+        "title": "留学を希望する生徒",
+        "des": "国際的な教育機関で学び、ネイティブスピーカーとのコミュニケーション能力にも自信を持ちたい人々は、TOEICの認定が必要です。",
+        "icon": "/images/get-pro/icon-getpro-audiences-overseas.svg",
+        "alt": "留学を希望する生徒"
+      },
+      {
+        "locale": "jp",
+        "title": "オフィスワーカー",
+        "des": "国内外の雇用主の要件を満たすために、400から700のTOEICスコアを取得する必要があります。",
+        "icon": "/images/get-pro/icon-getpro-audiences-workers.svg",
+        "alt": "オフィスワーカー"
+      },
+      {
+        "locale": "jp",
+        "title": "個人的な挑戦",
+        "des": "TOEICスコア990を目指すことが究極の目標です。",
+        "icon": "/images/get-pro/icon-getpro-audiences-self-challenge.svg",
+        "alt": "個人的な挑戦"
+      },
+      {
+        "locale": "es",
+        "title": "Estudiantes y alumnos",
+        "des": "Los estudiantes y alumnos necesitan consolidar sus conocimientos, desde lo básico hasta niveles avanzados. Los estudiantes buscan obtener un puntaje para poder completar sus estudios dentro del tiempo previsto.",
+        "icon": "/images/get-pro/icon-getpro-audiences-student.svg",
+        "alt": "Estudiantes y alumnos"
+      },
+      {
+        "locale": "es",
+        "title": "Estudiantes que desean estudiar en el extranjero",
+        "des": " Aquellos que tienen la intención de estudiar en instituciones educativas internacionales y que también desean tener confianza en su capacidad para comunicarse con hablantes nativos necesitan una certificación TOEIC.",
+        "icon": "/images/get-pro/icon-getpro-audiences-overseas.svg",
+        "alt": "estudiar en el extranjero"
+      },
+      {
+        "locale": "es",
+        "title": "Empleados de oficina",
+        "des": "Es necesario obtener un puntaje TOEIC entre 400 y 700 para cumplir con los requisitos de empleadores nacionales e internacionales.",
+        "icon": "/images/get-pro/icon-getpro-audiences-workers.svg",
+        "alt": "Empleados de oficina"
+      },
+      {
+        "locale": "es",
+        "title": "Desafío personal",
+        "des": "El objetivo último es obtener un puntaje TOEIC de 990",
+        "icon": "/images/get-pro/icon-getpro-audiences-self-challenge.svg",
+        "alt": "Desafío personal"
+      }
+    ],
+    "boostSkillContent": {
+      "title": {
+        "en": "Integrate TOEIC test formats for Listening & Reading",
+        "vi": "Tích hợp các dạng bài luyện TOEIC Listening và Reading",
+        "fr": "Intégrez les exercices TOEIC Listening et Reading dans votre pratique",
+        "jp": "TOEICのリスニングとリーディングの練習を統合",
+        "es": "Integración de ejercicios de práctica de escucha y lectura del TOEIC"
+      },
+      "des": {
+        "en": "Practice two skills of TOEIC Listening and Reading with carefully-compiled practice questions, helping you achieve your target scores.",
+        "vi": " Luyện tập 2 kỹ năng Listening & Reading, bao gồm các câu hỏi đáp án chi tiết để ôn luyện dễ dàng.",
+        "fr": "Entraînez-vous aux deux compétences essentielles, avec des réponses détaillées pour faciliter votre révision",
+        "jp": "TOEICのリスニングとリーディングのスキルを練習しましょう。具体的な質問と回答が含まれており、簡単な復習ができます。",
+        "es": "Practica las habilidades de escucha y lectura del TOEIC, que incluyen preguntas detalladas y respuestas para facilitar el estudio"
+      },
+      "image": "/images/get-pro/toeic/getpro-intro-practice-test.png"
+    },
+    "introFeatures": [
+      {
+        "title": {
+          "en": "Access to the variety of practice questions and TOEIC simulation tests",
+          "vi": "Kho nội dung luyện tập và đề thi",
+          "fr": "Une grande variété de contenu d'entraînement et de tests",
+          "jp": "練習と試験の幅広いコンテンツ",
+          "es": "Amplia gama de contenido de práctica y exámenes"
+        },
+        "des": {
+          "en": "Manifold mini tests and full tests compiled and updated regularly based on the real test.",
+          "vi": "Với bộ đề thi phong phú, chia dạng thi mini test và full test dễ dàng như thi thật. Các đề luôn được cập nhật mới nhất.",
+          "fr": "Profitez d'un large éventail de tests pratiques et complets, disponibles sous forme de mini-tests ou de tests complets, pour vous préparer de manière réaliste. Les tests sont régulièrement mis à jour pour inclure les dernières modifications",
+          "jp": "豊富な試験のコレクションで練習しましょう。ミニテストやフルテストなど、本番と同じくらい簡単に実施できる形式があります。試験は常に最新のものに更新されます。",
+          "es": "Con una amplia variedad de exámenes, incluyendo exámenes tipo mini test y exámenes completos que son fáciles de realizar como en el examen real. Los exámenes se actualizan constantemente"
+        },
+        "image": "/images/get-pro/getpro-intro-1.png",
+        "alt": "practice image",
+        "style": {
+          "vi": {
+            "pc": {
+              "backgroundColor": "#fff",
+              "height": 600
+            },
+            "tablet": {
+              "backgroundColor": "#fff",
+              "height": 470
+            },
+            "mobile": {
+              "backgroundColor": "#fff",
+              "height": 600
+            }
+          },
+          "en": {
+            "pc": {
+              "backgroundColor": "#fff",
+              "height": 600
+            },
+            "tablet": {
+              "backgroundColor": "#fff",
+              "height": 470
+            },
+            "mobile": {
+              "backgroundColor": "#fff",
+              "height": 600
+            }
+          },
+          "fr": {
+            "pc": {
+              "backgroundColor": "#fff",
+              "height": 600
+            },
+            "tablet": {
+              "backgroundColor": "#fff",
+              "height": 470
+            },
+            "mobile": {
+              "backgroundColor": "#fff",
+              "height": 650
+            }
+          },
+          "jp": {
+            "pc": {
+              "backgroundColor": "#fff",
+              "height": 600
+            },
+            "tablet": {
+              "backgroundColor": "#fff",
+              "height": 470
+            },
+            "mobile": {
+              "backgroundColor": "#fff",
+              "height": 600
+            }
+          },
+          "es": {
+            "pc": {
+              "backgroundColor": "#fff",
+              "height": 600
+            },
+            "tablet": {
+              "backgroundColor": "#fff",
+              "height": 470
+            },
+            "mobile": {
+              "backgroundColor": "#fff",
+              "height": 600
+            }
+          }
+        },
+        "styleImg": {
+          "vi": {
+            "pc": {
+              "left": "-16px",
+              "bottom": "-57px",
+              "width": "425px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "-16px",
+              "bottom": "-57px",
+              "width": "380px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "-13px",
+              "bottom": "-57px",
+              "width": "369px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "-12px",
+              "bottom": "-57px",
+              "width": "355px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "-8px",
+              "bottom": "-49px",
+              "width": "265px",
+              "height": "auto"
+            }
+          },
+          "en": {
+            "pc": {
+              "left": "-16px",
+              "bottom": "-57px",
+              "width": "425px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "-16px",
+              "bottom": "-57px",
+              "width": "380px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "-13px",
+              "bottom": "-57px",
+              "width": "369px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "-12px",
+              "bottom": "-57px",
+              "width": "355px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "-8px",
+              "bottom": "-49px",
+              "width": "265px",
+              "height": "auto"
+            }
+          },
+          "fr": {
+            "pc": {
+              "left": "-16px",
+              "bottom": "-57px",
+              "width": "325px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "-16px",
+              "bottom": "-57px",
+              "width": "300px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "-13px",
+              "bottom": "-57px",
+              "width": "290px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "-6px",
+              "bottom": "-57px",
+              "width": "190px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "-6px",
+              "bottom": "-49px",
+              "width": "175px",
+              "height": "auto"
+            }
+          },
+          "jp": {
+            "pc": {
+              "left": "-16px",
+              "bottom": "-57px",
+              "width": "425px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "-16px",
+              "bottom": "-57px",
+              "width": "380px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "-13px",
+              "bottom": "-57px",
+              "width": "369px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "-12px",
+              "bottom": "-57px",
+              "width": "355px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "-8px",
+              "bottom": "-49px",
+              "width": "265px",
+              "height": "auto"
+            }
+          },
+          "es": {
+            "pc": {
+              "left": "-16px",
+              "bottom": "-57px",
+              "width": "425px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "-16px",
+              "bottom": "-57px",
+              "width": "350px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "-13px",
+              "bottom": "-57px",
+              "width": "369px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "-12px",
+              "bottom": "-57px",
+              "width": "310px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "-8px",
+              "bottom": "-49px",
+              "width": "210px",
+              "height": "auto"
+            }
+          }
+        }
+      },
+      {
+        "title": {
+          "en": "Block adverts",
+          "vi": "Loại bỏ quảng cáo",
+          "fr": "Suppression des publicités",
+          "jp": "広告の削除",
+          "es": "Eliminación de anuncios"
+        },
+        "des": {
+          "en": "Staying focused for your TOEIC preparation without being interrupted by Google Adverts.",
+          "vi": "Quảng cáo gây phiền toái cho bạn. Hãy loại bỏ nó ngay bây giờ để làm bài tập hiệu quả không bị sao nhãng.",
+          "fr": "Les publicités peuvent être gênantes. Supprimez-les dès maintenant pour vous entraîner efficacement sans distractions",
+          "jp": "広告は邪魔です。効果的な学習を妨げないために、広告を削除しましょう。",
+          "es": "Los anuncios son molestos. Elimínalos ahora mismo para poder realizar ejercicios de manera efectiva sin distracciones"
+        },
+        "image": "/images/get-pro/getpro-intro-2.png",
+        "alt": "adverts image",
+        "style": {
+          "vi": {
+            "pc": {
+              "backgroundColor": "#fff",
+              "height": 468
+            },
+            "tablet": {
+              "backgroundColor": "#fff",
+              "height": 470
+            },
+            "mobile": {
+              "backgroundColor": "#fff",
+              "height": 400
+            }
+          },
+          "en": {
+            "pc": {
+              "backgroundColor": "#fff",
+              "height": 468
+            },
+            "tablet": {
+              "backgroundColor": "#fff",
+              "height": 470
+            },
+            "mobile": {
+              "backgroundColor": "#fff",
+              "height": 400
+            }
+          },
+          "fr": {
+            "pc": {
+              "backgroundColor": "#fff",
+              "height": 468
+            },
+            "tablet": {
+              "backgroundColor": "#fff",
+              "height": 470
+            },
+            "mobile": {
+              "backgroundColor": "#fff",
+              "height": 450
+            }
+          },
+          "jp": {
+            "pc": {
+              "backgroundColor": "#fff",
+              "height": 468
+            },
+            "tablet": {
+              "backgroundColor": "#fff",
+              "height": 470
+            },
+            "mobile": {
+              "backgroundColor": "#fff",
+              "height": 400
+            }
+          },
+          "es": {
+            "pc": {
+              "backgroundColor": "#fff",
+              "height": 468
+            },
+            "tablet": {
+              "backgroundColor": "#fff",
+              "height": 470
+            },
+            "mobile": {
+              "backgroundColor": "#fff",
+              "height": 450
+            }
+          }
+        },
+        "styleImg": {
+          "vi": {
+            "pc": {
+              "left": "0px",
+              "bottom": "-100px",
+              "width": "450px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "0px",
+              "bottom": "-57px",
+              "width": "350px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "0px",
+              "bottom": "-100px",
+              "width": "435px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "10px",
+              "bottom": "-72px",
+              "width": "355px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "15px",
+              "bottom": "-74px",
+              "width": "318px",
+              "height": "auto"
+            }
+          },
+          "en": {
+            "pc": {
+              "left": "0px",
+              "bottom": "-100px",
+              "width": "450px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "0px",
+              "bottom": "-57px",
+              "width": "350px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "0px",
+              "bottom": "-100px",
+              "width": "435px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "10px",
+              "bottom": "-72px",
+              "width": "355px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "15px",
+              "bottom": "-74px",
+              "width": "318px",
+              "height": "auto"
+            }
+          },
+          "fr": {
+            "pc": {
+              "left": "0px",
+              "bottom": "-100px",
+              "width": "375px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "0px",
+              "bottom": "-57px",
+              "width": "350px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "0px",
+              "bottom": "-100px",
+              "width": "435px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "10px",
+              "bottom": "-72px",
+              "width": "355px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "15px",
+              "bottom": "-74px",
+              "width": "240px",
+              "height": "auto"
+            }
+          },
+          "jp": {
+            "pc": {
+              "left": "0px",
+              "bottom": "-100px",
+              "width": "450px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "0px",
+              "bottom": "-57px",
+              "width": "350px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "0px",
+              "bottom": "-100px",
+              "width": "435px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "10px",
+              "bottom": "-72px",
+              "width": "355px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "15px",
+              "bottom": "-74px",
+              "width": "318px",
+              "height": "auto"
+            }
+          },
+          "es": {
+            "pc": {
+              "left": "0px",
+              "bottom": "-100px",
+              "width": "450px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "0px",
+              "bottom": "-57px",
+              "width": "350px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "0px",
+              "bottom": "-100px",
+              "width": "435px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "10px",
+              "bottom": "-72px",
+              "width": "335px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "15px",
+              "bottom": "-74px",
+              "width": "270px",
+              "height": "auto"
+            }
+          }
+        }
+      },
+      {
+        "title": {
+          "en": "Improve your vocabulary and grammar",
+          "vi": "Tăng vốn từ vựng và ngữ pháp",
+          "fr": "Amélioration du vocabulaire et de la grammaire",
+          "jp": "語彙と文法の向上",
+          "es": "Mejora del vocabulario y la gramática"
+        },
+        "des": {
+          "en": "Using our set of flash cards to improve your vocabulary and grammar in use better.",
+          "vi": "Nắm vững kiến thức nền tảng, cải thiện từ những thứ cơ bản nhất với bộ luyện tập Flash Card từ vựng và ngữ pháp thông dụng hay có trong đề thi nhất.",
+          "fr": "Renforcez vos bases de connaissances et améliorez vos compétences depuis les concepts les plus fondamentaux grâce à notre ensemble d'exercices de cartes mémoire pour le vocabulaire et la grammaire les plus couramment utilisés dans les tests",
+          "jp": "基礎知識をしっかり身につけ、試験でよく出る単語や文法を改善しましょう。一般的な単語と文法のフラッシュカード練習セットを使用します。",
+          "es": "Domina los conocimientos fundamentales y mejora desde lo más básico con nuestro conjunto de ejercicios de tarjetas de memoria para el vocabulario y la gramática más comunes en los exámenes"
+        },
+        "image": "/images/get-pro/getpro-intro-3.png",
+        "alt": "vocabulary and grammar image",
+        "style": {
+          "vi": {
+            "pc": {
+              "backgroundColor": "#fff",
+              "height": 464
+            },
+            "tablet": {
+              "backgroundColor": "#fff",
+              "height": 470
+            },
+            "mobile": {
+              "backgroundColor": "#fff",
+              "height": 464
+            }
+          },
+          "en": {
+            "pc": {
+              "backgroundColor": "#fff",
+              "height": 464
+            },
+            "tablet": {
+              "backgroundColor": "#fff",
+              "height": 470
+            },
+            "mobile": {
+              "backgroundColor": "#fff",
+              "height": 464
+            }
+          },
+          "fr": {
+            "pc": {
+              "backgroundColor": "#fff",
+              "height": 464
+            },
+            "tablet": {
+              "backgroundColor": "#fff",
+              "height": 470
+            },
+            "mobile": {
+              "backgroundColor": "#fff",
+              "height": 720
+            }
+          },
+          "jp": {
+            "pc": {
+              "backgroundColor": "#fff",
+              "height": 464
+            },
+            "tablet": {
+              "backgroundColor": "#fff",
+              "height": 470
+            },
+            "mobile": {
+              "backgroundColor": "#fff",
+              "height": 464
+            }
+          },
+          "es": {
+            "pc": {
+              "backgroundColor": "#fff",
+              "height": 464
+            },
+            "tablet": {
+              "backgroundColor": "#fff",
+              "height": 470
+            },
+            "mobile": {
+              "backgroundColor": "#fff",
+              "height": 580
+            }
+          }
+        },
+        "styleImg": {
+          "vi": {
+            "pc": {
+              "left": "0px",
+              "bottom": "-20px",
+              "width": "295px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "0px",
+              "bottom": "-17px",
+              "width": "280px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "-15px",
+              "bottom": "-27px",
+              "width": "392px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "-16px",
+              "bottom": "-20px",
+              "width": "325px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "6px",
+              "bottom": "-16px",
+              "width": "318px",
+              "height": "auto"
+            }
+          },
+          "en": {
+            "pc": {
+              "left": "0px",
+              "bottom": "-20px",
+              "width": "350px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "0px",
+              "bottom": "-17px",
+              "width": "280px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "-15px",
+              "bottom": "-27px",
+              "width": "392px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "-16px",
+              "bottom": "-20px",
+              "width": "325px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "6px",
+              "bottom": "-16px",
+              "width": "318px",
+              "height": "auto"
+            }
+          },
+          "fr": {
+            "pc": {
+              "left": "0px",
+              "bottom": "-10px",
+              "width": "200px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "0px",
+              "bottom": "-12px",
+              "width": "200px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "-15px",
+              "bottom": "-20px",
+              "width": "320px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "-16px",
+              "bottom": "-24px",
+              "width": "385px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "6px",
+              "bottom": "-16px",
+              "width": "235px",
+              "height": "auto"
+            }
+          },
+          "jp": {
+            "pc": {
+              "left": "0px",
+              "bottom": "-20px",
+              "width": "295px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "0px",
+              "bottom": "-17px",
+              "width": "280px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "-15px",
+              "bottom": "-27px",
+              "width": "392px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "-16px",
+              "bottom": "-20px",
+              "width": "325px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "6px",
+              "bottom": "-16px",
+              "width": "318px",
+              "height": "auto"
+            }
+          },
+          "es": {
+            "pc": {
+              "left": "0px",
+              "bottom": "-20px",
+              "width": "290px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "0px",
+              "bottom": "-17px",
+              "width": "235px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "-15px",
+              "bottom": "-20px",
+              "width": "330px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "-10px",
+              "bottom": "-25px",
+              "width": "410px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "6px",
+              "bottom": "-16px",
+              "width": "255px",
+              "height": "auto"
+            }
+          }
+        }
+      },
+      {
+        "title": {
+          "en": "Boost your TOEIC skills",
+          "vi": "Phát triển kỹ năng làm bài thi TOEIC",
+          "fr": "Développez vos compétences pour passer le TOEIC",
+          "jp": "TOEIC試験のスキル開発",
+          "es": "Desarrollo de habilidades para el examen TOEIC"
+        },
+        "des": {
+          "en": "Not only identifying your weaknesses and strengths but also practicing for each TOEIC skill more easily and effectively with ultimate test tips, automatic scoring, answer reviewing.",
+          "vi": "Luyện tập từng kỹ năng trong đề thi TOEIC nhanh và hiệu quả. Bao gồm các tips làm bài, chấm điểm và review đáp án chi tiết giúp bạn biết được điểm mạnh yếu.",
+          "fr": "Entraînez-vous aux différentes compétences évaluées dans le test TOEIC de manière rapide et efficace. Profitez des astuces, des scores et des réponses détaillées pour mieux comprendre vos points forts et vos points faibles.",
+          "jp": "TOEIC試験で必要な各スキルを効果的に短期間で練習しましょう。問題の解き方のヒント、スコアリング、詳細な回答のレビューも含まれており、自分の強みと弱みを把握することができます。",
+          "es": "Practica cada habilidad requerida en el examen TOEIC de manera rápida y efectiva. Incluye consejos para responder preguntas, puntuación y revisión detallada de respuestas para que puedas identificar tus puntos fuertes y débiles"
+        },
+        "image": "/images/get-pro/getpro-intro-4.png",
+        "alt": "TOEIC skills image",
+        "style": {
+          "vi": {
+            "pc": {
+              "backgroundColor": "#fff",
+              "height": 666
+            },
+            "tablet": {
+              "backgroundColor": "#fff",
+              "height": 470
+            },
+            "mobile": {
+              "backgroundColor": "#fff",
+              "height": 505
+            }
+          },
+          "en": {
+            "pc": {
+              "backgroundColor": "#fff",
+              "height": 666
+            },
+            "tablet": {
+              "backgroundColor": "#fff",
+              "height": 470
+            },
+            "mobile": {
+              "backgroundColor": "#fff",
+              "height": 505
+            }
+          },
+          "fr": {
+            "pc": {
+              "backgroundColor": "#fff",
+              "height": 666
+            },
+            "tablet": {
+              "backgroundColor": "#fff",
+              "height": 470
+            },
+            "mobile": {
+              "backgroundColor": "#fff",
+              "height": 605
+            }
+          },
+          "jp": {
+            "pc": {
+              "backgroundColor": "#fff",
+              "height": 666
+            },
+            "tablet": {
+              "backgroundColor": "#fff",
+              "height": 470
+            },
+            "mobile": {
+              "backgroundColor": "#fff",
+              "height": 505
+            }
+          },
+          "es": {
+            "pc": {
+              "backgroundColor": "#fff",
+              "height": 666
+            },
+            "tablet": {
+              "backgroundColor": "#fff",
+              "height": 470
+            },
+            "mobile": {
+              "backgroundColor": "#fff",
+              "height": 605
+            }
+          }
+        },
+        "styleImg": {
+          "vi": {
+            "pc": {
+              "left": "10px",
+              "bottom": "-63px",
+              "width": "400px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "20px",
+              "bottom": "-57px",
+              "width": "360px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "0px",
+              "bottom": "-63px",
+              "width": "363px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "31px",
+              "bottom": "-49px",
+              "width": "425px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "34px",
+              "bottom": "-29px",
+              "width": "371px",
+              "height": "auto"
+            }
+          },
+          "en": {
+            "pc": {
+              "left": "10px",
+              "bottom": "-63px",
+              "width": "400px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "20px",
+              "bottom": "-57px",
+              "width": "360px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "0px",
+              "bottom": "-63px",
+              "width": "363px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "31px",
+              "bottom": "-49px",
+              "width": "425px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "34px",
+              "bottom": "-29px",
+              "width": "371px",
+              "height": "auto"
+            }
+          },
+          "fr": {
+            "pc": {
+              "left": "10px",
+              "bottom": "-63px",
+              "width": "400px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "20px",
+              "bottom": "-57px",
+              "width": "360px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "0px",
+              "bottom": "-63px",
+              "width": "363px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "31px",
+              "bottom": "-49px",
+              "width": "425px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "34px",
+              "bottom": "-29px",
+              "width": "270px",
+              "height": "auto"
+            }
+          },
+          "jp": {
+            "pc": {
+              "left": "10px",
+              "bottom": "-63px",
+              "width": "400px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "20px",
+              "bottom": "-57px",
+              "width": "360px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "0px",
+              "bottom": "-63px",
+              "width": "363px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "31px",
+              "bottom": "-49px",
+              "width": "425px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "34px",
+              "bottom": "-29px",
+              "width": "371px",
+              "height": "auto"
+            }
+          },
+          "es": {
+            "pc": {
+              "left": "10px",
+              "bottom": "-63px",
+              "width": "400px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "20px",
+              "bottom": "-57px",
+              "width": "320px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "0px",
+              "bottom": "-63px",
+              "width": "320px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "31px",
+              "bottom": "-49px",
+              "width": "425px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "34px",
+              "bottom": "-29px",
+              "width": "215px",
+              "height": "auto"
+            }
+          }
+        }
+      },
+      {
+        "title": {
+          "en": "Sync data between website and app smoothly across all your devices.",
+          "vi": "Đồng bộ giữa Website và App",
+          "fr": "Synchronisation entre le site Web et l'application",
+          "jp": "ウェブサイトとアプリの同期",
+          "es": "Sincronización entre el sitio web y la aplicación"
+        },
+        "des": {
+          "en": "Synchronizing your practice process between app and website to learn everywhere, everytime and on any device.",
+          "vi": "Tất cả tiến trình luyện tập của bạn sẽ được đồng bộ hoá trên website và app của chúng tôi giúp bạn dễ dàng luyện tập trên tất cả các thiết bị mọi lúc mọi nơi.",
+          "fr": "Votre progression est synchronisée entre notre site Web et notre application, vous permettant de vous entraîner facilement sur tous vos appareils, où que vous soyez",
+          "jp": "学習の進捗状況がウェブサイトとアプリで同期されるため、いつでもどこでも簡単に学習できます。",
+          "es": "Todo tu progreso de estudio se sincronizará entre nuestro sitio web y nuestra aplicación, lo que te permitirá practicar fácilmente en todos tus dispositivos en cualquier momento y en cualquier lugar."
+        },
+        "image": "/images/get-pro/getpro-intro-5.png",
+        "alt": "Sync data image",
+        "colorText": "#fff",
+        "colorDes": "#fff",
+        "style": {
+          "vi": {
+            "pc": {
+              "marginTop": "90px",
+              "textAlign": "right",
+              "backgroundColor": "#018787",
+              "height": 750
+            },
+            "tablet": {
+              "marginTop": "90px",
+              "textAlign": "right",
+              "backgroundColor": "#018787",
+              "height": 521
+            },
+            "mobile": {
+              "textAlign": "left",
+              "backgroundColor": "#018787",
+              "height": 500,
+              "paddingRight": 0,
+              "paddingLeft": 25
+            }
+          },
+          "en": {
+            "pc": {
+              "marginTop": "90px",
+              "textAlign": "right",
+              "backgroundColor": "#018787",
+              "height": 750
+            },
+            "tablet": {
+              "marginTop": "90px",
+              "textAlign": "right",
+              "backgroundColor": "#018787",
+              "height": 521
+            },
+            "mobile": {
+              "textAlign": "left",
+              "backgroundColor": "#018787",
+              "height": 500,
+              "paddingRight": 0,
+              "paddingLeft": 25
+            }
+          },
+          "fr": {
+            "pc": {
+              "marginTop": "90px",
+              "textAlign": "right",
+              "backgroundColor": "#018787",
+              "height": 750
+            },
+            "tablet": {
+              "marginTop": "90px",
+              "textAlign": "right",
+              "backgroundColor": "#018787",
+              "height": 521
+            },
+            "mobile": {
+              "textAlign": "left",
+              "backgroundColor": "#018787",
+              "height": 550,
+              "paddingRight": 0,
+              "paddingLeft": 25
+            }
+          },
+          "jp": {
+            "pc": {
+              "marginTop": "90px",
+              "textAlign": "right",
+              "backgroundColor": "#018787",
+              "height": 750
+            },
+            "tablet": {
+              "marginTop": "90px",
+              "textAlign": "right",
+              "backgroundColor": "#018787",
+              "height": 521
+            },
+            "mobile": {
+              "textAlign": "left",
+              "backgroundColor": "#018787",
+              "height": 500,
+              "paddingRight": 0,
+              "paddingLeft": 25
+            }
+          },
+          "es": {
+            "pc": {
+              "marginTop": "90px",
+              "textAlign": "right",
+              "backgroundColor": "#018787",
+              "height": 750
+            },
+            "tablet": {
+              "marginTop": "90px",
+              "textAlign": "right",
+              "backgroundColor": "#018787",
+              "height": 521
+            },
+            "mobile": {
+              "textAlign": "left",
+              "backgroundColor": "#018787",
+              "height": 550,
+              "paddingRight": 0,
+              "paddingLeft": 25
+            }
+          }
+        },
+        "styleImg": {
+          "vi": {
+            "pc": {
+              "left": "-24px",
+              "bottom": "-88px",
+              "width": "450px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "-16px",
+              "bottom": "-57px",
+              "width": "368px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "-24px",
+              "bottom": "-88px",
+              "width": "435px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "20px",
+              "bottom": "-57px",
+              "width": "325px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "38px",
+              "bottom": "-64px",
+              "width": "350px",
+              "height": "auto"
+            }
+          },
+          "en": {
+            "pc": {
+              "left": "-24px",
+              "bottom": "-88px",
+              "width": "450px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "-16px",
+              "bottom": "-57px",
+              "width": "368px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "-24px",
+              "bottom": "-88px",
+              "width": "435px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "20px",
+              "bottom": "-57px",
+              "width": "325px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "38px",
+              "bottom": "-64px",
+              "width": "350px",
+              "height": "auto"
+            }
+          },
+          "fr": {
+            "pc": {
+              "left": "-24px",
+              "bottom": "-88px",
+              "width": "450px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "-16px",
+              "bottom": "-57px",
+              "width": "368px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "-24px",
+              "bottom": "-88px",
+              "width": "435px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "20px",
+              "bottom": "-57px",
+              "width": "325px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "30px",
+              "bottom": "-64px",
+              "width": "280px",
+              "height": "auto"
+            }
+          },
+          "jp": {
+            "pc": {
+              "left": "-24px",
+              "bottom": "-88px",
+              "width": "450px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "-16px",
+              "bottom": "-57px",
+              "width": "368px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "-24px",
+              "bottom": "-88px",
+              "width": "435px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "20px",
+              "bottom": "-57px",
+              "width": "325px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "38px",
+              "bottom": "-64px",
+              "width": "350px",
+              "height": "auto"
+            }
+          },
+          "es": {
+            "pc": {
+              "left": "-24px",
+              "bottom": "-88px",
+              "width": "450px",
+              "height": "auto"
+            },
+            "lg": {
+              "left": "-16px",
+              "bottom": "-57px",
+              "width": "368px",
+              "height": "auto"
+            },
+            "tablet": {
+              "left": "-24px",
+              "bottom": "-88px",
+              "width": "435px",
+              "height": "auto"
+            },
+            "md": {
+              "left": "20px",
+              "bottom": "-57px",
+              "width": "325px",
+              "height": "auto"
+            },
+            "mobile": {
+              "left": "38px",
+              "bottom": "-64px",
+              "width": "235px",
+              "height": "auto"
+            }
+          }
+        }
+      }
+    ],
+    "countUp": [
+      {
+        "number": 4000,
+        "title": {
+          "en": "daily active users",
+          "vi": "Người luyện tập hàng ngày",
+          "fr": "utilisateurs par jour",
+          "jp": "人が練習しています",
+          "es": "personas practican a diario"
+        },
+        "prefix": {
+          "jp": "1日に"
+        }
+      },
+      {
+        "number": 1000,
+        "title": {
+          "en": "5-star ratings on Google Play and App Store",
+          "vi": "Xếp hạng 5 sao trên Google Play và App Store",
+          "fr": "évaluations avec 5 étoiles sur Google Play et l'App Store",
+          "jp": "件の5つ星評価。",
+          "es": "calificaciones de 5 estrellas en Google Play y App Store"
+        },
+        "prefix": {
+          "jp": "Google PlayとApp Storeで"
+        },
+        "color": "#00A4A4"
+      },
+      {
+        "number": 20000,
+        "title": {
+          "en": "app downloads",
+          "vi": "Lượt tải",
+          "fr": "téléchargements de l'application",
+          "jp": "回のダウンロード。",
+          "es": "descargas"
+        }
+      }
+    ]
+  }
+}

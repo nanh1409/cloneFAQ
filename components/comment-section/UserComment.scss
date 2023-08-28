@@ -1,0 +1,116 @@
+.comment-container {
+  display: flex;
+  gap: 7px;
+  .comment-content {
+    &.editing {
+      flex: 1;
+    }
+    &-header {
+      display: flex;
+      font-size: 14px;
+      align-items: baseline;
+      .comment-text {
+        margin: 0 !important;
+      }
+      .comment-user-name {
+        font-weight: 600;
+        margin-right: 8px;
+        color: #282828;
+      }
+      .comment-edit-mode-container {
+        flex: 1;
+        .edit-tooltip {
+          font-size: 12px;
+          .cancel-edit-text {
+            color: #007aff;
+            cursor: pointer;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+
+    &-footer {
+      display: flex;
+      align-items: center;
+      color: #828282;
+      font-size: 13px;
+      .comment-meta-section {
+        margin-right: 12px;
+        display: flex;
+        align-items: center;
+      }
+      .meta-value-title {
+        &.liked {
+          color: #007aff;
+        }
+      }
+    }
+  }
+}
+.comment-reply-section {
+  margin-left: 37.5px;
+  .load-more-reply {
+    cursor: pointer;
+    margin: 5px 0 0 auto;
+    width: fit-content;
+    font-size: 10px;
+    font-style: italic;
+  }
+}
+
+// .comment-wrap {
+//   display: flex;
+//   align-items: center;
+
+//   .comment-text {
+//     flex: 1;
+//     margin-left: 6px;
+
+//     .comment-content {
+//       display: flex;
+//       font-size: 12px;
+//       gap: 8px;
+//       .comment-author-name {
+//         font-weight: 600;
+//       }
+//     }
+
+//     .comment-body {
+//       display: flex;
+//       align-items: center;
+//       font-size: 11px;
+//       color: #828282;
+
+//       &-button-item {
+//         display: flex;
+//         align-items: center;
+//         margin-right: 5px;
+//       }
+
+//       &-reply {
+//         &:hover {
+//           color: #2d2d2d;
+//           text-decoration: underline;
+//           cursor: pointer;
+//         }
+
+//         &:active {
+//           color: #000;
+//           text-decoration: underline;
+//         }
+
+//       }
+
+//       &-elapsed-time {
+//         margin-left: 5px;
+//       }
+//     }
+//   }
+// }
+
+// .child-comment {
+//   margin-left: 40px !important;
+// }

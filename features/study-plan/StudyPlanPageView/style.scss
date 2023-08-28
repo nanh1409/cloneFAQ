@@ -1,0 +1,57 @@
+#study-plan-page-view {
+  .study-plan-title {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1d1d1d;
+    font-weight: bold;
+  }
+
+  .study-plan-header {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .study-plan-button-group {
+    margin-top: 24px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    .study-plan-intro-btn {
+      display: flex;
+      justify-content: center;
+      @media (max-width: 576px) {
+        width: 100%;
+      }
+    }
+  }
+
+  .study-plan-step-btn-group {
+    margin-top: 24px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+
+    .study-plan-step-btn {
+      height: 30px;
+      width: 100px;
+      border-radius: 30px;
+      &.btn-back {
+        background: #ffffff !important;
+        box-shadow: 0px 4px 10px rgba(192, 210, 235, 0.4);
+        color: #333333 !important;
+      }
+      &.btn-next {
+        right: 0;
+        color: var(--btnTestTitleColor) !important;
+        background: var(--btnTestBackground) !important;
+      }
+    }
+  }
+
+  .study-plan-btn-title {
+    font-weight: 600;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,34 @@
+@import "./fonts/SVN-Poppins.scss";
+@import url("https://pro.fontawesome.com/releases/v5.15.4/css/all.css");
+@import "./mixins.scss";
+
+* {
+  box-sizing: border-box;
+  font-family: SVN-Poppins;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 130px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  @include custom-scroll();
+
+  mjx-container[jax="CHTML"][display="true"] {
+    display: inline !important;
+  }
+
+  @media (max-width: 576px) {
+    .title-h1 {
+      font-size: 20px;
+      margin: 10px;
+    }
+  }
+
+  button {
+    line-height: 1.7 !important;
+  }
+}

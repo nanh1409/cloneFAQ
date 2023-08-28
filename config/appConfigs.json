@@ -1,0 +1,848 @@
+{
+  "cdl": {
+    "facebookId": 102471119242427,
+    "ua": "UA-199407451-10",
+    "ga": "G-V0X8PD9XQ7",
+    "license": "This site is not associated with or endorsed by the Department of Motor Vehicles testing program.",
+    "menu": [
+      {
+        "name": "Home",
+        "slug": "/"
+      },
+      {
+        "name": "Full Test",
+        "slug": "#",
+        "onClickFunction": "select-state"
+      },
+      {
+        "name": "Study Plan",
+        "slug": "/study-plan"
+      },
+      {
+        "name": "Manual Book",
+        "onClickFunction": "cdl-manual-book",
+        "slug": "#",
+        "dynamic": true
+      },
+      {
+        "name": "FAQ",
+        "slug": "/faq"
+      },
+      {
+        "name": "Blog",
+        "slug": "/blog"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/cdlpracticetests"
+      },
+      {
+        "name": "youtube",
+        "link": "https://www.youtube.com/channel/UCE9FWwJ-kLVuXFVrLYdEqEw"
+      },
+      {
+        "name": "twitter",
+        "link": "https://twitter.com/cdltestpro"
+      }
+    ]
+  },
+  "cscs": {
+    "ua": "UA-199407451-7",
+    "ga": "G-GGYVBERCMD",
+    "testSlug": "/mock-test",
+    "facebookId": 106616002024083,
+    "license": "The Construction Skills Certification Scheme (CSCS) is a UK registered trade mark of Construction Skills Certification Scheme Limited, which is not affiliated with cscsprep.com. This site is not affiliated with or endorsed by the Construction Skills Certification Scheme testing program or CITB Health, Safety and Environment Test (HS&E test)",
+    "useAds": true,
+    "menu": [
+      {
+        "name": "Home",
+        "slug": "/"
+      },
+      {
+        "name": "Practice",
+        "slug": "/#practice"
+      },
+      {
+        "name": "Mock Test",
+        "slug": "/mock-test"
+      },
+      {
+        "name": "Study Plan",
+        "slug": "/study-plan"
+      },
+      {
+        "name": "FAQ",
+        "slug": "/faq"
+      },
+      {
+        "name": "CSCS Card",
+        "slug": "/cscs-card"
+      },
+      {
+        "name": "Blog",
+        "slug": "/blog"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/cscsprep"
+      },
+      {
+        "name": "pinterest",
+        "link": "https://www.pinterest.com/cscsprep"
+      },
+      {
+        "name": "youtube",
+        "link": "https://www.youtube.com/channel/UCrAb4f0TFjfq5X1yJxQiyHQ"
+      }
+    ]
+  },
+  "alevel": {
+    "ga": "G-1QJ09DKC5K",
+    "mathJax": true,
+    "testSlug": "/a-level-maths-online-test",
+    "facebookId": 110656638282075,
+    "license": "A-Level (Advanced Level) Maths, offered by the educational bodies in the United Kingdom and the educational authorities of British Crown dependencies, is not affiliated with alevelmaths-prep.com.",
+    "menu": [
+      {
+        "name": "Home",
+        "slug": "/"
+      },
+      {
+        "name": "Practice",
+        "slug": "/#practice"
+      },
+      {
+        "name": "Mock Test",
+        "slug": "/a-level-maths-online-test"
+      },
+      {
+        "name": "Study Plan",
+        "slug": "/study-plan"
+      },
+      {
+        "name": "FAQ",
+        "slug": "/faq"
+      },
+      {
+        "name": "Blog",
+        "slug": "/blog"
+      },
+      {
+        "name": "Mathematical Methods",
+        "slug": "/mathematical-methods"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/alevelmathsprep/"
+      },
+      {
+        "name": "pinterest",
+        "link": "https://www.pinterest.com/alevelmathsprep/"
+      },
+      {
+        "name": "tumblr",
+        "link": "https://alevelmathsprep.tumblr.com/"
+      }
+    ]
+  },
+  "hvac": {
+    "ga": "G-M1YYGCY6Z8",
+    "testSlug": "/exam-simulator",
+    "facebookId": 110389008313534,
+    "license": "This website is not affiliated or endorsed by any HVAC testing program including EPA 608, NATE, HVAC Excellence, HVAC Licensing in Texas, etc.",
+    "menu": [
+      {
+        "name": "Home",
+        "slug": "/"
+      },
+      {
+        "name": "Practice",
+        "slug": "/#practice"
+      },
+      {
+        "name": "Exam Simulator",
+        "slug": "/exam-simulator"
+      },
+      {
+        "name": "Study Plan",
+        "slug": "/study-plan"
+      },
+      {
+        "name": "Flash Card",
+        "slug": "/flash-card"
+      },
+      {
+        "name": "FAQ",
+        "slug": "/faq"
+      },
+      {
+        "name": "Blog",
+        "slug": "/blog"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/hvacpracticetest"
+      },
+      {
+        "name": "pinterest",
+        "link": "https://www.pinterest.com/hvacpracticetest"
+      },
+      {
+        "name": "tumblr",
+        "link": "https://hvacpracticetest.tumblr.com/"
+      }
+    ]
+  },
+  "nclex": {
+    "ga": "G-6TGES77K81",
+    "mathJax": true,
+    "testSlug": "/exam-simulator",
+    "facebookId": 113988677947686,
+    "license": "This site is not associated with or endorsed by the National Council of State Boards of Nursing testing program.",
+    "menu": [
+      {
+        "name": "Home",
+        "slug": "/"
+      },
+      {
+        "name": "Practice",
+        "slug": "/#practice"
+      },
+      {
+        "name": "Study Plan",
+        "slug": "/study-plan"
+      },
+      {
+        "name": "Exam Simulator",
+        "slug": "/exam-simulator"
+      },
+      {
+        "name": "Flash Card",
+        "slug": "/flash-card"
+      },
+      {
+        "name": "FAQ",
+        "slug": "/faq"
+      },
+      {
+        "name": "Blog",
+        "slug": "/blog"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/nclexpracticequestions"
+      },
+      {
+        "name": "pinterest",
+        "link": "https://www.pinterest.com/nclexpracticequestions"
+      },
+      {
+        "name": "tumblr",
+        "link": "https://nclexpracticequestions.tumblr.com/"
+      }
+    ]
+  },
+  "ged": {
+    "ga": "G-NKV4B17XNN",
+    "mathJax": true,
+    "testSlug": "/ged-online-test",
+    "facebookId": 104271472264504,
+    "license": "The site is not affiliated with or endorsed by the General Educational Development (GED) testing program or the Pearson VUE.",
+    "useAds": true,
+    "menu": [
+      {
+        "name": "Home",
+        "slug": "/"
+      },
+      {
+        "name": "Practice",
+        "slug": "/#practice"
+      },
+      {
+        "name": "Full Test",
+        "slug": "/ged-online-test"
+      },
+      {
+        "name": "Study Plan",
+        "slug": "/study-plan"
+      },
+      {
+        "name": "FAQ",
+        "slug": "/faq"
+      },
+      {
+        "name": "GED Near Me",
+        "slug": "/ged-near-me"
+      },
+      {
+        "name": "Blog",
+        "slug": "/blog"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/gedpracticetest/"
+      },
+      {
+        "name": "pinterest",
+        "link": "https://www.pinterest.com/gedpracticetest/"
+      },
+      {
+        "name": "tumblr",
+        "link": "https://gedpracticetest.tumblr.com/"
+      }
+    ],
+    "enableChildGameAds": true
+  },
+  "toeic": {
+    "ua": "UA-199407451-3",
+    "ga": "G-0KTSL1HZ38",
+    "gtm": "GTM-P2J2Z5P",
+    "uiVersion": 2,
+    "appTitlePostfix": "Test Pro",
+    "appSubtitle": "An amazing app for TOEIC<sup>®</sup> test-takers",
+    "userLearningFeature": true,
+    "testSlug": "/test",
+    "facebookId": 108078988600409,
+    "facebookAppId": 941292850368505,
+    "multiLocales": true,
+    "useAds": true,
+    "license": "TOEIC<sup>®</sup> is a registered trademark of Educational Testing Service (ETS). This web is not affiliated with or endorsed by Educational Testing Service.",
+    "menu": [
+      {
+        "name": "Home",
+        "slug": "/",
+        "locale": "en"
+      },
+      {
+        "name": "Practice L&R",
+        "slug": "/practice",
+        "locale": "en",
+        "childs": [
+          {
+            "name": "Part 1: Photos",
+            "slug": "/practice/part-1-photos"
+          },
+          {
+            "name": "Part 2: Question - Response",
+            "slug": "/practice/part-2-question-response"
+          },
+          {
+            "name": "Part 3: Conversations",
+            "slug": "/practice/part-3-conversations"
+          },
+          {
+            "name": "Part 4: Short Talks",
+            "slug": "/practice/part-4-short-talks"
+          },
+          {
+            "name": "Part 5: Incomplete Sentences",
+            "slug": "/practice/part-5-incomplete-sentences"
+          },
+          {
+            "name": "Part 6: Text Completion",
+            "slug": "/practice/part-6-text-completion"
+          },
+          {
+            "name": "Part 7: Single Passages",
+            "slug": "/practice/part-7-single-passages"
+          },
+          {
+            "name": "Part 7: Double Passages",
+            "slug": "/practice/part-7-double-passages"
+          },
+          {
+            "name": "Part 7: Triple Passages",
+            "slug": "/practice/part-7-triple-passages"
+          }
+        ]
+      },
+      {
+        "name": "Practice S&W",
+        "slug": "/practice-speaking-writing",
+        "locale": "en"
+      },
+      {
+        "name": "Test",
+        "slug": "/test",
+        "locale": "en",
+        "childs": [
+          {
+            "name": "Simulation Test",
+            "slug": "/test/simulation-test",
+            "newFeature": true
+          },
+          {
+            "name": "Full Test",
+            "slug": "/test/full-test"
+          },
+          {
+            "name": "Mini Test",
+            "slug": "/test/minitest"
+          }
+        ]
+      },
+      {
+        "name": "Grammar",
+        "slug": "/practice/grammar",
+        "locale": "en"
+      },
+      {
+        "name": "Vocabulary",
+        "slug": "/practice/vocabulary",
+        "locale": "en"
+      },
+      {
+        "name": "Blog",
+        "slug": "/blog",
+        "locale": "en"
+      },
+      {
+        "name": "TOEIC Tips",
+        "slug": "#",
+        "type": "extra",
+        "locale": "en",
+        "childs": [
+          {
+            "name": "TOEIC Listening Tips",
+            "slug": "/toeic-listening-tips"
+          },
+          {
+            "name": "TOEIC Reading Tips",
+            "slug": "/toeic-reading-tips"
+          }
+        ]
+      },
+      {
+        "name": "Trang chủ",
+        "slug": "/",
+        "locale": "vi"
+      },
+      {
+        "name": "Luyện L&R",
+        "slug": "/practice",
+        "locale": "vi",
+        "childs": [
+          {
+            "name": "Phần 1: Mô Tả Tranh",
+            "slug": "/practice/part-1-photos",
+            "locale": "vi"
+          },
+          {
+            "name": "Phần 2: Hỏi - Đáp",
+            "slug": "/practice/part-2-question-response"
+          },
+          {
+            "name": "Phần 3: Đoạn Hội Thoại",
+            "slug": "/practice/part-3-conversations"
+          },
+          {
+            "name": "Phần 4: Bài Nói Ngắn",
+            "slug": "/practice/part-4-short-talks"
+          },
+          {
+            "name": "Phần 5: Hoàn Thành Câu",
+            "slug": "/practice/part-5-incomplete-sentences"
+          },
+          {
+            "name": "Phần 6: Hoàn Thành Đoạn Văn",
+            "slug": "/practice/part-6-text-completion"
+          },
+          {
+            "name": "Phần 7: Đọc Hiểu - Đoạn Đơn",
+            "slug": "/practice/part-7-single-passages"
+          },
+          {
+            "name": "Phần 7: Đọc Hiểu - Đoạn Kép",
+            "slug": "/practice/part-7-double-passages"
+          },
+          {
+            "name": "Phần 7: Đọc Hiểu - Đoạn Ba",
+            "slug": "/practice/part-7-triple-passages"
+          }
+        ]
+      },
+      {
+        "name": "Luyện S&W",
+        "slug": "/practice-speaking-writing",
+        "locale": "vi"
+      },
+      {
+        "name": "Đề thi thử",
+        "slug": "/test",
+        "locale": "vi",
+        "childs": [
+          {
+            "name": "Thi mô phỏng",
+            "slug": "/test/simulation-test",
+            "newFeature": true
+          },
+          {
+            "name": "Full Test",
+            "slug": "/test/full-test"
+          },
+          {
+            "name": "Mini Test",
+            "slug": "/test/minitest"
+          }
+        ]
+      },
+      {
+        "name": "Ngữ Pháp",
+        "slug": "/practice/grammar",
+        "locale": "vi"
+      },
+      {
+        "name": "Từ Vựng",
+        "slug": "/practice/vocabulary",
+        "locale": "vi"
+      },
+      {
+        "name": "Blog",
+        "slug": "/blog",
+        "locale": "vi"
+      },
+      {
+        "name": "TOEIC Tips",
+        "slug": "#",
+        "locale": "vi",
+        "type": "extra",
+        "childs": [
+          {
+            "name": "TOEIC Listening Tips",
+            "slug": "/toeic-listening-tips"
+          },
+          {
+            "name": "TOEIC Reading Tips",
+            "slug": "/toeic-reading-tips"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/toeictestonline"
+      },
+      {
+        "name": "tiktok",
+        "link": "https://www.tiktok.com/@toeictestpro"
+      },
+      {
+        "name": "youtube",
+        "link": "https://www.youtube.com/channel/UCGG5IGBgkchine0n0OpmFWQ"
+      },
+      {
+        "name": "twitter",
+        "link": "https://twitter.com/toeictestpro"
+      }
+    ],
+    "enableChildGameAds": true,
+    "logoFeature": [
+      "/images/app/toeic/feature1.png",
+      "/images/app/toeic/feature2.png",
+      "/images/app/toeic/feature3.png",
+      "/images/app/toeic/feature4.png",
+      "/images/app/toeic/feature5.png",
+      "/images/app/toeic/feature6.png",
+      "/images/app/toeic/feature7.png",
+      "/images/app/toeic/feature8.png",
+      "/images/app/toeic/feature9.png",
+      "/images/app/toeic/feature10.png",
+      "/images/app/toeic/feature11.png",
+      "/images/app/toeic/feature12.png",
+      "/images/app/toeic/feature13.png",
+      "/images/app/toeic/feature14.png"
+    ],
+    "useTrademark": true
+  },
+  "asvab": {
+    "ga": "G-9J74WP8X1P",
+    "mathJax": true,
+    "testSlug": "/full-test",
+    "facebookId": 104831745616458,
+    "license": "The Armed Services Vocational Aptitude Battery (ASVAB) is a registered trademark of the United States Military Entrance Processing Command, which is not affiliated with asvabtestpro.com.",
+    "useAds": true,
+    "menu": [
+      {
+        "name": "Home",
+        "slug": "/"
+      },
+      {
+        "name": "Practice",
+        "slug": "/#practice"
+      },
+      {
+        "name": "Full Test",
+        "slug": "/full-test"
+      },
+      {
+        "name": "Study Plan",
+        "slug": "/study-plan"
+      },
+      {
+        "name": "FAQ",
+        "slug": "/faq"
+      },
+      {
+        "name": "Study Guide",
+        "slug": "/study-guide"
+      },
+      {
+        "name": "Blog",
+        "slug": "/blog"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/asvabtestpro"
+      },
+      {
+        "name": "pinterest",
+        "link": "https://www.pinterest.com/asvabtestpro"
+      },
+      {
+        "name": "youtube",
+        "link": "https://www.youtube.com/channel/UCC1qim1JgXgfsJewyi6rXZQ"
+      }
+    ]
+  },
+  "dmv": {
+    "ga": "G-LTJ8ZGS2GV",
+    "testSlug": "#practice",
+    "license": "This site is not linked with or endorsed by the Department of Motor Vehicles testing program.",
+    "menu": [
+      {
+        "name": "Home",
+        "slug": "/"
+      },
+      {
+        "name": "Practice",
+        "slug": "#practice",
+        "onClickFunction": "scroll"
+      },
+      {
+        "name": "Full Test",
+        "slug": "#full-test",
+        "onClickFunction": "scroll",
+        "dynamic": true
+      },
+      {
+        "name": "Study Plan",
+        "slug": "#",
+        "onClickFunction": "study-plan",
+        "dynamic": true
+      },
+      {
+        "name": "Manual Book",
+        "onClickFunction": "dmv-manual-book",
+        "slug": "#",
+        "dynamic": true
+      },
+      {
+        "name": "FAQ",
+        "slug": "/faq"
+      },
+      {
+        "name": "Blog",
+        "slug": "/blog"
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "name": "pinterest",
+        "link": "https://www.pinterest.com/"
+      },
+      {
+        "name": "youtube",
+        "link": "https://www.youtube.com/"
+      }
+    ]
+  },
+  "ielts": {
+    "ua": "UA-199407451-2",
+    "ga": "G-Z93CF15CMQ",
+    "testSlug": "/full-test",
+    "facebookId": 109699778105394,
+    "facebookAppId": 521826880086256,
+    "multiLocales": true,
+    "license": "IELTS is a registered trademark of University of Cambridge ESOL, the British Council, and IDP Education Australia. This web is not affiliated with or endorsed by the University of Cambridge ESOL, the British Council, and IDP Education Australia.",
+    "useAds": true,
+    "menu": [
+      {
+        "name": "Home",
+        "slug": "/",
+        "locale": "en"
+      },
+      {
+        "name": "Practice",
+        "slug": "/practice",
+        "locale": "en",
+        "childs": [
+          {
+            "name": "LISTENING",
+            "slug": "/practice/listening"
+          },
+          {
+            "name": "READING",
+            "slug": "/practice/reading"
+          },
+          {
+            "name": "SPEAKING",
+            "slug": "/practice/speaking"
+          },
+          {
+            "name": "WRITING",
+            "slug": "/practice/writing"
+          },
+          {
+            "name": "VOCABULARY",
+            "slug": "/practice/vocabulary"
+          },
+          {
+            "name": "GRAMMAR",
+            "slug": "/practice/grammar"
+          }
+        ]
+      },
+      {
+        "name": "Full Test",
+        "slug": "/full-test",
+        "locale": "en"
+      },
+      {
+        "name": "Blog",
+        "slug": "/blog",
+        "locale": "en"
+      },
+      {
+        "name": "IELTS Tips",
+        "slug": "#",
+        "type": "extra",
+        "locale": "en",
+        "childs": [
+          {
+            "name": "Listening Tips",
+            "slug": "/listening-tips"
+          },
+          {
+            "name": "Reading Tips",
+            "slug": "/reading-tips"
+          },
+          {
+            "name": "Speaking Tips",
+            "slug": "/speaking-tips"
+          },
+          {
+            "name": "Writing Tips",
+            "slug": "/writing-tips"
+          }
+        ]
+      },
+      {
+        "name": "Trang chủ",
+        "slug": "/",
+        "locale": "vi"
+      },
+      {
+        "name": "Luyện tập",
+        "slug": "/practice",
+        "locale": "vi",
+        "childs": [
+          {
+            "name": "LISTENING",
+            "slug": "/practice/listening"
+          },
+          {
+            "name": "READING",
+            "slug": "/practice/reading"
+          },
+          {
+            "name": "SPEAKING",
+            "slug": "/practice/speaking"
+          },
+          {
+            "name": "WRITING",
+            "slug": "/practice/writing"
+          },
+          {
+            "name": "TỪ VỰNG",
+            "slug": "/practice/vocabulary"
+          },
+          {
+            "name": "NGỮ PHÁP",
+            "slug": "/practice/grammar"
+          }
+        ]
+      },
+      {
+        "name": "Đề thi thử IELTS",
+        "slug": "/full-test",
+        "locale": "vi"
+      },
+      {
+        "name": "Blog",
+        "slug": "/blog",
+        "locale": "vi"
+      },
+      {
+        "name": "IELTS Tips",
+        "slug": "#",
+        "type": "extra",
+        "locale": "vi",
+        "childs": [
+          {
+            "name": "Listening Tips",
+            "slug": "/listening-tips"
+          },
+          {
+            "name": "Reading Tips",
+            "slug": "/reading-tips"
+          },
+          {
+            "name": "Speaking Tips",
+            "slug": "/speaking-tips"
+          },
+          {
+            "name": "Writing Tips",
+            "slug": "/writing-tips"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/ieltstestpro"
+      },
+      {
+        "name": "pinterest",
+        "link": "https://www.pinterest.com/ieltstestpro/"
+      },
+      {
+        "name": "youtube",
+        "link": "https://www.youtube.com/channel/UCDsRJ3-nK8cC7AT09MNsq0w"
+      },
+      {
+        "name": "twitter",
+        "link": "https://twitter.com/ieltstestpro"
+      }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+@import "../../../styles/mixins.scss";
+#main-state-view {
+  transform: translateY(-120px);
+  margin-bottom: -120px;
+  &.mobile {
+    transform: translateY(0);
+    margin-bottom: 0;
+  }
+}
+
+#practice-section-state .section-title,
+.test-section-state .section-title {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 39px;
+  text-align: center;
+  color: #133a5c;
+}
+
+#practice-section-state {
+  background: #fff;
+  box-shadow: 0px 6px 15px rgba(218, 220, 237, 0.5);
+  .section-title {
+    padding-top: 38px;
+    padding-bottom: 38px;
+  }
+  .section-list {
+    padding: 0 65px 60px 65px;
+    @media (max-width: 992px) {
+      padding: 0 25px 60px 25px;
+    }
+    &-item {
+      display: flex;
+      align-items: center;
+      height: 60px;
+      background: #fbfbfb;
+      border-radius: 10px;
+      border: 1px solid #f1f3f5;
+      padding: 0 15px;
+    }
+    &-item-icon {
+      position: relative;
+      height: 20px;
+      width: 35px;
+    }
+    &-item-name {
+      margin-left: 20px;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 21px;
+      color: #133a5c;
+      @include ellipsis-text(2);
+    }
+  }
+}
+
+.test-section-state {
+  .section-title {
+    margin-top: 70px;
+  }
+  .test-section-tags-list {
+    margin-top: 28px;
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 16px;
+    @include custom-scroll();
+    .tag-item {
+      height: 40px;
+      background: #ffffff;
+      border: 1px solid #cfcfcf;
+      border-radius: 5px;
+      color: #133a5c;
+      font-size: 14px;
+      font-weight: 700;
+      &:not(&.last) {
+        margin-right: 5px;
+      }
+      &:hover,
+      &.active {
+        background: #2bd8ef;
+        color: #fff;
+        border: none;
+      }
+    }
+  }
+
+  .section-list {
+    .sub-section-list {
+      &.hidden {
+        visibility: hidden;
+        height: 0;
+        margin-top: 0;
+        .sub-header {
+          margin-top: 0;
+        }
+      }
+      margin-top: 40px;
+      .sub-title {
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 2%;
+        color: #133a5c;
+        margin-bottom: 30px;
+      }
+      .sub-header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+      }
+      .sub-select-options {
+        height: 40px;
+        width: 165px;
+        background: #f2f2f2;
+        border-radius: 10px;
+        fieldset {
+          display: none;
+        }
+      }
+      .sub-select-label {
+        color: #505050;
+        font-size: 13px;
+        font-weight: 500;
+      }
+    }
+  }
+}

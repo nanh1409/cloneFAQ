@@ -1,0 +1,14 @@
+version: '3'
+# Change <app> for each app & env.
+services:
+  stage-toeic:
+    image: registry.gitlab.com/koolsoft.ksdevs/estudyme:stage-toeic
+    build: .
+    container_name: stage-toeic
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - 3400:3000
+    environment:
+      - NEXT_PUBLIC_LOCAL_ENDPOINT=http://host.docker.internal:4901
+    restart: always

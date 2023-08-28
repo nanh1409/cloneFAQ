@@ -1,0 +1,40 @@
+.manual-book-view {
+  padding-top: 100px;
+  position: relative;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 100px;
+    z-index: 1;
+    width: 100%;
+    background: white;
+  }
+  .book-functions {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+  }
+
+  &.tablet {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .manual-book-view-container {
+      top: 50px;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.manual-book-view-download-app-tablet {
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}

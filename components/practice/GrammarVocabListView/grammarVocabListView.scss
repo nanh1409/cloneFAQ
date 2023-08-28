@@ -1,0 +1,16 @@
+#grammar-vocab-list-view {
+  .practice-list-view-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    color: #1d1d1d;
+    padding: 30px 0;
+  }
+  .practice-list-view-main {
+    &.subject-type {
+      .main-practice-list-view .title {
+        margin-top: 0 !important;
+      }
+    }
+  }
+}

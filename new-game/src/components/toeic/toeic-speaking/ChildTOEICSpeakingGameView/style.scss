@@ -1,0 +1,63 @@
+.game-object-toeic-speaking-view-c-2023-mar {
+  position: relative;
+  padding-bottom: 30px;
+  .game-object-view-menu {
+    position: absolute;
+    right: 0;
+    top: -30px;
+  }
+  .game-object-toeic-speaking-question {
+    * {
+      &:not(strong, b) {
+        font-weight: 400 !important;
+        color: #333;
+      }
+    }
+  }
+  .mod-game-toeic-speaking-recorder {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .game-object-toeic-speaking-playzone {
+    display: flex;
+    justify-content: center;
+  }
+
+  .game-object-speaking-sample {
+    margin-top: 10px;
+    &-content {
+      background-color: #edeff2;
+      padding: 15px;
+      border-radius: 15px;
+    }
+  }
+
+  .game-object-toeic-speaking-nav {
+    position: relative;
+    &-btn {
+      position: absolute;
+      bottom: -40px;
+      &.btn-prev {
+        left: 0;
+      }
+      &.btn-next {
+        right: 0;
+      }
+    }
+    &.tablet {
+      z-index: 2;
+      position: fixed;
+      width: 100%;
+      left: 0;
+      bottom: 100px;
+      .btn-prev {
+        left: 10px;
+      }
+      .btn-next {
+        right: 10px;
+      }
+    }
+  }
+}

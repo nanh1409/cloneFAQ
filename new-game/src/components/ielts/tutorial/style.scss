@@ -1,0 +1,11 @@
+.game-object-ielts-tutorial {
+  display: flex;
+  flex-direction: column;
+  &-content {
+    flex: 1;
+  }
+  &-skip {
+    display: flex;
+    justify-content: center;
+  }
+}

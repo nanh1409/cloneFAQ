@@ -1,0 +1,27 @@
+{
+    "toeic": {
+        "titleColor": "#21232A",
+        "titleColorHover": "#fff",
+        "titleStrongColor": "#018787",
+        "navBackground": "#000",
+        "menuBackground": "#387F81",
+        "menuTextColor": "#fff",
+        "menuHoverColor": "#fff",
+        "footer1Bg": "#D5DEE1",
+        "footer2Bg": "#225D5D",
+        "footer1TextColor": "#21232A",
+        "footer2TextColor": "#D5DEF0",
+        "appBorder": "#434343",
+        "appBackground": "inherit",
+        "appHoverBackground": "#434343",
+        "appTextColor": "#fff",
+        "appHoverColor": "#fff",
+        "searchBackground": "#4C8C8D",
+        "langBackground": "#4C8C8D",
+        "borderLangBackground": "#619D9E",
+        "btnUpgrade": "#D9FAFF",
+        "btnUpgradeBackground": "linear-gradient(180deg, #05AFAF 0%, #22D0D0 9.21%, #18C0C0 36.97%, #08AEAE 85.19%, #22D0D0 125.37%, #008F8F 140.27%)",
+        "btnUpgradeBackgroundLayer": "#017D7D",
+        "descriptionColor": "#636363"
+    }
+}

@@ -1,0 +1,36 @@
+@import "../../../styles/mixins.scss";
+
+.dmv-subject-item {
+  background: #fff;
+  padding: 28px 24px 60px 24px;
+  border-radius: 20px;
+  transition: box-shadow 0.2s linear;
+  &:hover {
+    box-shadow: 0px 6px 15px rgba(218, 220, 237, 0.5);
+    .dmv-subject-item-cta {
+      transform: translateY(-10px);
+    }
+  }
+  &-icon {
+    display: flex;
+    justify-content: center;
+  }
+  &-main-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 24px;
+  }
+  &-desc {
+    color: #505050;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: justify;
+    cursor: default;
+    min-height: 147px;
+    @include ellipsis-text(7);
+    @media (max-width: 768px) {
+      min-height: auto;
+    }
+  }
+}

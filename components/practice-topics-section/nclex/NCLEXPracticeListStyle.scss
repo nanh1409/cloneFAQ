@@ -1,0 +1,25 @@
+@import "../../../styles/mixins.scss";
+
+.practice-topics-section.nclex {
+  .subjects-content {
+    margin-top: 32px;
+  }
+  .nclex-subject-item {
+    &.hidden {
+      opacity: 0;
+      height: 0;
+      overflow: hidden;
+    }
+    &-title {
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 32px;
+      @media (max-width: 576px) {
+        font-size: 18px;
+      }
+    }
+    .topic-item-transition {
+      @include hover-transition-updown(-14px, true);
+    }
+  }
+}

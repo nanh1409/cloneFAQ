@@ -1,0 +1,13 @@
+export const ROUTER_STUDY = "study";
+export const ROUTER_LOGIN = "login";
+export const ROUTER_RESET_PASSWORD = "reset-password";
+export const ROUTER_PRACTICE = "practice";
+export const ROUTER_TEST = "test";
+export const ROUTER_PRACTICE_SW = "practice-speaking-writing";
+export const ROUTER_STUDY_PLAN = "study-plan";
+export const ROUTER_PROFILE = "profile";
+export const ROUTER_MY_LEARNING = "my-learning";
+export const ROUTER_DEACTIVE_USER = "deactive";
+export const ROUTER_GET_PRO = "get-pro"; 
+export const SUB_ROUTER_GET_PRO_PAYMENT_DETAILS = "payment-details";
+export const SUB_ROUTER_GET_PRO_CHECKOUT = "checkout";

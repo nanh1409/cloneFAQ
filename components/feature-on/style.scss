@@ -1,0 +1,35 @@
+#app-feature {
+    padding-top: 50px;
+    background: linear-gradient(180deg, #F2F6FC 0%, rgba(242, 246, 252, 0) 100%);
+
+    .feature-container {
+        margin-bottom: 40px;
+
+        .feature-box-title {
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 52px;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+            color: #34447C;
+        }
+
+        .feature-box-logo {
+            margin-top: 23px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            row-gap: 24px;
+            padding: 40px 0;
+
+            .feature-box-item {
+                img { 
+                    height: 40px;
+                }
+            }
+        }
+    }
+}

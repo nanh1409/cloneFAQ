@@ -1,0 +1,6 @@
+[submodule "modules/share"]
+	path = modules/share
+	url = git@bitbucket.org:ksdevs/elearning-model.git
+[submodule "modules/new-game"]
+	path = modules/new-game
+	url = git@bitbucket.org:trongtu/elearning-platform-game.git

@@ -1,0 +1,67 @@
+.game-object-quiz-choices {
+  margin-top: 28px;
+  margin-bottom: 28px;
+
+  @media (max-width: 768px) {
+    margin: auto;
+  }
+
+  &-label {
+    font-style: italic;
+    font-size: 14px;
+    color: #444;
+  }
+}
+
+.game-object-quiz-explanation {
+  margin-top: 25px;
+
+  &-content {
+    color: #777777;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: justify;
+  }
+}
+
+.game-object-quiz {
+  .question-index-wrap {
+    display: flex;
+  }
+
+  .quiz-game-object-question {
+    flex: 1;
+  }
+
+  .game-object-view-question-index {
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4px;
+    position: relative;
+
+    span {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+  .game-object-quiz-playzone.toeic-lr-simulator {
+    display: flex;
+    gap: 8px;
+    @media (max-width: 992px) {
+      flex-direction: column;
+    }
+    & > .game-object-question-image {
+      flex: 0.5;
+    }
+    .game-object-quiz-choices {
+      flex: 0.5;
+    }
+  }
+}

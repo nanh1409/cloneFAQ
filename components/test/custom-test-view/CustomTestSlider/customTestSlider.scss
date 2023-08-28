@@ -1,0 +1,42 @@
+.custom-test-slider-wrap {
+  position: relative;
+}
+
+.custom-test-control-slider {
+  color: #6dbc33 !important;
+  width: 300px;
+  &-rail {
+    height: 4px !important;
+  }
+
+  &-thumb {
+    height: 12px !important;
+    width: 12px !important;
+    background-color: #6dbc33 !important;
+    border: 2px solid #6dbc33 !important;
+  }
+
+  &-track {
+    border: none !important;
+    height: 4px !important;
+  }
+
+  &-value-label {
+    line-height: 1.2 !important;
+    font-size: 12px !important;
+    width: 36px;
+    height: 22px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important;
+    border-radius: 20px !important;
+    background-color: #6dbc33 !important;
+    font-weight: 700 !important;
+
+    &::before {
+      width: 4px;
+      height: 4px;
+    }
+  }
+}

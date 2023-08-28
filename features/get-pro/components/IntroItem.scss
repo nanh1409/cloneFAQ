@@ -1,0 +1,37 @@
+.intro-item {
+    text-align: right;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 15px rgba(218, 220, 237, 0.5);
+    border-radius: 20px;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-right: 25px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    &:hover {
+        transform: translateY(-16px);
+    }
+    .title {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 45px;
+        color: var(--titleColor);
+        float: right;
+        width: 70%;
+    }
+
+    .description {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        color: var(--descriptionColor);
+        float: right;
+        width: 68%; 
+    }
+
+    .image {
+        position: absolute;
+        z-index: 1;
+    }
+}

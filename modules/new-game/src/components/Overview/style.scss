@@ -1,0 +1,179 @@
+
+@mixin decor-bgr {
+    position: absolute;
+    z-index: 1;
+  }
+  
+  @mixin decor-progress-bgr($size, $bgr, $boxShadow) {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: $size;
+    height: $size;
+    background: $bgr;
+    border-radius: 100%;
+    @if $boxShadow {
+      box-shadow: 0px 2px 20px 0px $boxShadow;
+    }
+    left: 50%;
+    transform: translateX(-50%) translateY(calc(-1 * $size / 2));
+  }
+  
+  .module-game-overview-component {
+    min-height: 250px;
+    position: relative;
+    padding-top: 97px;
+    padding-bottom: 43px;
+    background-color: #fff;
+    border-radius: 15px;
+    .main-game-overview-bgr {
+      position: absolute;
+      width: 100%;
+      height: 250px;
+      top: 0;
+      left: 0;
+      background: radial-gradient(74.21% 52.78% at 30.22% 82.87%, #56bcff 0%, #65e2f5 100%);
+      border-radius: 15px 15px 100px 100px;
+      z-index: 0;
+      .bubble-top-left {
+        @include decor-bgr();
+        width: 83px;
+        height: 82px;
+        background: rgba(129, 233, 250, 1);
+        border-radius: 15px 0px 200px 0px;
+        top: 0;
+        left: 0;
+      }
+      .small-bubble-left {
+        @include decor-bgr();
+        width: 20px;
+        height: 36px;
+        border-radius: 0px 70px 70px 0px;
+        background: rgba(140, 239, 255, 0.4);
+        top: 95px;
+        left: 0;
+      }
+      .ellipse-left {
+        @include decor-bgr();
+        width: 58px;
+        height: 76px;
+        background: rgba(153, 235, 255, 0.8);
+        top: 30px;
+        left: 97px;
+        border-radius: 100%;
+      }
+      .ellipse-right {
+        @include decor-bgr();
+        width: 63px;
+        height: 85px;
+        background: rgba(140, 233, 255, 0.3);
+        top: 55px;
+        right: 84px;
+        border-radius: 100%;
+      }
+      .bubble-right {
+        @include decor-bgr();
+        background: rgba(255, 255, 255, 0.2);
+        width: 65px;
+        height: 105px;
+        border-radius: 70px 0px 0px 70px;
+        right: 0;
+        top: 15px;
+      }
+    }
+    .main-game-overview-data {
+      position: relative;
+      z-index: 2;
+      background-color: #fff;
+      border-radius: 20px;
+      max-width: 65%;
+      box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+      padding-bottom: 48px;
+      @media (max-width: 600px) {
+        max-width: 90%;
+      }
+      margin: 0 auto;
+      .main-progress {
+        position: relative;
+        .main-progress-box {
+          @include decor-progress-bgr(170px, rgba(139, 235, 253, 0.2), false);
+        }
+        .box-layer-2 {
+          @include decor-progress-bgr(149px, rgba(149, 224, 250, 0.2), false);
+        }
+        .box-layer-3 {
+          @include decor-progress-bgr(130px, #fff, rgba(11, 153, 234, 0.4));
+        }
+        .percent-text {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #7185ff;
+          font-weight: 700;
+          font-size: 28px;
+        }
+      }
+      .main-statistics {
+        padding-top: 112px;
+        &-questions-stat {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 50px;
+          @media (max-width: 600px) {
+            padding: 0 25px;
+          }
+          .main-stats-data-questions-stat-item {
+            .questions-stat-item-value {
+              display: flex;
+              gap: 12px;
+              align-items: center;
+              font-size: 24px;
+              font-weight: 700;
+              line-height: 0;
+            }
+            .questions-stat-item-label {
+              font-size: 20px;
+              margin-top: 10px;
+            }
+          }
+        }
+        &-questions-button {
+          margin-top: 40px;
+          display: flex;
+          justify-content: space-between;
+          padding: 0 10%;
+          @media (max-width: 600px) {
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+          }
+        }
+      }
+    }
+    .main-game-overview-question-categories {
+      margin-top: 34px;
+      .question-categories-title {
+        color: #2e2e2e;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .question-categories-list {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+        margin-top: 27px;
+        @media (max-width: 600px) {
+          gap: 5px;
+        }
+        .divider-continue-box {
+          transform: translateY(-18px);
+        }
+      }
+    }
+  }

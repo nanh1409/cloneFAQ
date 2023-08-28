@@ -1,0 +1,63 @@
+.web-function-item {
+    padding: 24px 25px 17px 25px;
+    background: #fff;
+    box-shadow: 0px 6px 10px rgba(218, 220, 237, 0.5);
+    border-radius: 15px;
+    text-align: center;
+    // height: 240px;
+    // overflow: hidden;
+    // overflow-y: scroll;
+
+    // &::-webkit-scrollbar {
+    //     display: none;
+    // }
+
+    @media screen and (min-width: 992px) and (max-width: 1145px) {
+        height: 275px;
+
+        .title { 
+            font-size: 13px !important;
+        }
+
+        .description {
+            font-size: 12px !important;
+        }
+    }
+
+    @media screen and (max-width: 300px) {
+        height: 280px;
+
+        .title { 
+            font-size: 13px !important;
+        }
+
+        .description {
+            font-size: 12px !important;
+        }
+    }
+    
+    p{
+        margin: 0;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 25px;
+        margin-top: 15px;
+        margin-bottom: 12px;
+    }
+
+    .description {
+        text-align: justify;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}

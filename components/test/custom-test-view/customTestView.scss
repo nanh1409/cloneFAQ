@@ -1,0 +1,129 @@
+@import "../../../styles/mixins.scss";
+
+#custom-test-view {
+  .custom-test-view {
+    &-title-h1 {
+      max-width: 960px;
+      margin: 0 auto;
+      margin-top: 50px;
+      text-align: center;
+      font-size: 35px;
+      font-weight: 600;
+      color: var(--titleColor);
+    }
+    &-summary {
+      margin: 0 auto;
+      max-width: 960px;
+      text-align: center;
+      font-size: 18px;
+      color: var(--contentColor);
+    }
+  }
+  .cta-custom-test-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+  }
+  .cta-custom-test-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 24px;
+    @media (max-width: 576px) {
+      font-size: 18px;
+    }
+  }
+  .cta-custom-test-button {
+    padding: 18px 60px;
+    &.active {
+      transform: translateY(-10px);
+    }
+  }
+  .custom-test-view-list {
+    margin-top: 50px;
+  }
+}
+
+#customize-test-modal {
+  border-radius: 15px;
+  .custom-test-modal-title {
+    background-color: var(--menuBackground);
+    color: var(--menuTextColor);
+    text-align: center;
+    cursor: default;
+    font-weight: 600;
+    font-size: 36px;
+    position: relative;
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
+  }
+  .custom-test-modal-close {
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .custom-test-modal-content {
+    padding: 30px;
+    @include custom-scroll();
+    position: relative;
+  }
+  .custom-test-sample-item {
+    display: flex;
+    align-items: center;
+  }
+  .custom-test-sample-title {
+    margin-left: 18px;
+  }
+  .custom-test-options-wrap {
+    margin-top: 70px;
+    @media (max-width: 768px) {
+      margin-top: 30px;
+    }
+  }
+  .custom-test-option {
+    padding: 40px;
+    @media (max-width: 768px) {
+      padding: 10px;
+    }
+    &-label-wrap {
+      display: flex;
+      align-items: center;
+    }
+    &-label {
+      margin-left: 22px;
+      font-size: 20px;
+      font-weight: 600;
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
+    }
+    &-slider {
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+  }
+  .custom-test-create-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    .cta-create-test {
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+  .custom-test-modal-loading {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba($color: #fff, $alpha: 0.5);
+    color: var(--menuBackground);
+  }
+}

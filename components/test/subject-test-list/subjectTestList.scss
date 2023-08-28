@@ -1,0 +1,14 @@
+#subject-test-list {
+  .subject-test-list-item {
+    &-title {
+      font-weight: 600;
+      font-size: 32px;
+      margin-bottom: 24px;
+    }
+    &:not(&.first) {
+      .subject-test-list-item-title {
+        margin-top: 40px;
+      }
+    }
+  }
+}

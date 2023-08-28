@@ -1,0 +1,22 @@
+@import "./fonts/SVN-Poppins.scss";
+@import "./mixins.scss";
+
+* {
+  box-sizing: border-box;
+  font-family: SVN-Poppins, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 130px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  @include custom-scroll();
+
+  mjx-container[jax="CHTML"][display="true"] {
+    display: inline !important;
+  }
+}

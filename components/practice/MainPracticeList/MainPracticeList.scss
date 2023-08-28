@@ -1,0 +1,56 @@
+.main-practice-list-view {
+  width: 100%;
+
+  .title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1d1d1d;
+    min-height: 28px;
+    &:not(&.first) {
+      margin-top: 30px;
+    }
+  }
+
+  .list-children {
+    margin-top: 12px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    padding: 20px;
+  }
+
+  .item {
+    height: 50px;
+    background-color: #fff;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+
+    &:hover {
+      .item-icon .icon {
+        fill: #636cf5;
+      }
+
+      .item-name {
+        color: #636cf5;
+      }
+    }
+
+    .item-left {
+      display: flex;
+      align-items: center;
+    }
+
+    .item-name {
+      color: #4a4a4a;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      padding-left: 15px;
+    }
+  }
+}

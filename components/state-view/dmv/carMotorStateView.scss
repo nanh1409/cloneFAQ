@@ -1,0 +1,100 @@
+#main-state-view-dmv {
+  #practice-section-state-dmv {
+    .section-title {
+      text-align: center;
+      color: #393efa;
+      font-size: 35px;
+      font-weight: 700;
+      padding-top: 50px;
+      position: relative;
+      &::after {
+        position: absolute;
+        content: "";
+        width: 150px;
+        height: 4px;
+        border-radius: 50px;
+        background: #393efa;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    .section-description {
+      font-size: 20px;
+      color: #535353;
+      text-align: center;
+      max-width: 865px;
+      margin: 0 auto;
+      margin-top: 32px;
+    }
+
+    .state-practice-block {
+      margin-top: 50px;
+    }
+
+    .practice-introduction {
+      margin-top: 64px;
+      position: relative;
+      padding-top: 250px;
+      width: 100%;
+      margin-top: 45px;
+      margin-bottom: 45px;
+      padding-left: 30px;
+      border-radius: 15px;
+      @media (max-width: 768px) {
+        padding-top: 200px;
+        background-color: #132275;
+        .practice-introduction-image {
+          display: none !important;
+        }
+      }
+    }
+    .practice-introduction-content {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 56px;
+      color: #fff;
+      .title-text {
+        font-weight: 700;
+        font-size: 40px;
+      }
+      .content-text {
+        font-size: 40px;
+      }
+      .cta {
+        background: #393efa;
+        width: 200px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 14px;
+        cursor: pointer;
+      }
+
+      @media (max-width: 768px) {
+        left: auto;
+        .title-text {
+          font-size: 28px;
+        }
+        .content-text {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+
+  #test-section-state-dmv {
+    .title-test {
+      font-size: 35px;
+      font-weight: 700;
+      color: #34447c;
+      margin-bottom: 30px;
+    }
+  }
+}

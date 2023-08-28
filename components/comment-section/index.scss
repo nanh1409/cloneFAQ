@@ -1,0 +1,53 @@
+.comment-section {
+  &.hidden {
+    display: none;
+  }
+  background: #FFFFFF;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 30px 0;
+  padding: 10px 20px;
+
+  &-body {
+    margin: 20px 0;
+    border: 0.5px solid #C8D0DE;
+    border-radius: 10px;
+    padding: 7px;
+
+    .load-more-wrap {
+      cursor: pointer;
+      margin: 5px 0 0 auto;
+      width: fit-content;
+      font-size: 10px;
+      font-style: italic;
+
+      svg {
+        margin-left: 6px;
+      }
+    }
+
+    .send-comment {
+      display: flex;
+      align-items: center;
+      height: 30px;
+      margin-top: 9px;
+
+      input {
+        flex-grow: 1;
+        height: 100%;
+        border: 0.5px solid #5F7D95;
+        border-radius: 5px 0px 0px 5px;
+        margin-left: 6px;
+        padding: 0 5px;
+        outline: none;
+      }
+
+      &-button {
+        height: 100%;
+        min-width: auto;
+        border: 0.5px solid #5F7D95;
+        border-radius: 0px 5px 5px 0px;
+      }
+    }
+  }
+}

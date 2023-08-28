@@ -1,0 +1,197 @@
+#hero-section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  color: #fff;
+  padding: 0 10px;
+  .hero-section-bg-right {
+    span {
+      height: 100% !important;
+    }
+  }
+  .hero-section-main-bg-right {
+    min-height: inherit;
+    &-grid {
+      min-height: inherit;
+    }
+    &-content {
+      min-height: inherit;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+  .hero-section-image {
+    z-index: 0;
+  }
+  .hero-section-main {
+    z-index: 1;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .title-h1 {
+    z-index: 1;
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    @media (max-width: 576px) {
+      font-size: 20px;
+    }
+  }
+  .summary {
+    z-index: 1;
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 900px;
+    text-align: justify;
+    margin: 0 auto;
+    @media (max-width: 576px) {
+      font-size: 12px;
+    }
+  }
+  .choose-state {
+    width: fit-content;
+    padding: 25px 60px;
+    background: #00c9e4;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+    margin: 60px auto 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px #00b1c9;
+    color: #fff;
+    cursor: pointer;
+    @media (max-width: 576px) {
+      font-size: 20px;
+      padding: 15px 40px;
+    }
+  }
+  .not-state {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    @media (max-width: 576px) {
+      padding-top: 10px;
+      font-size: 18px;
+    }
+  }
+
+  .hero-section-main-v2 {
+    z-index: 1;
+    min-height: inherit;
+
+    .app-info {
+      display: flex;
+      column-gap: 16px;
+      align-items: flex-start;
+      &.toeic {
+        margin-top: 150px;
+      }
+      &-title {
+        line-height: normal;
+      }
+      &-icon {
+        width: 130px;
+        height: 130px;
+        @media (max-width: 576px) {
+          width: 0;
+          overflow: hidden;
+        }
+      }
+      &-name,
+      &-name-postfix {
+        font-size: 80px;
+        @media (max-width: 992px) {
+          font-size: 60px;
+        }
+        @media (max-width: 768px) {
+          font-size: 45px;
+        }
+      }
+      &-name {
+        display: inline-flex;
+        color: var(--titleColor) !important;
+        font-weight: 700;
+      }
+      &-name-postfix {
+        color: var(--titleColor) !important;
+        font-weight: 800;
+        letter-spacing: 2px;
+        -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: var(--titleColor);
+        // color: #fff !important;
+        // text-shadow: -4px -4px 0 var(--titleColor), 4px -4px 0 var(--titleColor), -4px 4px 0 var(--titleColor), 4px 4px 0 var(--titleColor);
+        margin-left: 16px;
+      }
+      &-subtitle {
+        color: var(--titleColor) !important;
+        font-size: 43px;
+        sup { 
+          font-size: 20px;
+        }
+        @media (max-width: 992px) {
+          font-size: 34px;
+        }
+        @media (max-width: 768px) {
+          font-size: 28px;
+          sup {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    .app-platform {
+      margin-top: 40px;
+      width: 416px;
+      @media (max-width: 576px) {
+        margin-top: 20px;
+        width: 100%;
+      }
+      .download-app {
+        display: flex;
+        column-gap: 16px;
+        @media (max-width: 576px) {
+          flex-direction: column;
+          row-gap: 16px;
+        }
+      }
+
+      .qr-app {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 18px;
+        @media (max-width: 576px) {
+          padding-bottom: 20px;
+        }
+        &-container {
+          display: inline-flex;
+          padding: 8px;
+          background-color: #fff;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
+.dialog-content-state {
+  padding: 35px !important;
+  @media (max-width: 576px) {
+    padding: 10px;
+  }
+  .state-item {
+    padding-bottom: 15px;
+    &:hover {
+      a {
+        color: #00c9e4;
+      }
+    }
+  }
+}

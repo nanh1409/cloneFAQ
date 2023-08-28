@@ -1,0 +1,47 @@
+.mod-game-toeic-speaking-review-2023-mar {
+  padding: 16px;
+  .game-toeic-speaking-review-block {
+    .go-toeic-spk-directions {
+      background-color: #edeff2;
+      padding: 10px;
+      border-radius: 10px;
+      text-align: justify;
+      * {
+        &:not(strong, b) {
+          font-weight: 400 !important;
+          color: #333;
+        }
+      }
+    }
+
+    .go-toeic-speaking-main {
+      margin-bottom: 40px;
+      .question-label {
+        margin-top: 16px;
+        font-weight: 600;
+        font-size: 14px;
+        color: #000000;
+      }
+      .question-content-toeic-spk-review {
+        * {
+          &:not(strong, b) {
+            font-weight: 400 !important;
+            color: #333;
+          }
+        }
+      }
+      .sample-response {
+        margin-top: 16px;
+        background-color: #EDEFF2;
+        padding: 16px;
+        border-radius: 10px;
+        &-title {
+          text-align: center;
+          font-weight: 600;
+          font-size: 20px;
+          color: #333333;
+        }
+      }
+    }
+  }
+}

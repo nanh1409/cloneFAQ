@@ -1,0 +1,1 @@
+export const GOOGLE_ONE_TAP_PROVIDER = "googleonetap";

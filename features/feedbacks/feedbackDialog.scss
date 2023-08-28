@@ -1,0 +1,57 @@
+.feedback-dialog-root {
+  padding: 12px 30px 30px 30px;
+  &.drawer {
+      padding-bottom: 60px;
+      border-top-left-radius: 40px;
+      border-top-right-radius: 40px;
+  }
+
+  .feedback-dialog {
+      &-title {
+          text-align: center;
+          font-weight: 700;
+          font-size: 16px;
+      }
+
+      &-tags {
+          margin-top: 18px;
+          .feedback-tag-chip {
+              margin-right: 7px;
+              margin-bottom: 7px;
+              color: #000;
+              background-color: #fff;
+              border: 1px solid #dde8f2;
+              box-shadow: 0px 4px 10px rgba(210, 222, 241, 0.25);
+              &.checked {
+                  background-color: var(--primaryColor, #007aff);
+                  border: none;
+                  color: #fff;
+              }
+          }
+      }
+
+      &-input {
+          width: 100%;
+          border: 1.5px solid #dde8f2;
+          border-radius: 15px;
+          fieldset {
+              display: none;
+          }
+      }
+
+      &-functions {
+          text-align: center;
+      }
+
+      &-submit-button {
+          color: #fff !important;
+          background-color: var(--primaryColor, #007aff) !important;
+          padding: 9px 30px;
+          border-radius: 50px;
+          font-weight: 700;
+          &.disabled {
+              background-color: #9c9c9c !important;
+          }
+      }
+  }
+}

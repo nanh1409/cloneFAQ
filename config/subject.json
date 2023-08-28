@@ -1,0 +1,198 @@
+{
+  "ged": [
+    {
+      "name": "Language Arts",
+      "slug": "ged-language-arts-practice-test",
+      "dataSlug": "",
+      "childSubjects": [
+        {
+          "name": "Reading",
+          "fullName": "Language Arts - Reading",
+          "slug": "language-arts-reading"
+        },
+        {
+          "name": "Writing",
+          "fullName": "Language Arts - Writing",
+          "slug": "language-arts-writing"
+        }
+      ]
+    },
+    {
+      "name": "Math",
+      "slug": "ged-math-practice-test",
+      "dataSlug": "mathematical-reasoning"
+    },
+    {
+      "name": "Science",
+      "slug": "ged-science-practice-test",
+      "dataSlug": "science"
+    },
+    {
+      "name": "Social Studies",
+      "slug": "ged-social-studies-practice-test",
+      "dataSlug": "social-studies"
+    }
+  ],
+  "alevel": [
+    {
+      "name": "ALGEBRA & FUNCTIONS",
+      "slug": "algebra-and-functions",
+      "avatar": "/images/app/alevel/alevel-algebra-and-functions-practice-test.png",
+      "dataSlug": "1-algebra-and-functions",
+      "childSubjects": [
+        {
+          "name": "Quadratics",
+          "slug": "11-quadratics"
+        },
+        {
+          "name": "Inequalities & Simultaneous Equations",
+          "slug": "12-inequalities-and-simultaneous-equations"
+        },
+        {
+          "name": "Functions",
+          "slug": "13-functions"
+        },
+        {
+          "name": "Graphs of Functions",
+          "slug": "14-graphs-of-functions"
+        },
+        {
+          "name": "Transformations of Functions",
+          "slug": "15-transformations-of-functions"
+        },
+        {
+          "name": "Combinations of Transformations",
+          "slug": "16-combinations-of-transformations"
+        },
+        {
+          "name": "Modelling with Functions",
+          "slug": "17-modelling-with-functions"
+        }
+      ]
+    },
+    {
+      "name": "COORDINATE GEOMETRY",
+      "slug": "coordinate-geometry",
+      "avatar": "/images/app/alevel/alevel-coordinate-geometry-practice-test.png",
+      "dataSlug": "2-coordinate-geometry",
+      "childSubjects": [
+        {
+          "name": "Equation of a Straight Line",
+          "slug": "21-equation-of-a-straight-line"
+        },
+        {
+          "name": "Circles",
+          "slug": "22-circles"
+        }
+      ]
+    },
+    {
+      "name": "TRIGONOMETRY",
+      "slug": "trigonometry",
+      "avatar": "/images/app/alevel/alevel-trigonometry-practice-test.png",
+      "dataSlug": "3-trigonometry",
+      "childSubjects": [
+        {
+          "name": "Basic Trigonometry",
+          "slug": "31-basic-trigonometry"
+        },
+        {
+          "name": "Trigonometry Functions",
+          "slug": "32-trigonometry-functions"
+        },
+        {
+          "name": "Circular Measure (Radians)",
+          "slug": "33-circular-measure-radians"
+        },
+        {
+          "name": "Trigonometric Equations",
+          "slug": "34-trigonometric-equations"
+        },
+        {
+          "name": "Modelling with Trigonometric Functions",
+          "slug": "35-modelling-with-trigonometric-functions"
+        }
+      ]
+    },
+    {
+      "name": "SEQUENCES & SERIES",
+      "slug": "sequences-and-series",
+      "avatar": "/images/app/alevel/alevel-sequences-and-series-practice-test.png",
+      "dataSlug": "4-sequences-and-series",
+      "childSubjects": [
+        {
+          "name": "Binomial Expansion",
+          "slug": "41-binomial-expansion"
+        },
+        {
+          "name": "Arithmetic Progressions",
+          "slug": "42-arithmetic-progressions"
+        },
+        {
+          "name": "Geometric Progression",
+          "slug": "43-geometric-progression"
+        },
+        {
+          "name": "Further Sequences & Series",
+          "slug": "44-further-sequences-and-series"
+        }
+      ]
+    },
+    {
+      "name": "DIFFERENTIATION",
+      "slug": "differentiation",
+      "avatar": "/images/app/alevel/alevel-differentiation-practice-test.png",
+      "dataSlug": "5-differentiation",
+      "childSubjects": [
+        {
+          "name": "Differentiation",
+          "slug": "51-differentiation"
+        },
+        {
+          "name": "Applications of Differentiation",
+          "slug": "52-applications-of-differentiation"
+        }
+      ]
+    },
+    {
+      "name": "INTEGRATION",
+      "slug": "integration",
+      "avatar": "/images/app/alevel/alevel-integration-practice-test.png",
+      "dataSlug": "6-integration",
+      "childSubjects": [
+        {
+          "name": "Integration",
+          "slug": "61-integration"
+        },
+        {
+          "name": "Further Integration",
+          "slug": "62-further-integration"
+        }
+      ]
+    }
+  ],
+  "nclex": [
+    {
+      "name": "NCLEX-RN",
+      "slug": "nclex-rn",
+      "dataSlug": "nclex-rn"
+    },
+    {
+      "name": "NCLEX-PN",
+      "slug": "nclex-pn",
+      "dataSlug": "nclex-pn"
+    }
+  ],
+  "dmv": [
+    {
+      "name": "DMV Motorcycle Test",
+      "slug": "motorcycle-test",
+      "key": "dmv-motorcycle"
+    },
+    {
+      "name": "DMV CDL Practice Test",
+      "slug": "cdl-practice-test",
+      "key": "dmv-cdl-permit"
+    }
+  ]
+}

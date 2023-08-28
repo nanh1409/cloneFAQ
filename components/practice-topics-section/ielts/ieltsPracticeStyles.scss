@@ -1,0 +1,40 @@
+@import "../../../styles/mixins.scss";
+.practice-topics-section.ielts {
+  .part-container-panel {
+    .single-meta {
+      display: flex;
+      column-gap: 10px;
+    }
+    .ielts-part-short-desc {
+      @include ellipsis-text(5);
+      height: 120px;
+    }
+  }
+  .test-container-panel {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    .test-item-panel {
+      height: 350px;
+      padding: 40px 25px !important;
+      .ielts-test-title {
+        font-size: 35px;
+      }
+      .ielts-test-desc {
+        font-size: 22px;
+        font-weight: 500;
+      }
+    }
+    .ielts-test-title,
+    .ielts-test-desc {
+      color: #304375;
+      max-width: 400px;
+    }
+    .ielts-join-test-wrap {
+      justify-content: flex-start !important;
+    }
+    .ielts-join-test {
+      background: #ff0d33 !important;
+      width: 200px;
+    }
+  }
+}

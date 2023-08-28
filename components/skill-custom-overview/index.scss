@@ -1,0 +1,76 @@
+.custom-skill-overview-view {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  .skill-overview-item {
+    background-color: #f2f6fc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+
+    @media (max-width: 576px) {
+      flex-wrap: wrap;
+
+      &-practice-button {
+        width: 100%;
+        flex-basis: 100%;
+      }
+    }
+
+    &-name {
+      font-weight: 700;
+      flex: 1;
+    }
+
+    &-percent {
+      background-color: #fff;
+      width: 130px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-width: 1px;
+      border-style: solid;
+      border-color: red;
+      color: red;
+      border-radius: 10px;
+      padding: 7px;
+
+      &.completed {
+        color: #19ce7a;
+        border-color: #19ce7a;
+      }
+    }
+
+    &-practice-button {
+      border-radius: 20px;
+      background-color: var(--btnTestBackground) !important;
+      color: var(--menuHoverColor) !important;
+    }
+
+    //   display: flex;
+    //   align-items: center;
+    //   background-color: #f2f6fc;
+    //   margin: 8px 30px;
+    //   padding: 8px 12px;
+    //   border-radius: 10px;
+    //   font-weight: 700;
+
+    //   .correct-overview {
+    //     margin: 0 10px 0 auto;
+    //     background-color: #fff;
+    //     width: 130px;
+    //   }
+
+    //   .practice-button {
+    //     background-color: #00a5a5;
+    //     border-radius: 18px;
+    //   }
+  }
+}
